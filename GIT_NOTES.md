@@ -117,7 +117,7 @@ git restore --stage file_name
 
 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
 ## STEPS TO ADD DATA IN THE REPOSITORY.
-1. git config --global user.email "ashutoshg547@gmail.com"
+1. git config --global user.email "email@gmail.com"
 2. git init
 3. git add .
 4. git commit -m "message"
