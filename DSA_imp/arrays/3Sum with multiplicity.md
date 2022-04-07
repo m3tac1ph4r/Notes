@@ -28,3 +28,32 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 ### Approach (Two pointer +hashing)
 
+```C++
+int threeSumWithMulti(vector<int> height,int target)
+{
+    unordered_map<int, long> hash_map;
+    int mod = 1e9 + 7;
+    long res=0;
+    for(int i:A)
+        hash_map[i]++;
+    for(auto it1:hash_map)
+    {
+        for(auto it2:hash_map)
+        {
+            int i=it1.first,j=it2.first,k=target-i-j;
+            if(!hash_map.count(k))
+                continue;
+            if(i==j and j==k)
+                res+=hash_map[i]*(hash_map[i]-1)*(hash_map[i]-2)/6;
+                // res += hash_map[i] * (hash_map[i] - 1) * (hash_map[i] - 2) / 6;
+            else if(i==j and j!=k)
+                res += (hash_map[i] * (hash_map[i] - 1) * hash_map[k])/2;
+            else if(i<j and j<k)
+                res+=hash_map[i]*hash_map[j]*hash_map[k];
+        }
+    }
+    return res % mod;
+}
+```
+
+
