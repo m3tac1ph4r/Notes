@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "3ec677e5978e8571",
+    "type": "split",
+    "children": [
+      {
+        "id": "42825d30231e39a7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C++ Tips.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "893e261e0a2184fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3fa09724d1fd093",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72347e141e6b00e4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "44be9ff9c244f26b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b3b76764dfed56f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9617b4fd013679d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdedb85bf10500dd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++ Tips.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "42825d30231e39a7",
+  "lastOpenFiles": [
+    "C++ Tips.md",
+    "C++ Notes/DP.md",
+    "C++ Notes/Dynamic Programming.md",
+    "Pasted image 20211015104239.png",
+    "Untitled.md",
+    "C++ Notes/sliding_window_algorithm.md",
+    "C++ Notes/STL.md",
+    "C++ Notes/bitwise_operator.md",
+    "C++ Notes/linked_img/Pasted image 20211001110333.png",
+    "C++ Notes/linked_img/Pasted image 20210930232132.png"
+  ]
+}
