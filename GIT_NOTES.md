@@ -115,6 +115,12 @@ git reset --soft commit_hash
 git restore --stage file_name
 ```
 
+* If you want to store the credentials in your local PC. By this you don't have to type username and password everytime in when you run git push
+But it will save your credential in plane text in .git-credentials
+```bash
+git config --global credential.helper store
+```
+
 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
 ## STEPS TO ADD DATA IN THE REPOSITORY.
 1. git config --global user.email "email@gmail.com"
