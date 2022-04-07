@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "ccb8d18dfd42103f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b03611ee6a7eddc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CREATING REMOVING REPLACING ELEMENT.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e984cda61f9a77a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee2df968ab1a09d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dc513e0271f771e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "29985c1af4de1671",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "caa701e1655d95c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "51aa836df6c953f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3ad459b4d494289",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CREATING REMOVING REPLACING ELEMENT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3b03611ee6a7eddc",
+  "lastOpenFiles": [
+    "CREATING REMOVING REPLACING ELEMENT.md",
+    "children_parent_traversing_dom.md",
+    "HTML ELEMENT SELECTOR.md",
+    "Arrays_and_objects_functions.md"
+  ]
+}
