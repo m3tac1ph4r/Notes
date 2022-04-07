@@ -1,0 +1,27 @@
+
+An operating system is a piece of software that manages all the resources if a computer system both hardware and software, and provides an enviroment in which the user can execute his programs in a convenient and efficient manner by hiding underlying complexity of the hardware and acting as a resource manager.
+
+### What if there is no OS?
+
+* Resource exploitation by one application.
+* No memory protection
+* Bulky and complex application ( Hardware interaction code will also be written by app developer means every app will have its own resource management code)
+
+
+### An operating system functions
+
+* Access to the computer hardware.
+* Interface between the user and computer hardware.
+* <mark>Resource Management (**arbitration**) (memory , device ,file, security, process etc) </mark>
+* <mark>Hides the underlying complexity of the hardware (**abstraction**)</mark>
+
+
+![[img/intro_to_os.png]]
+
+
+
+
+
+
+
+
