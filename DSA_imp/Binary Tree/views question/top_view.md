@@ -1,4 +1,5 @@
 # Top View of Binary Tree
+#binary_tree_view_question
 
 Given below is a binary tree. The task is to print the top view of binary tree. Top view of a binary tree is the set of nodes visible when the tree is viewed from the top. For the given 
 below tree
@@ -48,6 +49,10 @@ And **queue<pair<Node*,int>>** for storing the node and horizontal distance. Bec
 3. then check if root->left is not NULL then push {node,hd-1} in queue.
 4. Same with right if root->right is not NULL then push {node,hd+1} in queue.
 5.  Now we have all horizontal distance and data in map. The only thing we have to do is to node data from map and copy to the array.
+
+![[top_view_approach.png]]
+
+As you can see in the bottom there is one eye. At horizontal distance *0* there are to nodes but eye can only see the FIRST node at horizontal distance 0.
 
 ```C++
 vector<int> topView(Node* root)

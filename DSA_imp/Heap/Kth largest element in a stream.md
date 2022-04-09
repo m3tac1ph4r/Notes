@@ -30,12 +30,7 @@ kthLargest.add(4);   // return 8
 ### Approach
 
 We will use min heap using priority queue. 
-
-
-
-
 ![[kth_largest_element.png]]
-
 
 ```C++
 class KthLargest {
@@ -66,7 +61,5 @@ public:
 ### Question
 https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
-
-
-
-
+### Reference
+https://youtu.be/0tFmP1Eiilg
