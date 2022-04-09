@@ -28,6 +28,11 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 ### Approach (Two pointer +hashing)
 
+<pre>
+1. We will use unordered_map to store the number of counts of elements.
+2. Now 
+</pre>
+
 ```C++
 int threeSumWithMulti(vector<int> height,int target)
 {
