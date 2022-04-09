@@ -39,7 +39,7 @@ Top view will be: 4 2 1 3 7
 **Output:** 40 20 10 30 100
 
 
-### Approach
+### Approach(Using Level Order Traversal)
 
 We will use **map<int,int>** key will be horizontal distance of the node and value will be the data of node. As we have to maintain 1:1 relation that is 1 node for 1 horizontal distance.
 And **queue<pair<Node*,int>>** for storing the node and horizontal distance. Because we are going to do level order traversal.

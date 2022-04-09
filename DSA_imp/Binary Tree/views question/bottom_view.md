@@ -42,9 +42,12 @@ and 2 edges where root is 1, left child of
 ```
 **Output:** 40 20 60 30
 
-### Approach
+### Approach(Using Level Order Traversal)
 
 Approach is same as top view. The only diffence is in top view we take the first node which comes at that horizontal distance using if condition. But in bottom view we will take the last node at that particular horizontal distance.
+
+We will use **map<int,int>** key will be horizontal distance of the node and value will be the data of node. As we have to maintain 1:1 relation that is 1 node for 1 horizontal distance.
+And **queue<pair<Node*,int>>** for storing the node and horizontal distance. Because we are going to do level order traversal.
 
 1. We will push root and horizontal distance 0 in queue.
 2. push the node in the map at that horizontal distance because we want last node.
