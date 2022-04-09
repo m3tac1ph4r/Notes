@@ -57,6 +57,8 @@ And **queue<pair<Node*,int>>** for storing the node and horizontal distance. Bec
 
 ![[../img/bottom_view_appraoch.png]]
 
+![screenshot](https://github.com/m3tac1ph4r/Notes/blob/f6aaceef01e846abaa225401fca627079516adff/DSA_imp/Binary%20Tree/img/bottom_view_appraoch.png)
+
 As you can see in the bottom there is one eye. At horizontal distance *0* there are to nodes but eye can only see the LAST node at horizontal distance 0.
 
 ```C++
