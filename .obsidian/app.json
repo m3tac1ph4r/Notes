@@ -1,0 +1,13 @@
+{
+  "foldIndent": false,
+  "foldHeading": true,
+  "showIndentGuide": false,
+  "smartIndentList": true,
+  "showLineNumber": false,
+  "showFrontmatter": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "defaultViewMode": "preview"
+}
