@@ -55,7 +55,6 @@ And **queue<pair<Node*,int>>** for storing the node and horizontal distance. Bec
 4. Same with right if root->right is not NULL then push {node,hd+1} in queue.
 5.  Now we have all horizontal distance and data in map. The only thing we have to do is to node data from map and copy to the array.
 
-![[/DSA_imp/Binary Tree/img/bottom_view_appraoch.png]]
 ![](/DSA_imp/Binary Tree/img/bottom_view_appraoch.png)
 
 As you can see in the bottom there is one eye. At horizontal distance *0* there are to nodes but eye can only see the LAST node at horizontal distance 0.
