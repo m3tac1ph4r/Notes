@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5e3e6a7c542e8e4e",
+        "id": "d0b8d8bdf2160db6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Binary Tree/views question/bottom_view.md",
-            "mode": "source"
+            "file": "DSA_imp/Binary Tree/views question/left_view.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Binary Tree/views question/bottom_view.md",
+                "file": "DSA_imp/Binary Tree/views question/left_view.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5e3e6a7c542e8e4e",
+  "active": "d0b8d8bdf2160db6",
   "lastOpenFiles": [
-    "DSA_imp/Binary Tree/views question/bottom_view.md",
+    "DSA_imp/Binary Tree/views question/left_view.md",
+    "DSA_imp/Binary Tree/views question/right_view.md",
+    "DSA_imp/Binary Tree/img/right_view_approach.png",
+    "Pasted Image 20220411013748_828.png",
+    "DSA_imp/Binary Tree/views question/Drawing 2022-04-11 01.37.38.excalidraw.md",
     "DSA_imp/Binary Tree/views question/top_view.md",
-    "DSA_imp/Binary Tree/views question/Drawing 2022-04-10 02.53.51.excalidraw.md",
-    "DSA_imp/Binary Tree/img/bottom_view_appraoch.png",
-    "DSA_imp/Binary Tree/img/top_view_approach.png",
-    "DSA_imp/Heap/top k frequent elements.md",
-    "DSA_imp/Heap/Kth largest element in a stream.md",
-    "DSA_imp/Binary Tree/Sum of binary tree.md",
-    "DSA_imp/Binary Tree/Morris_Traversal.md",
-    "DSA_imp/Heap/img/kth_largest_element.png"
+    "DSA_imp/Binary Tree/views question/bottom_view.md",
+    "DSA_imp/Binary Tree/img/left_view_approach.png",
+    "Pasted Image 20220411012732_328.png",
+    "DSA_imp/Binary Tree/views question/Drawing 2022-04-11 01.27.22.excalidraw.md"
   ]
 }
