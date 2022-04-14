@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "accfbc0558142ea5",
+        "id": "696049f5468f35ec",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/matrix_imp/shift_2d_grid.md",
-            "mode": "source"
+            "file": "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/matrix_imp/shift_2d_grid.md",
+                "file": "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "accfbc0558142ea5",
+  "active": "696049f5468f35ec",
   "lastOpenFiles": [
+    "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
+    "DSA_imp/Binary Tree/img/kth_ancesstor_ex1.png",
+    "DSA_imp/matrix_imp/spiral matrix II.md",
     "DSA_imp/matrix_imp/shift_2d_grid.md",
-    "DSA_imp/Binary Tree/k sum paths.md",
-    "DSA_imp/Binary Tree/Drawing 2022-04-12 01.01.24.excalidraw.md",
-    "DSA_imp/Binary Tree/img/k_sum_path_approach.png",
-    "DSA_imp/Binary Tree/Morris_Traversal.md",
-    "DSA_imp/Binary Tree/lowest common ancestor.md",
-    "DSA_imp/Binary Tree/views question/left_view.md",
-    "DSA_imp/Binary Tree/views question/right_view.md",
-    "DSA_imp/Binary Tree/img/right_view_approach.png",
-    "Pasted Image 20220411013748_828.png"
+    "DSA_imp/matrix_imp/Drawing 2022-04-14 16.35.32.excalidraw.md",
+    "DSA_imp/matrix_imp/img/spiral_matrix_II approach.png",
+    "DSA_imp/matrix_imp/img/spiral_matrix_II_example.png",
+    "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
+    "DSA_imp/strings_algorithm/KMP_string_matching_algorithm.md",
+    "DSA_imp/Binary Tree/k sum paths.md"
   ]
 }
