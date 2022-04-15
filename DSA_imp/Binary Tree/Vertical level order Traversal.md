@@ -46,10 +46,10 @@ vector<vector<int>> verticalTraversal(Node* root)
             q.push({node->right,{vertical+1,level+1}});
     }
 
-    for (auto p : m)        // for first map i.e map<int,map<int,multiset<int>>> m;
+    for (auto p : m)      //first for map i.e map<int,map<int,multiset<int>>> m;
     {
         vector<int> col;
-        for (auto q : p.second)     // for second map i.e map<int,multiset<int>>
+        for (auto q : p.second)     //second for map i.e map<int,multiset<int>>
         {
             for (auto i : q.second) // for multiset in second map i.e multiset<int>
                 col.push_back(i);

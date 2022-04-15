@@ -46,13 +46,13 @@ Given a Binary Tree, find its Boundary Traversal. The traversal should be in the
 We will divide this question in three parts:
 1. We will find left boundary of a tree.
 2. Leaf nodes of left subtree. Then leaf nodes of right subtree.
-	> Why we didn't find the leaf nodes of tree ?
+	> Why we didn't find the leaf nodes of whole tree directly ?
 	> Because we have to find the path of leaf node which will connect to the root.
 	
 For example in the below tree. If we find leaf of root it will be **1** . So it will give the output [1,1,] which is incorrect acc to question. Because we have to find those leaf node which joins **root to root**.  Because of that we will find leaf nodes of left and right subtree seperately.
 
 ![[draw_boundary.png]]
-3. Now we will find boundary of right subtree.
+ 3. Now we will find boundary of right subtree.
 
 **Code**
 

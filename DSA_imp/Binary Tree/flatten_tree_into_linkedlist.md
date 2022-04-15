@@ -7,6 +7,10 @@ Given the `root` of a binary tree, flatten the tree into a "linked list":
 
 **Follow up:** Can you flatten the tree in-place (with `O(1)` extra space)?
 
+![[flatten tree to linkedlist example.png]]
+
+![[flatten tree to linkedlist appraoch.png]]
+
 ## Appproach Using morris traversal
 
 As in question it is said that we don't have to use extra space. That's why we will use Morris traversal
@@ -14,12 +18,13 @@ As in question it is said that we don't have to use extra space. That's why we w
 <pre>
 current=root
 if (current->left!=NULL)
-		 then find predecessor of  current and store it in the prev
+	 	 then find predecessor of  current and store it in the prev
  	then prev->right=current->right  and current->right=current->left 
 	current->left=NULL then
 
 then after update the current to current->right 
  </pre>
+ ![[flatten binary tree approach.png]]
  
  ```C++
 void flatten(Node *root)
@@ -45,4 +50,5 @@ void flatten(Node *root)
 ### Question :-
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 
- 
+ ### Resource:-
+ https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/

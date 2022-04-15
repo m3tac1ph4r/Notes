@@ -4,7 +4,7 @@ Given a binary tree, determine if it is height-balanced.
 
 For this problem, a height-balanced binary tree is defined as:
 
-> a binary tree in which the left and right subtrees of _every_ node differ in height by no more than 1.
+> a binary tree in which the left and right subtrees of _every_ node differ in height by not more than 1.
 
 **Ex 1 :-**
 ![[balanced_ex1.png]]
@@ -12,11 +12,13 @@ For this problem, a height-balanced binary tree is defined as:
 **Ex 2 :-**
 ![[binary_balanced_ex2.png]]
 
-### Approach (Using PostOrder) :-
+### Approach (Using Postorder) :-
 
 1. find left height of binary tree and right height of binary tree. And check if abs(lh-rh)>1 
 	then return -1
 2. And if abs(lh-rh) <= 1 then return height of tree.
+
+![[balanced tree approach.png]]
 
 
 ```C++
