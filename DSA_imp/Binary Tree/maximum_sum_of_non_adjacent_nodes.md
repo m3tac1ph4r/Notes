@@ -33,8 +33,8 @@ non adjacent.
 
 ### Approach(Recursion)
 1.  We will use pair for every node i,e **pair<a,b>**
-		a- will indicate sum including that node at that level. That is now you can not include root's children and parent.
-		b- will indicate sum excluding that node at that level. That is now you can include root's children and parent.
+		a- will indicate sum including that node at that level. Now you can not include root's children and parent.
+		b- will indicate sum excluding that node at that level. Now you can include root's children and parent.
 2.  So there will be two condition
 	1.  If we take that node then sum will be ** root->data+lefttreesum(excluding left child of that node) + righttreesum(excluding right child of that node)**
 	2.  If we don't take that node then sum will be **max(leftsubtree)+max(rightsubtree)**

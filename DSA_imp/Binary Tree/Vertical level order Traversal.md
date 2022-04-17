@@ -1,6 +1,6 @@
 
 # Vertical order Traversal
-
+#important_for_interview 
 
 We have given a binary tree and we have to find vertical order traversal.
 
@@ -16,8 +16,8 @@ If {level,vertical_distance} are same then sort those nodes in ascending order.
 \
 **Nodes are maked as (level,vertical_distance from root)**
 
-> So if we move left from root then **left ->[root->level-1,root->vertical+1]**
-> So if we move right from root then **right ->[root->level+1,root->vertical+1]**
+> So if we move left from root then **left ->[root->vertical-1,root->level+1]**
+> So if we move right from root then **right ->[root->vertical+1,root->level+1]**
 
 
 ![[written_1.png]]
