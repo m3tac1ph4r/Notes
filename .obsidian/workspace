@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d1f4b896ba47c421",
+        "id": "5139d15189634703",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DSA_imp/Binary Search Tree/increasing order bst.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Binary Search Tree/increasing order bst.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d1f4b896ba47c421",
+  "active": "5139d15189634703",
   "lastOpenFiles": [
+    "DSA_imp/Binary Tree/Morris_Traversal.md",
     "DSA_imp/Binary Search Tree/increasing order bst.md",
+    "Pasted image 20220418014321.png",
+    "Pasted image 20220418014353.png",
+    "Pasted image 20220418014342.png",
     "DSA_imp/Binary Search Tree/img/increasing order bst ex2.png",
     "DSA_imp/Binary Search Tree/img/increasing_order_bst_ex1.png",
     "DSA_imp/Binary Tree/construct_tree_from_inorder_preorder.md",
     "DSA_imp/Binary Search Tree/increasing_order_bst.md",
-    "DSA_imp/Binary Search Tree/img/increasing_order_bst_exp1.png",
-    "DSA_imp/Binary Search Tree/img/increasing_order_bst_exp2.png",
-    "JavaScript/freecodecamp/Basic Javascript/Arrow functions.md",
-    "JavaScript/freecodecamp/Basic Javascript/objects.md",
-    "DSA_imp/Binary Tree/zig_zag_traversal.md"
+    "DSA_imp/Binary Search Tree/img/increasing_order_bst_exp1.png"
   ]
 }
