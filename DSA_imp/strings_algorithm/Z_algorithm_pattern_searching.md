@@ -63,6 +63,70 @@ Z[k] = Z[k1];
 
 So if it is last char of the window then it will  resize the window to [k..right] and then again check for the prefix is there or not.
 
+
+![[z algo approach.png]]
+
+#### Code: 
+
+```C++
+int zAlgorithm(string s,string p,int n,int m)
+{
+    string new_s=p+'$'+s;
+    int new_len=new_s.length();
+    int Z[new_len];
+    Z[0] = 0;
+    int left = 0, right = 0;
+    for (int k = 1; k < new_len; k++)
+    {
+        if (k > right)
+        {
+            left = k;
+            right = k;
+            while (right < new_len and new_s[right] == new_s[right - left])
+            {
+                right++;
+            }
+            Z[k] = right - left;
+            right--;
+        }
+        else
+        {
+            int k1 = k - left;
+            if (Z[k1] < right - k + 1)
+            {
+                Z[k] = Z[k1];
+            }
+            else
+            {
+                left = k;
+                while (right < new_len and new_s[right] == new_s[right - left])
+                {
+                    right++;
+                }
+                Z[k] = right - left;
+                right--;
+            }
+        }
+    }
+    int count=0;
+    for(int i=0;i<new_len;i++)
+    {
+        if(Z[i]==p.length())
+            count++;
+    }
+    return count;
+}    
+int main()
+{
+    string s,p;
+    cin>>s;
+    cin>>p;
+    cout<<zAlgorithm(s,p,s.length(),p.length());
+    return 0;
+}
+```
+
+
 ### Resources
 
 * If you want to dry run and find how Z-array is made for any string then check out this link.
@@ -73,75 +137,3 @@ So if it is last char of the window then it will  resize the window to [k..right
 
 ### Questions
 * Coding Ninjas : [*https://www.codingninjas.com/codestudio/problems/1112619*](https://www.codingninjas.com/codestudio/problems/1112619)
-
-
-#### Code: 
-
-```C++
-#include<bits/stdc++.h>
-using namespace std;
-#define ll long long
-const int M=1e9+7;
-
-int zAlgorithm(string s,string p,int n,int m)
-{
-string new_s=p+'$'+s;
-int new_len=new_s.length();
-
-int Z[new_len];
-
-Z[0] = 0;
-int left = 0, right = 0;
-for (int k = 1; k < new_len; k++)
-{
-if (k > right)
-{
-left = k;
-right = k;
-while (right < new_len and new_s[right] == new_s[right - left])
-{
-right++;
-}
-Z[k] = right - left;
-right--;
-}
-
-else
-{
-int k1 = k - left;
-if (Z[k1] < right - k + 1)
-{
-Z[k] = Z[k1];
-}
-else
-{
-left = k;
-while (right < new_len and new_s[right] == new_s[right - left])
-{
-right++;
-}
-
-Z[k] = right - left;
-right--;
-}
-}
-}
-int count=0;
-for(int i=0;i<new_len;i++)
-{
-if(Z[i]==p.length())
-count++;
-}
-return count;
-}
-
-int main()
-{
-string s,p;
-cin>>s;
-cin>>p;
-cout<<zAlgorithm(s,p,s.length(),p.length());
-return 0;
-}
-```
-

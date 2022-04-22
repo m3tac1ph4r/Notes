@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "5139d15189634703",
+        "id": "7b610c00defbaa02",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -37,7 +40,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5139d15189634703",
+  "active": "7b610c00defbaa02",
   "lastOpenFiles": [
-    "DSA_imp/Binary Tree/Morris_Traversal.md",
-    "DSA_imp/Binary Search Tree/increasing order bst.md",
-    "Pasted image 20220418014321.png",
-    "Pasted image 20220418014353.png",
-    "Pasted image 20220418014342.png",
-    "DSA_imp/Binary Search Tree/img/increasing order bst ex2.png",
-    "DSA_imp/Binary Search Tree/img/increasing_order_bst_ex1.png",
-    "DSA_imp/Binary Tree/construct_tree_from_inorder_preorder.md",
-    "DSA_imp/Binary Search Tree/increasing_order_bst.md",
-    "DSA_imp/Binary Search Tree/img/increasing_order_bst_exp1.png"
+    "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
+    "DSA_imp/strings_algorithm/Drawing 2022-04-22 18.51.59.excalidraw.md",
+    "DSA_imp/strings_algorithm/img/z algo approach.png",
+    "GIT_NOTES.md",
+    "DSA_imp/strings_algorithm/KMP_string_matching_algorithm.md",
+    "z alg approach.png",
+    "programming/programming Notes/condition_help.md",
+    "programming/programming Notes/C++ Tips.md",
+    "programming/programming Notes/C++ Notes/bitwise_operator.md",
+    "programming/programming Notes/C++ Notes/2. Graduating to C++.md"
   ]
 }

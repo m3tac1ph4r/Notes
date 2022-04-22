@@ -67,16 +67,7 @@ void travelLeft(Node* root,vector<int> &ans)
     else
         travelLeft(root->right,ans);
 }
-void travelRight(Node* root,vector<int> &ans)
-{
-    if(root==NULL || (root->left==NULL and root->right==NULL))
-        return;
-    if(root->right)
-        travelRight(root->right,ans);
-    else
-        travelRight(root->left,ans);
-    ans.push_back(root->data);
-}
+
 void leafNode(Node* root,vector<int> &ans)
 {
     if(root==NULL)
@@ -88,6 +79,17 @@ void leafNode(Node* root,vector<int> &ans)
     }
     leafNode(root->left,ans);
     leafNode(root->right,ans);
+}
+
+void travelRight(Node* root,vector<int> &ans)
+{
+    if(root==NULL || (root->left==NULL and root->right==NULL))
+        return;
+    if(root->right)
+        travelRight(root->right,ans);
+    else
+        travelRight(root->left,ans);
+    ans.push_back(root->data);
 }
 vector<int> boundary(Node* root)
 {
