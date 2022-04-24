@@ -28,10 +28,18 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 ### Approach (Two pointer +hashing)
 
-<pre>
 1. We will use unordered_map to store the number of counts of elements.
-2. Now 
-</pre>
+2. Now we will store the count of number in map . So key will be number and count will be value.
+3. Now we will use two for loop. First for arr[i] and second for arr[j].
+4.  If all are different means `count+=map[i]*map[j]*map[k]`
+5. We will find third element using **k=target-i-j** . Now we will check whether third element is present in the map or not.  `count+= (map[i]*map[i]-1*map[k])/2`
+6. Then if two element are same like **i == j** . Suppose the target is 8 and i=2( count=2) and j=2(count=2) and k=4(count=2) . Now if we will add element then 2(count=2) + 2(count=1)+4(count=2) . Because first 2 is used in i then it means count will be decrease. This means `count+= (map[i]*map[i]-1*map[i]-2)/6`
+![[3sum_multiplicity_ij_same.png]]<br>
+6. Same when **i , j, k are same** means count will `count*(count-1)*(count-2)`
+
+![[3sum_multiplicity_ijk_same.png]]
+ 
+
 
 ```C++
 int threeSumWithMulti(vector<int> height,int target)
@@ -62,3 +70,9 @@ int threeSumWithMulti(vector<int> height,int target)
 ```
 
 
+### Questions:
+
+https://leetcode.com/problems/3sum-with-multiplicity/
+
+### Reference:
+https://www.youtube.com/watch?v=DiWpfOorDaA&ab_channel=AyushiSharma
