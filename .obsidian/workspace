@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4033ba354cd83822",
+        "id": "b786db27e9cbcdf1",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4033ba354cd83822",
+  "active": "b786db27e9cbcdf1",
   "lastOpenFiles": [
     "DSA_imp/Design/design_underground_system.md",
+    "GIT_NOTES.md",
+    "Pasted Image 20220426234323_549.png",
+    "DSA_imp/Design/Drawing 2022-04-26 23.43.13.excalidraw.md",
     "DSA_imp/arrays/3Sum with multiplicity.md",
     "DSA_imp/arrays/Drawing 2022-04-23 19.55.01.excalidraw.md",
     "DSA_imp/arrays/img/3sum_multiplicity_ijk_same.png",
     "Pasted Image 20220424142841_446.png",
     "DSA_imp/arrays/img/3sum_multiplicity_ij_same.png",
-    "DSA_imp/arrays/Container with most water.md",
-    "DSA_imp/arrays/img/3sum_multiplicity_ss1.png",
-    "DSA_imp/matrix_imp/shift_2d_grid.md",
-    "DSA_imp/matrix_imp/img/shif_2d_grid_ex1.png"
+    "DSA_imp/arrays/Container with most water.md"
   ]
 }
