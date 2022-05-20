@@ -80,3 +80,26 @@ app.use(express.static(static_path));
 ```
 
 We willl use express.static for serving files 
+
+
+### To reload the server when hbs,js file is changed
+
+```bash
+nodemon file_name -e js,hbs
+```
+
+
+### Send data in HTML using expressJs
+
+this would be in filename.hbs
+```HTML
+<h1>{{errorMsg}}</h1>
+```
+
+This would be in app.js expressJs file
+```JS
+app.get("*", (req, res) => {
+    res.render("404_error",{
+        errorMsg:"Oops! Page Not Found"
+    });
+```

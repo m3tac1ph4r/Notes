@@ -1,7 +1,7 @@
 ### Z Algorithm(Linear time pattern searching)
 
 This is algorithm is same as Rabin Karp algorithm. 
-The main difference between Rabin Karp algorithm is in time complexity.
+The main difference between Rabin Karp and Z algorithm is in time complexity.
 
 | Algorithm   | Worst Case  |
 | ----------- | ----------- |
@@ -51,8 +51,8 @@ To overcome this we store the previous computed values if we got the match of cu
 
 >So now question comes how we copy precomputed values into new ?
 
-This **if(k > right)** will be false when we have a match of prefix and is greater than equal to the pattern. So it will not find the upcoming values as he knows there might be a substring which is matched with current string text[k..right]. So it will just copy the elements from the that substring.
-This **if (Z[k1]< right - k + 1)** will be true when the charachter which we are searching for prefix is not the last charachter of window size [left..right] . So if the charachter is not last char then it willcopy the precomputed values.
+This **if(k > right)** will be false when we have a match of prefix and is greater than equal to the pattern. So it will not find the upcoming values as he knows there might be a substring which is matched with current string text[k..right]. So it will just copy the elements from  that substring.
+This **if (Z[k1]< right - k + 1)** will be true when the charachter which we are searching for prefix is not the last charachter of window size [left..right] . So if the charachter is not last char then we will copy the precomputed values.
 ```C++
 int k1 = k - left;
 if (Z[k1] < right - k + 1)
@@ -92,7 +92,7 @@ int zAlgorithm(string s,string p,int n,int m)
         else
         {
             int k1 = k - left;
-            if (Z[k1] < right - k + 1)
+            if (Z[k1] < right - k + 1) //copy precomputed values
             {
                 Z[k] = Z[k1];
             }

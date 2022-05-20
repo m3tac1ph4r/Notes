@@ -7,8 +7,11 @@
         "id": "f9a6ef644acef8bc",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "f9a6ef644acef8bc",
   "lastOpenFiles": [
-    "ExpressJS/template_engines.md",
+    "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
+    "DSA_imp/strings_algorithm/KMP_string_matching_algorithm.md",
+    "JavaScript/freecodecamp/Basic Javascript/objects.md",
+    "JavaScript/TIPS.md",
     "ExpressJS/introduction.md",
-    "DSA_imp/Binary Tree/lowest common ancestor.md",
-    "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
-    "DSA_imp/Binary Tree/k sum paths.md",
-    "DSA_imp/Binary Tree/flatten_tree_into_linkedlist.md",
-    "DSA_imp/Binary Tree/construct_tree_from_inorder_preorder.md",
-    "DSA_imp/Binary Tree/construct_tree_from_inorder_postorder.md",
-    "DSA_imp/Binary Tree/boundary_traversal.md",
-    "DSA_imp/Binary Tree/binary_tree_balanced.md"
+    "WEB DEV TRICKS/HTML _CSS TIPS.md",
+    "DSA_imp/Binary Tree/binary_tree_balanced.md",
+    "WEB DEV TRICKS/FONTS.md",
+    "WEB DEV TRICKS/BOOTSTRAP.md",
+    "FONTS.md"
   ]
 }
