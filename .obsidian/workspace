@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "afc534f85233747e",
+        "id": "97b435636e73202d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/strings/Longest Valid Parentheses.md",
+            "file": "WEB DEV TRICKS/FONTS.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/strings/Longest Valid Parentheses.md",
+                "file": "WEB DEV TRICKS/FONTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "afc534f85233747e",
+  "active": "97b435636e73202d",
   "lastOpenFiles": [
-    "DSA_imp/strings/Longest Valid Parentheses.md",
-    "DSA_imp/strings/valid_palindrome_II.cpp.md",
+    "WEB DEV TRICKS/FONTS.md",
+    "FONTS.md",
+    "DSA_imp/Design/encode_decode_tinyUrl.md",
+    "DSA_imp/Binary Search Tree/Populating Next Right Pointers in Each Node.md",
+    "GIT_NOTES.md",
+    "DSA_imp/Binary Search Tree/Drawing 2022-05-24 19.52.39.excalidraw.md",
+    "DSA_imp/Binary Search Tree/img/approach_populating.png",
     "DSA_imp/Binary Search Tree/increasing order bst.md",
-    "DSA_imp/Binary Search Tree/img/increasing_order_bst_ex1.png",
-    "DSA_imp/Binary Search Tree/img/increasing order bst ex2.png",
-    "increasing_order_bst_exp1.png.md",
-    "DSA_imp/strings_algorithm/Z_algorithm_pattern_searching.md",
-    "DSA_imp/strings_algorithm/KMP_string_matching_algorithm.md",
-    "JavaScript/freecodecamp/Basic Javascript/objects.md",
-    "JavaScript/TIPS.md"
+    "DSA_imp/strings/Longest Valid Parentheses.md",
+    "DSA_imp/strings/valid_palindrome_II.cpp.md"
   ]
 }
