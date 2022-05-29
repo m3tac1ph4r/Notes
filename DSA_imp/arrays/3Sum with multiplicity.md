@@ -40,6 +40,8 @@ and two 2s from [2,2,2,2] in 6 ways.
 ![[3sum_multiplicity_ijk_same.png]]
  
 
+![[3_sum_multiplicity_approach.png]]
+
 
 ```C++
 int threeSumWithMulti(vector<int> height,int target)

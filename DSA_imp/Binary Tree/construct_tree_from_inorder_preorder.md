@@ -26,8 +26,8 @@ preorder[] = {0 1 3 4 2 5}
 
 1. Preorder is **{node,left,right}** it means preorder[index] will be root.
 2. So firstly we will find root i.e preorder[index]. 
-3. Then find the position of element in inorder because inorder is having **{left,node,right}** i.e from 0 to position-1 we will have left of root and
-	position+1 to n we will have right of root.
+3. Then find the position of element in inorder because inorder is having **{left,node,right}** i.e from 0 to position-1 we will have leftsubtree of root and
+	position+1 to n we will have rightsubtree of root.
 	To find position we will map the element of inorder with index so that we can find the index in O(1) time.
 4. Like this we will build our binary tree. We will use inorderStart and inorderEnd for finding left and right of root from inorder.
 5. In base case we will check if index is greater than n **OR** inorderStart>inorderEnd

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "97b435636e73202d",
+        "id": "9435e43c46ef95cb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WEB DEV TRICKS/FONTS.md",
+            "file": "programming/programming Notes/C++ Tips.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WEB DEV TRICKS/FONTS.md",
+                "file": "programming/programming Notes/C++ Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97b435636e73202d",
+  "active": "9435e43c46ef95cb",
   "lastOpenFiles": [
-    "WEB DEV TRICKS/FONTS.md",
-    "FONTS.md",
-    "DSA_imp/Design/encode_decode_tinyUrl.md",
-    "DSA_imp/Binary Search Tree/Populating Next Right Pointers in Each Node.md",
-    "GIT_NOTES.md",
-    "DSA_imp/Binary Search Tree/Drawing 2022-05-24 19.52.39.excalidraw.md",
-    "DSA_imp/Binary Search Tree/img/approach_populating.png",
-    "DSA_imp/Binary Search Tree/increasing order bst.md",
-    "DSA_imp/strings/Longest Valid Parentheses.md",
-    "DSA_imp/strings/valid_palindrome_II.cpp.md"
+    "programming/programming Notes/C++ Tips.md",
+    "DSA_imp/arrays/3Sum with multiplicity.md",
+    "DSA_imp/arrays/merge_intervals.md",
+    "DSA_imp/arrays/Pascal's Triangle.md",
+    "DSA_imp/arrays/max_product_subarray.md",
+    "DSA_imp/arrays/img/merge_intervals_approach2.png",
+    "DSA_imp/arrays/Drawing 2022-05-27 18.28.39.excalidraw.md",
+    "DSA_imp/arrays/img/merge_intervals_approach.png",
+    "DSA_imp/Binary Search Tree/predecessor_successor_in_bst.md",
+    "DSA_imp/Binary Search Tree/Drawing 2022-05-26 19.41.16.excalidraw.md"
   ]
 }
