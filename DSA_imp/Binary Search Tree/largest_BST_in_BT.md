@@ -14,40 +14,79 @@ A binary search tree (BST) is a binary tree data structure which has the followi
 **Example 1:**
 ![[largest_bst_bt_ex1.png]]
 
-<pre>
-1
-2 3
-4 -1 5 6
--1 7 -1 -1 -1 -1
--1 -1
+**OUTPUT :** 3
+ 2 1 3 -1 -1 -1 -1 is largest bst in that binary tree
+ 
+ 
+ ### Approach (Using range) :
+ 
+ ![[largest_BST_in_BT_app.png]]
+ 
+ ```C++
+struct Node
+{
+    int data;
+    Node *left;
+    Node *right;
 
-Explanation :
-Level 1 :
-The root node of the tree is 1
+    Node(int val)
+    {
+        data = val;
+        left = right = NULL;
+    }
+};
 
-Level 2 :
-Left child of 1 = 2
-Right child of 1 = 3
+class info
+{
+public:
+    int maxi;
+    int mini;
+    bool isvalidBST;
+    int size;
+};
 
-Level 3 :
-Left child of 2 = 4
-Right child of 2 = null (-1)
-Left child of 3 = 5
-Right child of 3 = 6
+info solve(Node *root, int &ans)
+{
+    if (root == NULL)
+        return {INT_MIN, INT_MAX, true, 0};
 
-Level 4 :
-Left child of 4 = null (-1)
-Right child of 4 = 7
-Left child of 5 = null (-1)
-Right child of 5 = null (-1)
-Left child of 6 = null (-1)
-Right child of 6 = null (-1)
+    info left = solve(root->left, ans);
+    info right = solve(root->right, ans);
 
-Level 5 :
-Left child of 7 = null (-1)
-Right child of 7 = null (-1)
+    info curr;
+    curr.maxi = max(root->data, right.maxi);
+    curr.mini = min(root->data, left.mini);
 
-The first not-null node (of the previous level) is treated as the parent of the first two nodes of the current level. The second not-null node (of the previous level) is treated as the parent node for the next two nodes of the current level and so on.
+    curr.size = left.size + right.size + 1;
 
-The input ends when all nodes at the last level are null (-1).
-</pre>
+    if (left.isvalidBST and right.isvalidBST and (left.maxi < root->data and root->data < right.mini))
+    {
+        ans = max(curr.size, ans); // answer update
+        curr.isvalidBST = true;
+    }
+    else
+        curr.isvalidBST = false;
+    return curr;
+}
+int largestBST(Node *root)
+{
+    int ans = 0;
+    solve(root, ans);
+    return ans;
+}
+
+int main()
+{
+    
+    return 0;
+}
+```
+
+
+### Question :
+https://www.codingninjas.com/codestudio/problems/largest-bst-subtree_893103
+
+### Reference :
+
+https://youtu.be/fqx8z3VepMA?list=PLDzeHZWIZsTpTAcxT0N5dhzMauZ0A1ZL8
+
