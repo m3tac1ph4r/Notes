@@ -9,14 +9,14 @@ Implement `KthLargest` class:
 
 
 **Example 1:**
-
-**Input**
+<pre>
+Input
 ["KthLargest", "add", "add", "add", "add", "add"]
 [[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
-**Output**
+Output
 [null, 4, 5, 5, 8, 8]
-<pre>
-**Explanation**
+
+Explanation
 KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);
 kthLargest.add(3);   // return 4
 kthLargest.add(5);   // return 5

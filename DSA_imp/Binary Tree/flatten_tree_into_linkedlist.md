@@ -27,23 +27,22 @@ then after update the current to current->right
  ![[flatten binary tree approach.png]]
  
  ```C++
-void flatten(Node *root)
-{
-    Node *current = root;
-    while (current != NULL)
-    {
-        if (current->left != NULL)
+void flatten(TreeNode* root) {
+        TreeNode* current=root;
+        while(current!=NULL)
         {
-            Node *prev = current->left;
-            while (prev != NULL)
-                prev = prev->right;
-            prev->right = current->right;
-            current->right = current->left;
-            current->left = NULL;
+            if(current->left!=NULL)
+            {
+                TreeNode* prev=current->left;
+                while(prev->right!=NULL)
+                    prev=prev->right;
+                prev->right=current->right;
+                current->right=current->left;
+                current->left=NULL;
+            }
+            current=current->right;
         }
-        current = current->right;
     }
-}
 ```
 
 

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9435e43c46ef95cb",
+        "id": "28acf4d5dc268c10",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/programming Notes/C++ Tips.md",
+            "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "flatten",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/programming Notes/C++ Tips.md",
+                "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9435e43c46ef95cb",
+  "active": "28acf4d5dc268c10",
   "lastOpenFiles": [
-    "programming/programming Notes/C++ Tips.md",
-    "DSA_imp/arrays/3Sum with multiplicity.md",
-    "DSA_imp/arrays/merge_intervals.md",
-    "DSA_imp/arrays/Pascal's Triangle.md",
-    "DSA_imp/arrays/max_product_subarray.md",
-    "DSA_imp/arrays/img/merge_intervals_approach2.png",
+    "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+    "DSA_imp/Binary Search Tree/img/largest_bst_bt_ex1.png",
+    "DSA_imp/Binary Search Tree/IMPORTANT POINTS FOR BST.md",
+    "DSA_imp/DSA_TIPS_FROM_SEANPRASHAD.md",
     "DSA_imp/arrays/Drawing 2022-05-27 18.28.39.excalidraw.md",
-    "DSA_imp/arrays/img/merge_intervals_approach.png",
-    "DSA_imp/Binary Search Tree/predecessor_successor_in_bst.md",
-    "DSA_imp/Binary Search Tree/Drawing 2022-05-26 19.41.16.excalidraw.md"
+    "DSA_imp/arrays/pow_x_n.md",
+    "DSA_imp/arrays/img/pow_x_n_appraoch.png",
+    "DSA_imp/arrays/merge_intervals.md",
+    "DSA_imp/arrays/Moores_Voting_algo.md",
+    "DSA_imp/Heap/Drawing 2022-06-01 15.02.57.excalidraw.md"
   ]
 }
