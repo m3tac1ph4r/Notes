@@ -1,7 +1,16 @@
 # SeanPrashad LeetCode Patterns TIPS
 
 **Link :** https://seanprashad.com/leetcode-patterns/
-### If input array is sorted then
+
+### If in question it is asked to find maximum of a should be minimum
+
+* Binary search
+<pre>
+> You have to allocate books to **B** number of students so that maximum number of pages alloted to a student is minimum.
+> such that the minimum distance between any two of them is as large as possible. Return the largest minimum distance
+</pre>
+
+### If input array is sorted then 
 - Binary search
 - Two pointers
 

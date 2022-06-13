@@ -16,6 +16,8 @@ Now Pi array will be
 |---|---|---|---|---|---|---|---|---|---|
 
 
+![[kmp_algo.png]]
+
 ### Code
 
 ```C++
@@ -53,7 +55,12 @@ int strStr(string haystack,string needle)
 }
 ```
 
+* **needle ->pattern**
+* **haystack ->text**
+* 
 ### Resources
+
 
 https://leetcode.com/problems/implement-strstr/
 https://cp-algorithms.com/string/prefix-function.html
+https://leetcode.com/problems/repeated-substring-pattern/

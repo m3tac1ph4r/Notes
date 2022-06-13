@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6ce5e189d030e55e",
+        "id": "071c295947b7ea9c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/LinkedList/delete_node_linkedlist.md",
+            "file": "DSA_imp/Binary Search/Aggresive Cows.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flatten",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/LinkedList/delete_node_linkedlist.md",
+                "file": "DSA_imp/Binary Search/Aggresive Cows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6ce5e189d030e55e",
+  "active": "071c295947b7ea9c",
   "lastOpenFiles": [
-    "DSA_imp/LinkedList/delete_node_linkedlist.md",
-    "DSA_imp/LinkedList/remove_nth_node_from_end.md",
-    "DSA_imp/LinkedList/Drawing 2022-06-04 16.03.38.excalidraw.md",
-    "DSA_imp/LinkedList/reverse_linkedlist.md",
-    "DSA_imp/LinkedList/img/remove_nth_node_end_approach.png",
-    "DSA_imp/LinkedList/img/remove_n_node_ex.png",
-    "DSA_imp/LinkedList/Drawing 2022-06-04 15.29.04.excalidraw.md",
-    "DSA_imp/DSA_TIPS_FROM_SEANPRASHAD.md",
-    "DSA_imp/Binary Search Tree/burning _tree.md",
-    "DSA_imp/Binary Tree/img/inorder_postorder_approach.png"
+    "DSA_imp/Binary Search/Aggresive Cows.md",
+    "DSA_imp/Binary Search/Book Allocation Problem.md",
+    "DSA_imp/Binary Search/Drawing 2022-06-13 18.06.37.excalidraw.md",
+    "DSA_imp/Binary Search/img/aggresive_cow_app2.png",
+    "DSA_imp/Binary Search/img/aggresive_cow_app1.png",
+    "DSA_imp/Binary Search/img/aggresive_cow_ex.png",
+    "DSA_imp/Binary Search/Nth root of M.md",
+    "DSA_imp/Binary Search/Painter_partition_problem.md",
+    "DSA_imp/Binary Search/img/painter_partition_ex.png",
+    "DSA_imp/Binary Search/img/book_allo_app4.png"
   ]
 }
