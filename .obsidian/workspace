@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "455f5754b8806eb8",
+        "id": "9092a91aead459ff",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/LinkedList/reverse_linkedlist2.md",
-            "mode": "source"
+            "file": "DSA_imp/LinkedList/flatten_linkedlist.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/LinkedList/reverse_linkedlist2.md",
+                "file": "DSA_imp/LinkedList/flatten_linkedlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "455f5754b8806eb8",
+  "active": "9092a91aead459ff",
   "lastOpenFiles": [
-    "DSA_imp/LinkedList/reverse_linkedlist2.md",
-    "DSA_imp/LinkedList/img/reverse_linkedlist2_ex1.png",
-    "DSA_imp/LinkedList/img/reverse_linkedlist_ex1.png",
-    "DSA_imp/LinkedList/delete_node_linkedlist.md",
-    "DSA_imp/LinkedList/Drawing 2022-06-18 14.48.04.excalidraw.md",
-    "DSA_imp/LinkedList/reorder_list.md",
-    "DSA_imp/LinkedList/img/reorderlist_approach.png",
-    "DSA_imp/LinkedList/img/reorder_list_ex2.png",
-    "DSA_imp/LinkedList/img/reorder_list_ex1.png",
-    "DSA_imp/LinkedList/remove_nth_node_from_end.md"
+    "DSA_imp/LinkedList/flatten_linkedlist.md",
+    "DSA_imp/LinkedList/Drawing 2022-06-21 11.45.38.excalidraw.md",
+    "DSA_imp/LinkedList/merge_sorted_linkedlist.md",
+    "DSA_imp/LinkedList/img/merged_sortedz_linkelist_app.png",
+    "DSA_imp/LinkedList/rotate_list.md",
+    "WEB DEV TRICKS/HTML _CSS TIPS.md",
+    "WEB DEV TRICKS/BOOTSTRAP.md",
+    "WEB DEV TRICKS/FONTS.md",
+    "programming/programming Notes/C++ Tips.md",
+    "programming/programming Notes/Python_Tips.md"
   ]
 }
