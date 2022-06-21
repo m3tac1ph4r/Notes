@@ -22,6 +22,11 @@ Given the `head` of a linked list, remove the `nth` node from the end of the
 
 ![[remove_nth_node_end_approach.png]]
 
+>** Why we used dummmy  node ?**
+> There is an edge case if n=length_of_linkedlist i.e you have to delete the head. So if you use dummy node then fast will be at the last node and while loop condidtion will be false bcz fast->next == NULL and slow will be pointing to the dummy node and if you update the slow->next=slow->next->next then dummy will be pointing to the head->next.
+
+![[remove_nth_node_dummy.png]]
+
 ```C++
 ListNode* removeNthFromEnd(ListNode* head,int n)
 {

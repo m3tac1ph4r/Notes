@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "071c295947b7ea9c",
+        "id": "455f5754b8806eb8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Binary Search/Aggresive Cows.md",
-            "mode": "preview"
+            "file": "DSA_imp/LinkedList/reverse_linkedlist2.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Binary Search/Aggresive Cows.md",
+                "file": "DSA_imp/LinkedList/reverse_linkedlist2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "071c295947b7ea9c",
+  "active": "455f5754b8806eb8",
   "lastOpenFiles": [
-    "DSA_imp/Binary Search/Aggresive Cows.md",
-    "DSA_imp/Binary Search/Book Allocation Problem.md",
-    "DSA_imp/Binary Search/Drawing 2022-06-13 18.06.37.excalidraw.md",
-    "DSA_imp/Binary Search/img/aggresive_cow_app2.png",
-    "DSA_imp/Binary Search/img/aggresive_cow_app1.png",
-    "DSA_imp/Binary Search/img/aggresive_cow_ex.png",
-    "DSA_imp/Binary Search/Nth root of M.md",
-    "DSA_imp/Binary Search/Painter_partition_problem.md",
-    "DSA_imp/Binary Search/img/painter_partition_ex.png",
-    "DSA_imp/Binary Search/img/book_allo_app4.png"
+    "DSA_imp/LinkedList/reverse_linkedlist2.md",
+    "DSA_imp/LinkedList/img/reverse_linkedlist2_ex1.png",
+    "DSA_imp/LinkedList/img/reverse_linkedlist_ex1.png",
+    "DSA_imp/LinkedList/delete_node_linkedlist.md",
+    "DSA_imp/LinkedList/Drawing 2022-06-18 14.48.04.excalidraw.md",
+    "DSA_imp/LinkedList/reorder_list.md",
+    "DSA_imp/LinkedList/img/reorderlist_approach.png",
+    "DSA_imp/LinkedList/img/reorder_list_ex2.png",
+    "DSA_imp/LinkedList/img/reorder_list_ex1.png",
+    "DSA_imp/LinkedList/remove_nth_node_from_end.md"
   ]
 }
