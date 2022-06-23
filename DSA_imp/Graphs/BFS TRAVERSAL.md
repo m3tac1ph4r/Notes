@@ -35,7 +35,7 @@ Starting from 0, it is connected to 1 and 3, which will be printed. The remainin
 ```
 
 
-### Approach :
+### Approach (Queue) :
 
 1. Start for loop from 0 to n check node i should not be visited
 2. Add node in the queue
@@ -105,12 +105,11 @@ vector<int> BFS(int vertex, vector<pair<int, int>> edges)
 ```
 
 
-### Complexity :
 
-1. **Time Complexity :** O(N+E)
-	N = Nodes , E = travelling through adjacent nodes
-2. **Space Complexity :** O(N+E) + O(N) + O(N) 
-	Space for adjacency list, visited array, queue data structure
+>**Time Complexity :** O(N+E)
+>N = Nodes , E = travelling through adjacent nodes
+>**Space Complexity :** O(N+E) + O(N) + O(N) 
+>Space for adjacency list, visited array, queue data structure
 	
 ### Question :
 

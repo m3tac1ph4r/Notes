@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9092a91aead459ff",
+        "id": "fa63691760d0ff71",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DSA_imp/LinkedList/flatten_linkedlist.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/LinkedList/flatten_linkedlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9092a91aead459ff",
+  "active": "fa63691760d0ff71",
   "lastOpenFiles": [
-    "DSA_imp/LinkedList/flatten_linkedlist.md",
-    "DSA_imp/LinkedList/Drawing 2022-06-21 11.45.38.excalidraw.md",
-    "DSA_imp/LinkedList/merge_sorted_linkedlist.md",
-    "DSA_imp/LinkedList/img/merged_sortedz_linkelist_app.png",
-    "DSA_imp/LinkedList/rotate_list.md",
-    "WEB DEV TRICKS/HTML _CSS TIPS.md",
-    "WEB DEV TRICKS/BOOTSTRAP.md",
-    "WEB DEV TRICKS/FONTS.md",
-    "programming/programming Notes/C++ Tips.md",
-    "programming/programming Notes/Python_Tips.md"
+    "DSA_imp/Graphs/Drawing 2022-06-23 08.18.49.excalidraw.md",
+    "DSA_imp/Graphs/Cycle Detection/Direct_Detect_Cycle_DFS.md",
+    "DSA_imp/Graphs/img/Directed_Cycle_COurse_schedule_DFS.png",
+    "DSA_imp/Graphs/BFS TRAVERSAL.md",
+    "DSA_imp/Graphs/img/Detect_Cycle_Directed_DFS_app.png",
+    "DSA_imp/Graphs/img/Directed_DFS_why.png",
+    "DSA_imp/Graphs/Drawing 2022-06-22 21.25.49.excalidraw.md",
+    "DSA_imp/Graphs/Drawing 2022-06-22 14.50.54.excalidraw.md",
+    "DSA_imp/Graphs/Cycle Detection/Undirected_Detect_Cycle_BFS.md",
+    "DSA_imp/Graphs/img/undirected_detect_cycle_DFS.png"
   ]
 }
