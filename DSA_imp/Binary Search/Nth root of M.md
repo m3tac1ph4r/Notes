@@ -64,9 +64,9 @@ As you can see it is monotonic in nature
 </pre>
 
 > 1. Range will be [low,high]
-> 2. Then we will find the mid
-> 3. If mid^n > M then we will update the high=mid [low,mid]
-> 4. else low=mid [mid,high]
+> 2. we will find the mid
+> 3. If mid^n > M then means answer will not be greater than mid so we will decrease our search space and we will update the high=mid  new search space will [low,mid]
+> 4. else we will update low=mid and increase our search space  [mid,high]
 > 5. We will check that (high-low > 1e-7) to find upto answer upto 7 decimal places
 
 

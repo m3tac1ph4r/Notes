@@ -13,6 +13,9 @@ In the below figure where array/list elements are {2, 1, 5, 6, 2, 3}.
 
 ![[painter_partition_ex.png]]
 
+```
+A painter can paint blocks {5,6} or {1,5,6,2} together but not {2,5,6} or {5,6,3}.
+```
 
 ##### Sample Input 1 :
 
@@ -23,6 +26,8 @@ In the below figure where array/list elements are {2, 1, 5, 6, 2, 3}.
 4 2
 10 20 30 40
 ```
+
+![[book_allocation_ex1.png]]
 
 ##### Sample Output 1 :
 

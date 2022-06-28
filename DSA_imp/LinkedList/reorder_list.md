@@ -50,6 +50,7 @@ ListNode *reverseList(ListNode *head)
 }
 void reorderList(ListNode*  head)
 {
+	// finding middle
     ListNode* slow=head;
     ListNode* fast=head->next;
     while (fast!=NULL and fast->next!=NULL)

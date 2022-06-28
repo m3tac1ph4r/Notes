@@ -16,11 +16,42 @@ Calculate and return that minimum possible number.
 
 **NOTE:** Return -1 if a valid assignment is not possible.
 
-**Example :**
-
 ![[book_allocation_ex1.png]]
 
+**For Example**
 
+```
+Input 1:
+    A = [12, 34, 67, 90]
+    B = 2
+Output 1:
+    113
+Explanation 1:
+    There are 2 number of students. Books can be distributed in following fashion : 
+        1) [12] and [34, 67, 90]
+        Max number of pages is allocated to student 2 with 34 + 67 + 90 = 191 pages
+        2) [12, 34] and [67, 90]
+        Max number of pages is allocated to student 2 with 67 + 90 = 157 pages 
+        3) [12, 34, 67] and [90]
+        Max number of pages is allocated to student 1 with 12 + 34 + 67 = 113 pages
+
+        Of the 3 cases, Option 3 has the minimum pages = 113.
+
+Input 2:
+    A = [5, 17, 100, 11]
+    B = 4
+Output 2:
+    100
+```
+
+![[book_allocation_ex2.png]]
+
+
+
+**Conditions :**
+1. A book will be allocated to one student i.e you cannot split the book
+2. Each student must get a minium of 1 book
+3. Allotment should be contigous order
 
 
 ### Approach
@@ -35,10 +66,6 @@ Calculate and return that minimum possible number.
 			start=mid+1
 </pre>
 
-![[book_allo_app1.png]]
-![[book_allo_app2.png]]
-![[book_allo_app3.png]]
-![[book_allo_app4.png]]
 
 ```C++
 bool isPossible(vector<int> &A,int mid,int B)

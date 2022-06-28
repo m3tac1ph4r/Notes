@@ -25,7 +25,7 @@ Given an array of length ‘N’, where each element denotes the position of a s
 ##### Explanation To Sample Input 2 :
 
 ```
-In the first test case, the largest minimum distance will be 3 when 4 cows are placed at positions {0, 3, 7, 10}.
+In the first test case, the largest minimum distance will be 3 when 4 cows are placed at positions {0, 3, 7, 10} min=>3
 
 In the second test case, the largest minimum distance will be 4 when 3 cows are placed at positions {0, 4, 10}.
 ```
@@ -33,9 +33,13 @@ In the second test case, the largest minimum distance will be 4 when 3 cows are 
 
 ### Approach :
 
-![[aggresive_cow_app1.png]]
+![[aggresive_cow_approach.png]]
 
-![[aggresive_cow_app2.png]]
+1. Our search space will be from 0 to maximum element
+2. Now we will find mid and check if  all cows are placed at a distance greater than mid
+3. Now we have to find the minimum of largest distance. So if got our anwer we will increase mid by increasing the start to mid+1
+4. And suppose the all cows are not placed at a distance of mid then it means if cows are not placed at minimum distance of x then it can't be placed at x+1,x+2...
+	So we will decrease the mid by end=mid-1
 
 ```C++
 bool isPossible(vector<int> stalls,int mid,int k)
