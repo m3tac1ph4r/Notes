@@ -33,7 +33,6 @@ thus dfs will be 0 1 2 3.
 
 - In DFS we only choose one adjacent neighbour. And proceed further.
 	![[DFS_app1.png]]
-    ![[DFS_app2.png]]
 
 ```C++
 void dfs(int node, unordered_map<int, list<int>> &adj, vector<int> &visited, vector<int> &component)

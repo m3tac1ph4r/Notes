@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0a08954ddfe8b009",
+        "id": "053c0a80e39d5657",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_BFS.md",
+            "file": "DSA_imp/Binary Tree/BT_Maximum_path_sum.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_BFS.md",
+                "file": "DSA_imp/Binary Tree/BT_Maximum_path_sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0a08954ddfe8b009",
+  "active": "053c0a80e39d5657",
   "lastOpenFiles": [
-    "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_BFS.md",
-    "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_DFS.md",
-    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
-    "DSA_imp/Graphs/BFS_Graph_Bipartile.md",
-    "DSA_imp/Graphs/Drawing 2022-06-28 17.52.10.excalidraw.md",
-    "DSA_imp/Graphs/img/graph_bipartile_bfs_app.png",
-    "DSA_imp/Graphs/img/bfs_bipartile_ex2.png",
-    "DSA_imp/Graphs/DFS TRAVERSAL.md",
-    "DSA_imp/Graphs/img/bipartile_ex1.png",
-    "DSA_imp/Graphs/Drawing 2022-06-27 23.51.54.excalidraw.md"
+    "DSA_imp/Binary Tree/BT_Maximum_path_sum.md",
+    "DSA_imp/Binary Tree/img/BT_max_path_sum_app_ex.png",
+    "DSA_imp/Binary Tree/Drawing 2022-06-30 12.38.24.excalidraw.md",
+    "DSA_imp/Binary Tree/img/BT_max_path_sum_approach.png",
+    "DSA_imp/Binary Tree/img/max_path_sum_ex2.png",
+    "DSA_imp/Binary Tree/img/max_path_sum_ex1.png",
+    "DSA_imp/Binary Tree/k sum paths.md",
+    "DSA_imp/Binary Tree/Sum of binary tree.md",
+    "DSA_imp/Binary Tree/Maximum Width of tree.md",
+    "DSA_imp/Binary Tree/maximum_sum_of_non_adjacent_nodes.md"
   ]
 }

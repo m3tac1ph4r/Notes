@@ -5,8 +5,8 @@
 3. In DfsisCyclic()
 	1. Mark node as visited and find all adjacent neighbours
 	2. Then call recursive function DfsIsCyclic() for them
-	3. Now node *it* is visited and equal to parent of front_node mean front_node came from *it* node.
-	4. Else if *it* is visited and not equal to parent means another node visited *it*, means there is **cycle**
+	3. Now node **it_node** is visited and equal to parent of front_node mean front_node came from **it_node** node.
+	4. Else if **it_node** is visited and not equal to parent means another node visited **it_node**, means there is **cycle**
 
 ### Approach (Recursion) ;
 
