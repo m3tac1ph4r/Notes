@@ -20,6 +20,7 @@ Topological Sorting of DAG is a linear ordering of vertices such that for every 
 ![[topoSOrt_dfs_approach.png]]
 
 ```C++
+
 void topoSort(int node, vector<bool> &visited, stack<int> &s, unordered_map<int, list<int>> &adj)
 {
     visited[node] = true;

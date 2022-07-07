@@ -27,6 +27,7 @@ In the below map of Ninjaland let say you want to go from S=1 to T=8, the shorte
 ![[shortest_path_bfs_undirected_app.png]]
 
 ```C++
+
 vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , int t){
     unordered_map<int,list<int>> adj;
     for(int i=0;i<edges.size();i++)
