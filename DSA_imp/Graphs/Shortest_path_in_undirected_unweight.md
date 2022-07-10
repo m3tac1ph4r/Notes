@@ -1,4 +1,4 @@
-# Shortest path in an unweighted graph in undirected graph
+# Shortest path in an unweighted graph in undirected graph(unit weight)
 
 > **BFS Traversal** had a property that it can find the shortest path of undirected and unweight graph
 

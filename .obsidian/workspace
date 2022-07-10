@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e6479b61eef76999",
+        "id": "9cb89392eeb75f49",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Graphs/Shortest_path_in_DAG.md",
+            "file": "DSA_imp/Graphs/Algorithm/Prims_Algorithm.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Graphs/Shortest_path_in_DAG.md",
+                "file": "DSA_imp/Graphs/Algorithm/Prims_Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e6479b61eef76999",
+  "active": "9cb89392eeb75f49",
   "lastOpenFiles": [
-    "DSA_imp/Graphs/Shortest_path_in_DAG.md",
-    "DSA_imp/Graphs/img/shortest_distance_DAG_approach.png",
-    "DSA_imp/Graphs/Drawing 2022-07-08 09.05.04.excalidraw.md",
-    "Pasted image 20220708094504.png",
-    "DSA_imp/Graphs/img/Drawing 2022-07-08 09.04.44.excalidraw.md",
-    "DSA_imp/Graphs/img/shortest_path_DAG_ex1.png",
-    "DSA_imp/Graphs/Drawing 2022-07-08 08.34.03.excalidraw.md",
-    "DSA_imp/Graphs/Topological_sort_DFS.md",
-    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
-    "DSA_imp/Graphs/Shortest_path_in_undirected_unweight.md"
+    "DSA_imp/Graphs/Algorithm/Prims_Algorithm.md",
+    "DSA_imp/Graphs/Algorithm/img/prims_app3.jpeg",
+    "DSA_imp/Graphs/Algorithm/img/prims_app2.jpeg",
+    "DSA_imp/Graphs/Algorithm/img/prims_app1.jpeg",
+    "DSA_imp/Graphs/Algorithm/Dijkstra_Algorithm(Shortest path in weighted undirected).md",
+    "DSA_imp/Graphs/Algorithm/Drawing 2022-07-09 14.20.39.excalidraw.md",
+    "DSA_imp/Graphs/Algorithm/img/Minimum_spanning_tree.png",
+    "WEB DEV TRICKS/HTML _CSS TIPS.md",
+    "WEB DEV TRICKS/IMPORTANT PROJECT SNIPPET.md",
+    "WEB DEV TRICKS/FONTS.md"
   ]
 }

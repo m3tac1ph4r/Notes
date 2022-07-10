@@ -1,5 +1,5 @@
 # Topological Sort (Kahn's Algorithm) :
-#algorithm
+#algorithm #graphAlgo 
 
 >**A directed acyclic graph (DAG) G has at least one vertex with the indegree zero and one vertex with the out-degree zero.**
 

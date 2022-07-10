@@ -13,7 +13,12 @@ Let **T** be the shortest path between any 2 vertices in the graph such that t
 ![[shortest_path_DAG_ex1.png]]
 
 
+
 ### Approach :
+
+> **Why we are using Topological Sort ?**
+> Topological sort ensures that we are picking up nodes that come first while travelling from the source, this, in turn, will ensure that every node will have at least one condition that it can be reached from the source.
+> Topological sort ensures that we are picking up nodes that come first while travelling from the source, this, in turn, will ensure that every node will have at least one condition that it can be reached from the source. As we are setting dist[src] = 0, it will start from there, the condition dis[node] != infinity will not let any node other than src enter that condition first. Because of topological sort nodes coming before src will be discarded.
 
 1. Firstly we will find toposort of the graph
 2. Then create a distance array with value *INT_MAX* and mark *dist[src]=0*
