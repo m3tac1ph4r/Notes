@@ -24,6 +24,7 @@
 ### If given a graph then
 - DFS
 - BFS
+- > **Whereever SHORTEST OR MINIMUM word is there means we have to use bfs**
 
 ### If given a linked list then
 - Two pointers

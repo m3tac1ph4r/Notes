@@ -30,6 +30,7 @@ Let **T** be the shortest path between any 2 vertices in the graph such that t
 ![[shortest_distance_DAG_approach.png]]
 
 ```C++
+
 void findTopoSort(int node, vector<bool> &visited, stack<int> &st, vector<pair<int, int>> adj[])
 {
     visited[node] = true;
@@ -88,6 +89,7 @@ int main()
     return 0;
 }
 ```
+
 
 ### Reference :
 

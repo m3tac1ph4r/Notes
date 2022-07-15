@@ -19,6 +19,7 @@ Return `true` *if and only if it is* **bipartite**_.
 ### Approach :
 
 ![[graph_bipartile_bfs_app.png]]
+**Node 2 will have the color=0**
 
 1. Make adjacency list
 2. Then create a vector< int > with default value -1 to store the color 0,1 

@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-
-
 ### Approach :
 
 ![[dijkstra_approach.png]]

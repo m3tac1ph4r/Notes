@@ -20,7 +20,7 @@ In the below map of Ninjaland let say you want to go from S=1 to T=8, the shorte
 1. We will use queue for BFS traversal. Then create visited array and parent array. Parent array will store the parent of node.
 2. Then create an adjacency list
 3. Push source in the queue. Mark true in visited[source] and **parent[source] =  -1**
-4. Then check mark visited for all it's adjacent neighbours and mark their parent as node.
+4. Then  mark visited for all it's adjacent neighbours and mark their parent as node.
 5. Now you have to find parent of target  till the source
 6. Reverse the path bcz it is from target to source
 
