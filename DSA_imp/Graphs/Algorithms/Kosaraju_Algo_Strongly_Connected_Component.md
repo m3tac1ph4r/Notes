@@ -27,6 +27,12 @@ As you can see in the above graph.
 1. If you start from 1. 1->4->0->1. This is the *first SCC*
 2. If you start from 2. 2->3->2. This is the *second SCC*
 
+**OUTPUT :**
+```
+0 1 4 
+2 3 
+```
+
 
 ### Approach :
 
@@ -108,6 +114,9 @@ int stronglyConnectedComponents(int v, vector<vector<int>> &edges)
     return count;
 }
 ```
+
+>**Time Complexity :** O(N+E)
+>**Space Complexity :** O(N)
 
 ### Question :
 

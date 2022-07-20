@@ -70,8 +70,14 @@ bool isBipartite(vector<vector<int>> &graph)
 }
 ```
 
+
 ### Question :
 https://leetcode.com/problems/is-graph-bipartite/
 
 ### Reference :
 https://youtu.be/nbgaEu-pvkU?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw
+
+
+### Application of Bipartile Graph :
+
+https://leetcode.com/problems/possible-bipartition/

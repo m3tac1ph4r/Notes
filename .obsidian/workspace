@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d1e8efda535f0d25",
+        "id": "cb15d2de703ebdb9",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -41,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -96,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d1e8efda535f0d25",
+  "active": "cb15d2de703ebdb9",
   "lastOpenFiles": [
-    "DSA_imp/Graphs/Algorithms/img/Kosaraju_approach.png",
-    "DSA_imp/Graphs/Algorithms/Kosaraju_Algo_Strongly_Connected_Component.md",
-    "DSA_imp/Graphs/Algorithms/Drawing 2022-07-15 19.58.13.excalidraw.md",
-    "DSA_imp/Graphs/Algorithms/img/SCC2.png",
-    "DSA_imp/Graphs/Algorithms/img/SCC1.png",
-    "DSA_imp/Graphs/Algorithms/Dijkstra_Algorithm(Shortest path in weighted undirected).md",
-    "DSA_imp/Graphs/Algorithms/Kruskal_disjoint_set_unionbyrank_path_compression.md",
     "DSA_imp/Graphs/Algorithms/Prims_Algorithm.md",
-    "DSA_imp/Graphs/Shortest_path_in_DAG.md",
-    "DSA_imp/Graphs/Algorithms/img/dijkstra_approach.png"
+    "DSA_imp/Graphs/Algorithms/Kruskal_disjoint_set_unionbyrank_path_compression.md",
+    "DSA_imp/Graphs/Algorithms/Kosaraju_Algo_Strongly_Connected_Component.md",
+    "DSA_imp/Graphs/Algorithms/Bellman_Ford_Algo(Shortest_Path_directed_negative_weight).md",
+    "DSA_imp/Graphs/Algorithms/Drawing 2022-07-15 23.13.58.excalidraw.md",
+    "DSA_imp/Graphs/Algorithms/Dijkstra_Algorithm(Shortest path in weighted undirected).md",
+    "DSA_imp/Graphs/BFS_Graph_Bipartile.md",
+    "DSA_imp/Graphs/Count_shortest_path_from_src.md",
+    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
+    "[.md"
   ]
 }

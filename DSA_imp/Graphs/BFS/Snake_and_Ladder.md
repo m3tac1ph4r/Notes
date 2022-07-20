@@ -13,7 +13,7 @@ So we will be given a matrix which will be consisting of **-1** and a number bet
 
 The main tricky part in this question is to find coordinate. So I created a seperate function for that.
 
-1. As you will  observe **if n is even then continuation of numbers from right side is in even rows.** and **if n is odd then continuation of numbers from right side is in odd rows**
+1. As you will  observe **if n is even then continuation of numbers from right side in even rows.** and **if n is odd then continuation of numbers from right side is in odd rows**
 2. So if n is even and row is also even then we will find coloumn from back side i.e if col=2  means n-col-1
 
 ![[snake_ladder_coloumn.png]]

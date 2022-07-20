@@ -1,10 +1,12 @@
 # Prims Algorithm
+#algorithm #graphAlgo 
 
 ### Minimum Spanning Tree (MST) :
 
-Suppose we have given a graph. And if we can have made a tree with **n vertices and n-1 edges and all vertices can visit  each other and minimum spanning tree does not have a cycle** then it will be called a spanning Tree.
+Suppose we have given a graph. And if we can  made a tree with **n vertices and n-1 edges and all vertices can visit  each other** then it will be called a spanning Tree.
+ **And minimum spanning tree does not have a cycle**
 
-And minimum spanning tree means *spanning tree which will be having minimum number of weight* is called minimum spanning tree.
+Minimum Spanning Tree means *spanning tree which will be having minimum number of weight* is called minimum spanning tree.
 
 ![[Minimum_spanning_tree.png]]
 
@@ -13,11 +15,14 @@ And minimum spanning tree means *spanning tree which will be having minimum numb
 > We will be using Prims algoritm to find the minimum spanning tree of a given graph.
 
 
+> **Why does Prims Algo doesn't works for DIRECTED GRAPH ?**
+> https://www.geeksforgeeks.org/why-prims-and-kruskals-mst-algorithm-fails-for-directed-graph/
+
 ### Approach (Bruteforce) :
 
 
 1. We will be using 3 vectors.
-	1. Key intialize with infinite value
+	1. Key intialize with infinite value (for distance)
 	2. MST intialize with False values
 	3. Parent intialize with -1 value
 2. We will start with 0. Mark **key[0]=0** and **parent[key]=-1** 
@@ -131,7 +136,7 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
     vector<bool> mst(n + 1, false);
     vector<int> parent(n + 1, -1);
 
-    // first int - key[i]  and second int - i
+    // first int - key[i](distance)  and second int - i
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
     key[1] = 0;

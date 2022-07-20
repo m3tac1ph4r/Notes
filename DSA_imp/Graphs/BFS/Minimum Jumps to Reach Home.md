@@ -39,7 +39,7 @@ Given an array of integers `forbidden`, where `forbidden[i]` means that the b
 1. We will use queue to store the {number,state}. State will be of two types
 	1. **true - for forward**
 	2. **false -  for backward**
-2. And we will use set instead of visited array, because we can't make array of size more than 6000 . Because SET will take less space complexity and it will the node in O(1) TIME
+2. And we will use set instead of visited array, because we can't make array of size more than 6000 . Because SET will take less space complexity and it will do operations in O(1) TIME
 
 ```C++
 
