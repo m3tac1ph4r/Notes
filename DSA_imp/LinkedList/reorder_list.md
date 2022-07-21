@@ -26,13 +26,13 @@ You may not modify the values in the list's nodes. Only nodes themselves may be 
 
 ### Approach :
 
-1. Find the middle of linked list. Then divide linkedlist in two halves first part will be left of middle and second will be right of middle. 
+1. Find the middle of linked list. Then divide linkedlist in two halves first part will be left of middle and second will be right of middle.
 2. Reverse the second part of linkedlist
 3. Now add node from first part of linkedlist and then add node from second part of linkedlist
 
 ![[reorderlist_approach.png]]
 
-```C++
+```cpp
 ListNode *reverseList(ListNode *head)
 {
     ListNode *prev = NULL;

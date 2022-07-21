@@ -6,8 +6,7 @@ An **island** is a 4-directionally connected group of `1`'s not connected to 
 
 You may change `0`'s to `1`'s to connect the two islands to form **one island**.
 
-Return _the smallest number of_ `0`_'s you must flip to connect the two islands_.
-
+Return *the smallest number of* `0`_'s you must flip to connect the two islands_.
 
 **Example 1:**
 
@@ -26,39 +25,39 @@ Return _the smallest number of_ `0`_'s you must flip to connect the two island
 
 ![[shortest_bridge_app.png]]
 
-
 ### Approach :
 
 1. In the question it clearly given that we have exactly two islands.
 2. We will store the coordinate of first island in **vector x** and coordinate of second island in **vector y**
 3. Now find the minimum distance from x[i] to y[i]
+
 ```
 int dist=abs(x[i].first - y[j].first) + abs(x[i].second - y[j].second) - 1;;
 ```
 
-```C++
+```cpp
 
 void floodFill(int i,int j,vector<pair<int,int>> &r,vector<vector<int>> &grid)
 {
     if(i<0 || j<0 || i>=grid.size() || j>=grid[i].size() || grid[i][j]==0)
         return;
-    
+
     grid[i][j]=0;
     r.push_back({i,j});
-    
+
     // 4-directional
     floodFill(i-1,j,r,grid);
     floodFill(i,j-1,r,grid);
     floodFill(i+1,j,r,grid);
     floodFill(i,j+1,r,grid);
-    
+
     return;
 }
 int shortestBridge(vector<vector<int>>& grid) {
     int islandCount=0;
     vector<pair<int,int>> x;  // for fist island
     vector<pair<int,int>> y;  // for second island
-    
+
     for(int i=0;i<grid.size();i++)
     {
         for(int j=0;j<grid[i].size();j++)
@@ -86,11 +85,9 @@ int shortestBridge(vector<vector<int>>& grid) {
 }
 ```
 
-
 ### Question :
 
 https://leetcode.com/problems/shortest-bridge/
-
 
 ### Reference :
 

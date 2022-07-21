@@ -1,6 +1,6 @@
 # Merge Intervals
 
-Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return _an array of the non-overlapping intervals that cover all the intervals in the input_.
+Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return *an array of the non-overlapping intervals that cover all the intervals in the input*.
 
 **Example 1:**
 
@@ -18,15 +18,14 @@ Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge a
 
 1. Sort the intervals.
 2. Then extract the last element from result vector i.e start1 and end1, Then extract start2,end2 from given interval and check
-	*  **if end1>start2** then find max of end1 and end2 and pop the start1,end1 and insert start1 and max(end1,end2)
-	*  **else** insert {start2,end2}
+   - **if end1>start2** then find max of end1 and end2 and pop the start1,end1 and insert start1 and max(end1,end2)
+   - **else** insert {start2,end2}
 
 ![[DSA_imp/arrays/img/merge_intervals_approach.png]]
 
 ![[merge_intervals_approach2.png]]
 
-
-```C++
+```cpp
 int main()
 {
     int n;
@@ -64,8 +63,9 @@ int main()
 ```
 
 ### Question:
+
 https://leetcode.com/problems/merge-intervals/
 
-
 ### Reference:
+
 https://www.youtube.com/watch?v=2JzRBPFYbKE

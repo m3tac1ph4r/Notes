@@ -7,7 +7,6 @@ The graph is given as follows: `graph[i]` is a list of all nodes you can visit
 **Example 1:**
 ![[all_path_ex1.png]]
 
-
 **Input:** graph = [ [1,2],[3],[3],[] ]
 **Output:** [ [0,1,3],[0,2,3] ]
 **Explanation:** There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
@@ -18,11 +17,9 @@ The graph is given as follows: `graph[i]` is a list of all nodes you can visit
 **Input:** graph = [ [4,3,1],[3,2,4],[3],[4],[] ]
 **Output:** [ [0,4],[0,3,4],[0,1,3,4],[0,1,2,3,4],[0,1,4] ]
 
-
-
 ### Approach (Using DFS and Backtracking) :
 
-```C++
+```cpp
 
 void solve(int node, int n, unordered_map<int, list<int>> &adj, vector<int> temp, vector<vector<int>> &ans)
 {
@@ -61,4 +58,5 @@ vector<vector<int>> allPathsSourceTarget(vector<vector<int>> &graph)
 ```
 
 ### Question :
+
 https://leetcode.com/problems/all-paths-from-source-to-target/

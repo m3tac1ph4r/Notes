@@ -1,6 +1,7 @@
 # Detect Cycle in undirected graph using BFS
 
 **Intuition:** The intuition behind this is to check for the visited element if it is found again, this means the cycle is present in the given undirected graph.
+
 <pre>
 for(i= 1->N)
 
@@ -18,11 +19,9 @@ if(!vis[i]) 
 
 ### Approach (Queue) :
 
-
 ![[undirected_detect_cycle_BFS.png]]
 
-
-```C++
+```cpp
 bool check_cycle(int node, vector<bool> &visited, unordered_map<int, list<int>> &adj, unordered_map<int, int> parent)
 {
     queue<int> q;
@@ -80,7 +79,7 @@ string cycleDetection(vector<vector<int>> &edges, int n, int m)
 
 > **Time Complexity :** O(N+E)
 > **Space Complexity :** O(N+E) + O(N) + O(N)
-> 
+
 ### Question :
 
 https://www.codingninjas.com/codestudio/problems/1062670

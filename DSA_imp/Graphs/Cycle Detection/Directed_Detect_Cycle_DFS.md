@@ -4,17 +4,16 @@
 
 ![[Directed_DFS_why.png]]
 
-As you can this algorithm is saying that 3,7,8  is a cycle but it's not.
+As you can this algorithm is saying that 3,7,8 is a cycle but it's not.
 
 > To avoid this we will add one vector name **bag** which will check which node is a part of recursion call and which are not.
-> When we made recursion call for node "x" then mark  *bag[x]=true* and when it will not have any neighbour in last then mark *bag[x]=false*
+> When we made recursion call for node "x" then mark _bag[x]=true_ and when it will not have any neighbour in last then mark _bag[x]=false_
 
 ### Approach :
 
 ![[Detect_Cycle_Directed_DFS_app.png]]
 
-
-```C++
+```cpp
 bool dfsCyclic(int node, vector<bool> &bag, vector<bool> &visited, unordered_map<int, list<int>> &adj)
 {
     visited[node] = true;
@@ -64,7 +63,7 @@ int detectCycleInDirectedGraph(int n, vector<pair<int, int>> &edges)
 
 > **Time complexity :** O(N+E)
 > **Space Complexity :** O(2N) + O(N)
-> O(2N) -  because we have used 2 vectors
+> O(2N) - because we have used 2 vectors
 > O(N) - Auxillary space i.e stack(recursion)
 
 ### Question :
@@ -73,26 +72,25 @@ https://leetcode.com/problems/course-schedule/
 
 There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array `prerequisites` where `prerequisites[i] = [ai, bi]` indicates that you **must** take course `bi` first if you want to take course `ai`.
 
--   For example, the pair `[0, 1]`, indicates that to take course `0` you have to first take course `1`.
+- For example, the pair `[0, 1]`, indicates that to take course `0` you have to first take course `1`.
 
 Return `true` if you can finish all courses. Otherwise, return `false`.
 
 **Example 1:**
 **Input:** numCourses = 2, prerequisites = [ [1,0] ]
 **Output:** true
-**Explanation:** There are a total of 2 courses to take. 
+**Explanation:** There are a total of 2 courses to take.
 To take course 1 you should have finished course 0. So it is possible.
 
 **Example 2:**
 **Input:** numCourses = 2, prerequisites = [ [1,0],[0,1] ]
 **Output:** false
-**Explanation:** There are a total of 2 courses to take. 
+**Explanation:** There are a total of 2 courses to take.
 To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.
 
 ![[Directed_Cycle_COurse_schedule_DFS.png]]
 
-
-```C++
+```cpp
 bool dfsCyclic(int node, vector<bool> &visited, vector<bool> &bag, unordered_map<int, list<int>> &adj)
 {
     visited[node] = true;

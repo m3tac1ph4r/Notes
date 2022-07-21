@@ -1,8 +1,8 @@
 # Construct a binary tree from inorder and postorder :-
-#important_for_interview 
 
+#important_for_interview
 
-Given two integer arrays `inorder` and `postorder` where `inorder` is the inorder traversal of a binary tree and `postorder` is the postorder traversal of the same tree, construct and return _the binary tree_.
+Given two integer arrays `inorder` and `postorder` where `inorder` is the inorder traversal of a binary tree and `postorder` is the postorder traversal of the same tree, construct and return *the binary tree*.
 
 ![[inorder_postorder_example.png]]
 
@@ -16,6 +16,7 @@ post[] =8 4 5 2 6 7 3 1
 **Explanation:** For the given postorder and
 inorder traversal of tree the  resultant
 binary tree will be
+
 ```
           1
        /      \
@@ -35,6 +36,7 @@ post[] = 5 9 3 4 2
 **Output:** 2 9 5 4 3
 **Explanation:**  
 the  resultant binary tree will be
+
 ```
            2
         /     \
@@ -43,23 +45,21 @@ the  resultant binary tree will be
          5   3
 ```
 
-
 ### Approach
 
 The approach is same as **construct binary tree from inorder preorder**
 
 1. Postorder is **{left,right,node}** it means preorder[index] will be root.
-2. So firstly we will find root i.e preorder[index]. 
+2. So firstly we will find root i.e preorder[index].
 3. Then find the position of element in inorder because inorder is having **{left,node,right}** i.e from 0 to position-1 we will have left of root and
-	position+1 to n we will have right of right.
-	To find position we will map the element of inorder with index so that we can do the operation in O(1) time.
+   position+1 to n we will have right of right.
+   To find position we will map the element of inorder with index so that we can do the operation in O(1) time.
 4. Like this we will build our binary tree. We will use inorderStart and inorderEnd for finding left and right of root from inorder.
-5. In base case we will check if index is less than 0 **OR** inorderStart>inorderEnd then it will return *NULL*
+5. In base case we will check if index is less than 0 **OR** inorderStart>inorderEnd then it will return _NULL_
 
 ![[inorder_postorder_approach.png]]
 
-
-```C++
+```cpp
 void createMapping(vector<int> inorder, map<int, int> &nodeToIndex, int n)
 {
     for (int i = 0; i < n; i++)
@@ -95,20 +95,21 @@ Node *buildTree(vector<int> inorder, vector<int> postorder)
 }
 ```
 
-> In recursive call we have called right first because *in postorder root is in the last and we index is from n-1 . So right subtree will come first then left subtree will be called.*
+> In recursive call we have called right first because _in postorder root is in the last and we index is from n-1 . So right subtree will come first then left subtree will be called._
 > That's why **root->right** is called first.
 
-
 ### Time complexity :
+
 Recursive call will take : **O(n)**
 Createmapping will take :**O(nlogn)**
 
 O(n) + O(nlogn) => O(nlogn)
 
-
 ### Question:
+
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1/#
 
 ### Reference:
+
 https://www.youtube.com/watch?v=ffE1xj51EBQ&list=PLDzeHZWIZsTo87y1ytEAqp7wYlEP3nner&index=5&ab_channel=CodeHelp-byBabbar

@@ -7,9 +7,9 @@ BFS or Breadth-First Traversal of a graph is an algorithm used to visit all of t
 An undirected graph is a graph where all the edges are bidirectional, i.e., they point from source to destination and destination to source.
 A graph is disconnected if at least two vertices of the graph are not connected by a path.
 
-
 **Example 1 :**
 **INPUT :**
+
 ```
 4 4
 0 1
@@ -19,6 +19,7 @@ A graph is disconnected if at least two vertices of the graph are not connected 
 ```
 
 **OUTPUT :**
+
 ```
 0 1 3 2
 ```
@@ -30,10 +31,10 @@ A graph is disconnected if at least two vertices of the graph are not connected 
 ![[BSF_EX2.png]]
 
 **OUTPUT :**
+
 ```
 Starting from 0, it is connected to 1 and 3, which will be printed. The remaining node is 2, which will be printed at the end.
 ```
-
 
 ### Approach (Queue) :
 
@@ -55,7 +56,7 @@ Starting from 0, it is connected to 1 and 3, which will be printed. The remainin
 ![[BSF_appraoch1.png]]
 ![[BSF_appraoch2.png]]
 
-```C++
+```cpp
 void makeAdjList(unordered_map<int, list<int>> &adj, vector<pair<int, int>> &edges)
 {
     for (int i = 0; i < edges.size(); i++)
@@ -104,17 +105,16 @@ vector<int> BFS(int vertex, vector<pair<int, int>> edges)
 }
 ```
 
+> **Time Complexity :** O(N+E)
+> N = Nodes , E = travelling through adjacent nodes
+> **Space Complexity :** O(N+E) + O(N) + O(N) 
+> Space for adjacency list, visited array, queue data structure
 
-
->**Time Complexity :** O(N+E)
->N = Nodes , E = travelling through adjacent nodes
->**Space Complexity :** O(N+E) + O(N) + O(N) 
->Space for adjacency list, visited array, queue data structure
-	
 ### Question :
 
 https://www.codingninjas.com/codestudio/problems/bfs-in-graph_973002
 
 ### Reference :
+
 https://takeuforward.org/data-structure/breadth-first-searchbfs-level-order-traversal/
 https://youtu.be/b5kij1Akf9I?list=PLDzeHZWIZsTobi35C3I-tKB3tRDX6YxuA

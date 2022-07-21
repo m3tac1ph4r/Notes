@@ -16,10 +16,9 @@ In **Pascal's triangle**, each number is the sum of the two numbers directly ab
 **Input:** numRows = 1
 **Output:** [[1]]
 
-
 ### Code :
 
-```C++
+```cpp
 vector<vector<int>> generate(int numRows)
 {
     vector<vector<int>> ans;
@@ -51,4 +50,3 @@ vector<vector<int>> generate(int numRows)
 ### Question:
 
 https://leetcode.com/problems/pascals-triangle/
-

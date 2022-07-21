@@ -12,14 +12,11 @@ Given an integer array `nums` and an integer `k`, return _the_ `k` _most frequen
 **Input:** nums = [1], k = 1
 **Output:** [1]
 
-
-
 ### Approach
 
 We will use min heap using priority queue.
 
-
-```C++
+```cpp
 vector<int> topKFrequents(vector<int> nums,int k)
 {
     vector<int> ans;
@@ -46,4 +43,3 @@ vector<int> topKFrequents(vector<int> nums,int k)
     return ans;
 }
 ```
-

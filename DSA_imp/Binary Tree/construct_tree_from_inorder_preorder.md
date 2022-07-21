@@ -1,7 +1,8 @@
 # Construct a binary tree from inorder and preorder :-
-#important_for_interview 
 
-Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree and `inorder` is the inorder traversal of the same tree, construct and return _the binary tree_.
+#important_for_interview
+
+Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree and `inorder` is the inorder traversal of the same tree, construct and return *the binary tree*.
 
 ![[inorder_preorder_ex1.png]]
 
@@ -13,6 +14,7 @@ inorder[] = {3 1 4 0 5 2}
 preorder[] = {0 1 3 4 2 5}
 **Output:** [0,1,2,3,4,5,null]
 **Explanation:** The tree will look like
+
 ```
        0
     /     \
@@ -21,21 +23,19 @@ preorder[] = {0 1 3 4 2 5}
 3    4   5
 ```
 
-
 ### Approach (recursion) :-
 
 1. Preorder is **{node,left,right}** it means preorder[index] will be root.
-2. So firstly we will find root i.e preorder[index]. 
+2. So firstly we will find root i.e preorder[index].
 3. Then find the position of element in inorder because inorder is having **{left,node,right}** i.e from 0 to position-1 we will have leftsubtree of root and
-	position+1 to n we will have rightsubtree of root.
-	To find position we will map the element of inorder with index so that we can find the index in O(1) time.
+   position+1 to n we will have rightsubtree of root.
+   To find position we will map the element of inorder with index so that we can find the index in O(1) time.
 4. Like this we will build our binary tree. We will use inorderStart and inorderEnd for finding left and right of root from inorder.
 5. In base case we will check if index is greater than n **OR** inorderStart>inorderEnd
 
 ![[inorder preorder appraoch.png]]
 
-
-```C++
+```cpp
 void createMapping(vector<int> inorder,map<int,int> &nodeToIndex,int n)
 {
     for(int i=0;i<n;i++)
@@ -47,11 +47,11 @@ Node* solve(vector<int> inorder,vector<int> preorder,int n,int &index,map<int,in
     // base case
     if(index>=n || inorderStart>inorderEnd)
         return NULL;
-    
+
     int element=preorder[index++];
     Node* root=new Node(element);
     int position=nodeToIndex[element];
-    
+
     //recursive call
     root->left=solve(inorder,preorder,n,index,nodeToIndex,inorderStart,position-1);
     root->right=solve(inorder,preorder,n,index,nodeToIndex,position+1,inorderEnd);
@@ -71,15 +71,17 @@ Node* buildTree(vector<int> inorder,vector<int> preorder)
 ```
 
 ### Time complexity :
+
 Recursive call will take : **O(n)**
 Createmapping will take :**O(nlogn)**
 
 O(n) + O(nlogn) => O(nlogn)
 
-
 ### Question:
+
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 https://practice.geeksforgeeks.org/problems/construct-tree-1/1/#
 
 ### Reference:
+
 https://www.youtube.com/watch?v=ffE1xj51EBQ&list=PLDzeHZWIZsTo87y1ytEAqp7wYlEP3nner&index=5&ab_channel=CodeHelp-byBabbar

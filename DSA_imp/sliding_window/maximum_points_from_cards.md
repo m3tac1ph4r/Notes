@@ -6,7 +6,7 @@ In one step, you can take one card from the beginning or from the end of the row
 
 Your score is the sum of the points of the cards you have taken.
 
-Given the integer array `cardPoints` and the integer `k`, return the _maximum score_ you can obtain.
+Given the integer array `cardPoints` and the integer `k`, return the *maximum score* you can obtain.
 
 **Example 1:**
 
@@ -20,10 +20,10 @@ Given the integer array `cardPoints` and the integer `k`, return the _maximu
 
 1. We will find sum of first k elements of array.
 2. Then will traverse k-1 to 0
-	1. Remove ith element from the window
-	2. Add (n-k+i)th element from last of array to the window. Then update the max_sum
+   1. Remove ith element from the window
+   2. Add (n-k+i)th element from last of array to the window. Then update the max_sum
 
-```C++
+```cpp
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {

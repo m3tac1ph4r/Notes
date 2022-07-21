@@ -1,17 +1,16 @@
 # Count Shortest Path and Distance From Source for all nodes
+
 #shortestPath_graph
 
-
->**Using Dijkastra Algorithm**
+> **Using Dijkastra Algorithm**
 
 Given a [weighted undirected graph](https://www.geeksforgeeks.org/graph-and-its-representations/) [](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)**G** and an integer **S**, the task is to print the distances of the shortest paths and the count of the [number of the shortest paths](https://www.geeksforgeeks.org/number-shortest-paths-unweighted-directed-graph/) for each node from a given vertex, **S.**
 
 ![[count_shortest_path_example.png]]
 
-
 ### Approach :
 
-```C++
+```cpp
 
 vector<int> countShortestDistance(vector<vector<int>> edges, int n, int m, int src)
 {
@@ -62,11 +61,9 @@ vector<int> countShortestDistance(vector<vector<int>> edges, int n, int m, int s
 }
 ```
 
-
-
-> _**Time Complexity:** O(N * log(M))_    
-_**Auxiliary Space:** O(N)_
-
+> _**Time Complexity:** O(N \* log(M))_    
+> _**Auxiliary Space:** O(N)_
 
 ### Reference :
+
 https://www.geeksforgeeks.org/number-of-shortest-paths-in-an-undirected-weighted-graph/

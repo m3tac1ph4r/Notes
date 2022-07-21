@@ -1,13 +1,12 @@
 # 4 SUM
 
-Given an array `nums` of `n` integers, return _an array of all the **unique** quadruplets_ `[nums[a], nums[b], nums[c], nums[d]]` such that:
+Given an array `nums` of `n` integers, return *an array of all the **unique** quadruplets* `[nums[a], nums[b], nums[c], nums[d]]` such that:
 
--   `0 <= a, b, c, d < n`
--   `a`, `b`, `c`, and `d` are **distinct**.
--   `nums[a] + nums[b] + nums[c] + nums[d] == target`
+- `0 <= a, b, c, d < n`
+- `a`, `b`, `c`, and `d` are **distinct**.
+- `nums[a] + nums[b] + nums[c] + nums[d] == target`
 
 You may return the answer in **any order**.
-
 
 **Example 1:**
 
@@ -19,24 +18,25 @@ You may return the answer in **any order**.
 **Input:** nums = [2,2,2,2,2], target = 8
 **Output:** [[2,2,2,2]]
 
-
-### Approach (Using 4 pointers) 
+### Approach (Using 4 pointers)
 
 1. We will use two for loops :
-	* i=0 to n-3
-	* j=i+1 to n-2
 
-2. We will store *target2=target-nums[i]-nums[j]* Then we will use **l** and **k**
-	* l=j+1
-	* k=n-1
-3. Now we will check 
-	*  *nums[l]+nums[k]< target2* : l++
-	*  *nums[l]+nums[k] > target2* : k--
-	*  *nums[l]+nums[k]== target2* : store nums[i],nums[j],nums[l],nums[k] in an array
+   - i=0 to n-3
+   - j=i+1 to n-2
+
+2. We will store _target2=target-nums[i]-nums[j]_ Then we will use **l** and **k**
+   - l=j+1
+   - k=n-1
+3. Now we will check
+
+   - _nums[l]+nums[k]< target2_ : l++
+   - _nums[l]+nums[k] > target2_ : k--
+   - _nums[l]+nums[k]== target2_ : store nums[i],nums[j],nums[l],nums[k] in an array
 
 4. Then skip all the duplicates.
 
-```C++
+```cpp
 vector<vector<int>> fourSum(vector<int> &nums,int target)
 {
     vector<vector<int>> ans;
@@ -88,4 +88,5 @@ vector<vector<int>> fourSum(vector<int> &nums,int target)
 https://leetcode.com/problems/4sum/
 
 ### References :
+
 https://youtu.be/OZdOHiodh_c

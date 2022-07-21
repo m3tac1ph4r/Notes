@@ -6,15 +6,14 @@ A certain bug's home is on the x-axis at position `x`. Help them get there from
 
 The bug jumps according to the following rules:
 
--   It can jump exactly `a` positions **forward** (to the right).
--   It can jump exactly `b` positions **backward** (to the left).
--   It cannot jump backward twice in a row.
--   It cannot jump to any `forbidden` positions.
+- It can jump exactly `a` positions **forward** (to the right).
+- It can jump exactly `b` positions **backward** (to the left).
+- It cannot jump backward twice in a row.
+- It cannot jump to any `forbidden` positions.
 
 The bug may jump forward **beyond** its home, but it **cannot jump** to positions numbered with **negative** integers.
 
-Given an array of integers `forbidden`, where `forbidden[i]` means that the bug cannot jump to the position `forbidden[i]`, and integers `a`, `b`, and `x`, return _the minimum number of jumps needed for the bug to reach its home_. If there is no possible sequence of jumps that lands the bug on position `x`, return `-1.`
-
+Given an array of integers `forbidden`, where `forbidden[i]` means that the bug cannot jump to the position `forbidden[i]`, and integers `a`, `b`, and `x`, return *the minimum number of jumps needed for the bug to reach its home*. If there is no possible sequence of jumps that lands the bug on position `x`, return `-1.`
 
 **Example 1:**
 
@@ -33,15 +32,14 @@ Given an array of integers `forbidden`, where `forbidden[i]` means that the b
 **Output:** 2
 **Explanation:** One jump forward (0 -> 16) then one jump backward (16 -> 7) will get the bug home.
 
-
 ### Approach :
 
 1. We will use queue to store the {number,state}. State will be of two types
-	1. **true - for forward**
-	2. **false -  for backward**
+   1. **true - for forward**
+   2. **false - for backward**
 2. And we will use set instead of visited array, because we can't make array of size more than 6000 . Because SET will take less space complexity and it will do operations in O(1) TIME
 
-```C++
+```cpp
 
 int minimumJumps(vector<int> &forbidden, int a, int b, int x)
 {
@@ -84,7 +82,6 @@ int minimumJumps(vector<int> &forbidden, int a, int b, int x)
     return -1;
 }
 ```
-
 
 ### Question :
 

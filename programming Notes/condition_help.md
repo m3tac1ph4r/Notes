@@ -1,15 +1,13 @@
 In this File you will get example code which I was not getitng in a code snippet
 
-
-
 ## In apple_division CSES if(i&(1<<j)) explain
 
 In the below code you will see how this if condition works and find all possible permution
 https://usaco.guide/CPH.pdf#page=57
 
-> Thus i & (1<<j) will return a positive value only if the j'th bit is turned on in mask. 
+> Thus i & (1<<j) will return a positive value only if the j'th bit is turned on in mask.
 
-```C++
+```cpp
 #include<bits/stdc++.h>
 using namespace std;s
 int main()
@@ -54,6 +52,4 @@ int main()
 }
 ```
 
-
-
---------------------------------------------------------------------
+---

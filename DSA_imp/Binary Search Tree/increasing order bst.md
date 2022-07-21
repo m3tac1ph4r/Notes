@@ -1,4 +1,5 @@
 # Increasing order BST
+
 Given the `root` of a binary search tree, rearrange the tree in **in-order** so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.
 
 ![[increasing_order_bst_ex1.png]]
@@ -16,11 +17,12 @@ Given the `root` of a binary search tree, rearrange the tree in **in-order**�
 ### Approach 1
 
 1. Firstly we will insert all node values in vector of integer.
-2.  Then sort the vector. As you can see we have to ararnge node in ascending order in right boundary
+2. Then sort the vector. As you can see we have to ararnge node in ascending order in right boundary
 3. Now insert all values of vector in new tree.
 
 **Code :**
-```C++
+
+```cpp
 class Solution {
 public:
     void solve(TreeNode* root,vector<int> &ans)
@@ -50,6 +52,3 @@ public:
     }
 };
 ```
-
-
-	

@@ -1,10 +1,10 @@
 # Remove Invalid Parentheses
-#leetcode-hard
 
+#leetcode-hard
 
 Given a string `s` that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.
 
-Return _all the possible results_. You may return the answer in **any order**.
+Return *all the possible results*. You may return the answer in **any order**.
 
 **Example 1:**
 
@@ -21,21 +21,19 @@ Return _all the possible results_. You may return the answer in **any order**.
 **Input:** s = ")("
 **Output:** [""]
 
-
-
 ### Approach (Stack and recusion) :
 
 ![[remove_valid_parenthesis_app.png]]
 
-1. We will count the  minimum number of invalid charachter required to delete to make paranthesis balanced
+1. We will count the minimum number of invalid charachter required to delete to make paranthesis balanced
 2. We will use an **unordered_map<string,int>** for storing string and count. We will use map to prevent repetitions of same string. If we have checked string s is invalid then again we will not check.
 3. In SOLVE():
-	1. We will check whether string s is present in map or not. If YES then return else STORE IN THE MAP
-	2. Then check **minInvalid char is less 0** , if TRUE then RETURN
-	3. Then check **minInvalid char is equal to  0** ,if the string is valid then add in the result and then return
-	4. Then start a for loop from 0 to string size. And remove one character and then call for (minInvalid-1) bcz now the minimum invalid chars will be decrease by one
+   1. We will check whether string s is present in map or not. If YES then return else STORE IN THE MAP
+   2. Then check **minInvalid char is less 0** , if TRUE then RETURN
+   3. Then check **minInvalid char is equal to 0** ,if the string is valid then add in the result and then return
+   4. Then start a for loop from 0 to string size. And remove one character and then call for (minInvalid-1) bcz now the minimum invalid chars will be decrease by one
 
-```C++
+```cpp
 
 class Solution {
 public:
@@ -74,7 +72,7 @@ public:
                 res.push_back(s);
             return;
         }
-        
+
         for(int i=0;i<s.size();i++)
         {
             string left=s.substr(0,i);
@@ -91,8 +89,9 @@ public:
 ```
 
 ### Question :
+
 https://leetcode.com/problems/remove-invalid-parentheses/
 
-
 ### Reference :
+
 https://youtu.be/y7Us-H5um0M

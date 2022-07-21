@@ -1,6 +1,6 @@
 # Reverse a LinkedList
 
-Given the `head` of a singly linked list, reverse the list, and return _the reversed list_.
+Given the `head` of a singly linked list, reverse the list, and return *the reversed list*.
 
 **Example 1:**
 ![[reverse_linkedlist_ex1.png]]
@@ -17,11 +17,8 @@ Given the `head` of a singly linked list, reverse the list, and return _the r
 
 ### Approach (three pointer approach) :
 
-
-
-
-```C++
-ListNode *reverseList(ListNode *head) 
+```cpp
+ListNode *reverseList(ListNode *head)
 {
     ListNode* prev=NULL;
     ListNode* curr=head;

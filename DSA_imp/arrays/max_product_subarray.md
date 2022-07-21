@@ -1,11 +1,8 @@
+> Given an integer array nums, find a contiguous non-empty
+> subarray within the array that has the largest product, and return the product.
+> https://leetcode.com/problems/maximum-product-subarray/
 
-
->Given an integer array nums, find a contiguous non-empty 
->subarray within the array that has the largest product, and return the product.
-https://leetcode.com/problems/maximum-product-subarray/
-
-
-```C++
+```cpp
 int maxProduct(vector<int> nums)
 {
     int ma = nums[0];
@@ -29,7 +26,7 @@ int maxProduct(vector<int> nums)
 
 ### Another Approach Using kadane's algorithm
 
-```C++
+```cpp
 int maxProduct(vector<int>& nums) {
         int product=1;
         int max_product=INT_MIN;

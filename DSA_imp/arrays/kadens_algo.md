@@ -1,6 +1,6 @@
 # Kaden's Algorithm
 
-Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return _its sum_.
+Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return *its sum*.
 
 A **subarray** is a **contiguous** part of an array.
 
@@ -20,7 +20,6 @@ A **subarray** is a **contiguous** part of an array.
 **Input:** nums = [5,4,-1,7,8]
 **Output:** 23
 
-
 ### Approach (Using Kaden's Algorithm) :
 
 ```
@@ -38,7 +37,8 @@ return max_so_far
 ```
 
 **Code : **
-```C++
+
+```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -65,6 +65,6 @@ public:
 };
 ```
 
-
 ### Question:
+
 https://leetcode.com/problems/maximum-subarray/

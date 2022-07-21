@@ -6,9 +6,9 @@ There is no restriction on how your encode/decode algorithm should work. You jus
 
 Implement the `Solution` class:
 
--   `Solution()` Initializes the object of the system.
--   `String encode(String longUrl)` Returns a tiny URL for the given `longUrl`.
--   `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
+- `Solution()` Initializes the object of the system.
+- `String encode(String longUrl)` Returns a tiny URL for the given `longUrl`.
+- `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
 
 **Example 1:**
 
@@ -23,10 +23,11 @@ string ans = obj.decode(tiny); // returns the original url after deconding it.
 ### Approach (Using Hashing) :
 
 We will use map for hashing. Key will be shortUrl and value will be bigUrl.
-* **ShortUrl :** We will create URL using number. 
-	```  "http://tinyurl.com/" +(number)```
-	
-```C++
+
+- **ShortUrl :** We will create URL using number.
+  ` "http://tinyurl.com/" +(number)`
+
+```cpp
 class Solution {
 public:
     map<string,string> mp;
@@ -51,4 +52,5 @@ public:
 https://leetcode.com/problems/encode-and-decode-tinyurl/
 
 ### Reference:
+
 https://www.youtube.com/watch?v=fPh7VOdIPjA&ab_channel=TechAdorabyNivedita

@@ -1,6 +1,6 @@
-
 # Vertical order Traversal
-#important_for_interview 
+
+#important_for_interview
 
 We have given a binary tree and we have to find vertical order traversal.
 
@@ -13,18 +13,18 @@ Ex2 :-
 As you can see node{5} and node{6} are having same{level,vertical_distance}. 
 If {level,vertical_distance} are same then sort those nodes in ascending order.
 </pre>
+
 \
 **Nodes are maked as (level,vertical_distance from root)**
 
 > So if we move left from root then **left ->[root->vertical-1,root->level+1]**
 > So if we move right from root then **right ->[root->vertical+1,root->level+1]**
 
-
 ![[written_1.png]]
 
 ![[written_2.png]]
 
-```C++
+```cpp
 vector<vector<int>> verticalTraversal(Node* root)
 {
     vector<vector<int>> ans;
@@ -63,5 +63,5 @@ vector<vector<int>> verticalTraversal(Node* root)
 ```
 
 #### Question Link
-https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
+https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/

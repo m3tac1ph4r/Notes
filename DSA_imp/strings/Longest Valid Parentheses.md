@@ -31,7 +31,8 @@ In order to do so, we start by pushing -1−1 onto the stack. For every \text
 For every \text{‘)’}‘)’ encountered, we pop the topmost element. Then, the length of the currently encountered valid string of parentheses will be the difference between the current element's index and the top element of the stack.
 
 If, while popping the element, the stack becomes empty, we will push the current element's index onto the stack. In this way, we can continue to calculate the length of the valid substrings and return the length of the longest valid string at the end.
-```C++
+
+```cpp
     int longestValidParentheses(string s) {
         int max_len=0;
         stack<int> nums;
@@ -55,9 +56,8 @@ If, while popping the element, the stack becomes empty, we will push the current
 
 **Complexity Analysis**
 
--   Time complexity: O(n)O(n). nn is the length of the given string.
-    
--   Space complexity: O(n)O(n). The size of stack can go up to nn.
+- Time complexity: O(n)O(n). nn is the length of the given string.
+- Space complexity: O(n)O(n). The size of stack can go up to nn.
 
 ### Appproach 2(Without extra Space) :
 
@@ -65,7 +65,7 @@ In this approach, we make use of two counters leftleft and rightright. First,
 
 Next, we start traversing the string from right to left and similar procedure is applied.
 
-```C++
+```cpp
   int longestValidParentheses(string s) {
         int left=0,right=0;
         int max_len=0;
@@ -104,10 +104,8 @@ Next, we start traversing the string from right to left and similar procedure is
 
 **Complexity Analysis**
 
--   Time complexity: O(n)O(n). Two traversals of the string.
-    
--   Space complexity: O(1)O(1). Only two extra variables leftleft and rightright are needed.
-
+- Time complexity: O(n)O(n). Two traversals of the string.
+- Space complexity: O(1)O(1). Only two extra variables leftleft and rightright are needed.
 
 ### Question :
 

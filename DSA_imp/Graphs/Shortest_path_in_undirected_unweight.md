@@ -1,4 +1,5 @@
 # Shortest path in an unweighted graph in undirected graph(unit weight)
+
 #shortestPath_graph
 
 > **BFS Traversal** had a property that it can find the shortest path of undirected and unweight graph
@@ -15,19 +16,18 @@ In the below map of Ninjaland let say you want to go from S=1 to T=8, the shorte
 
 ![[shortest_path_undirect_ex.png]]
 
-
 ### Approach (Using BFS) :
 
 1. We will use queue for BFS traversal. Then create visited array and parent array. Parent array will store the parent of node.
 2. Then create an adjacency list
-3. Push source in the queue. Mark true in visited[source] and **parent[source] =  -1**
-4. Then  mark visited for all it's adjacent neighbours and mark their parent as node.
-5. Now you have to find parent of target  till the source
+3. Push source in the queue. Mark true in visited[source] and **parent[source] = -1**
+4. Then mark visited for all it's adjacent neighbours and mark their parent as node.
+5. Now you have to find parent of target till the source
 6. Reverse the path bcz it is from target to source
 
 ![[shortest_path_bfs_undirected_app.png]]
 
-```C++
+```cpp
 
 vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , int t){
     unordered_map<int,list<int>> adj;
@@ -35,15 +35,15 @@ vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , i
     {
         int u=edges[i].first;
         int v=edges[i].second;
-        
+
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
-    
+
     vector<bool> visited(n,false);
     unordered_map<int,int> parent;
     queue<int> q;
-    
+
             q.push(s);
             visited[s]=true;
             parent[s]=-1;
@@ -61,7 +61,7 @@ vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , i
                     }
                 }
             }
-    
+
             vector<int> ans;
             int curr=t;
             ans.push_back(t);
@@ -74,7 +74,6 @@ vector<int> shortestPath( vector<pair<int,int>> edges , int n , int m, int s , i
             return ans;
 }
 ```
-
 
 ### Question :
 

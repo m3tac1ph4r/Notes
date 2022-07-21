@@ -1,19 +1,19 @@
-
 # Morris Traversal (Inorder and Preorder) :-
-As we have done other traversal like levelorder, inorder, preorder, postorder traversal. In all these traversal **Time complexity was : O(n) and Space complexity was : O(n)** but in 
+
+As we have done other traversal like levelorder, inorder, preorder, postorder traversal. In all these traversal **Time complexity was : O(n) and Space complexity was : O(n)** but in
 Morris Traversal **Time complexity is : O(n) and Space complexity is : O(1)**
 So space complexity is the plus point in Morris Traversal.
 
 > In Morris Traversal we use **Threaded Binary Tree**.
-> And every node traverse **at most 3 times** . 
+> And every node traverse **at most 3 times** .
+>
 > 1. Link Creation
 > 2. Printing value
 > 3. Removing Link
 
 ### 1. Morris Inorder Traversal {LEFT,NODE,RIGHT}
+
 Firstly we will discuss inorder Traversal.
-
-
 
 ###### Algorithm for Morris Inorder Traversal :
 
@@ -44,7 +44,7 @@ This is the threaded binary tree.
 
 ###### Code :
 
-```C++
+```cpp
 vector<int> morrisInorderTraversal(Node *root)
 {
     vector<int> inorder;
@@ -85,11 +85,10 @@ vector<int> morrisInorderTraversal(Node *root)
 }
 ```
 
-
 ### 2. Morris Preorder Traversal {NODE,LEFT,RIGHT}
 
-
 ###### Algorithm for Morris Preorder Traversal :
+
 <pre>
 1. current=root
 2. while(current!=NULL)
@@ -110,7 +109,8 @@ vector<int> morrisInorderTraversal(Node *root)
 </pre>
 
 ###### Code :
-```C++
+
+```cpp
 vector<int> morrisPreorderTraversal(Node *root)
 {
     vector<int> preorder;
@@ -151,12 +151,8 @@ vector<int> morrisPreorderTraversal(Node *root)
 }
 ```
 
-
-
-
-
 ## Questions
 
 1. **Flatten Binary tree into linkedlist :-**
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1/#
+   https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+   https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1/#

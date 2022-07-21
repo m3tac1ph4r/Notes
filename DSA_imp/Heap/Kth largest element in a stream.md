@@ -4,11 +4,11 @@ Design a class to find the `kth` largest element in a stream. Note that it is th
 
 Implement `KthLargest` class:
 
--   `KthLargest(int k, int[] nums)` Initializes the object with the integer `k` and the stream of integers `nums`.
--   `int add(int val)` Appends the integer `val` to the stream and returns the element representing the `kth` largest element in the stream.
-
+- `KthLargest(int k, int[] nums)` Initializes the object with the integer `k` and the stream of integers `nums`.
+- `int add(int val)` Appends the integer `val` to the stream and returns the element representing the `kth` largest element in the stream.
 
 **Example 1:**
+
 <pre>
 Input
 ["KthLargest", "add", "add", "add", "add", "add"]
@@ -25,14 +25,12 @@ kthLargest.add(9);   // return 8
 kthLargest.add(4);   // return 8
 </pre>
 
-
-
 ### Approach
 
-We will use min heap using priority queue. 
+We will use min heap using priority queue.
 ![[kth_largest_element.png]]
 
-```C++
+```cpp
 class KthLargest {
 public:
     priority_queue<int,vector<int>,greater<int>> pq; //min heap
@@ -55,11 +53,10 @@ public:
 };
 ```
 
-
-
-
 ### Question
+
 https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 ### Reference
+
 https://youtu.be/0tFmP1Eiilg

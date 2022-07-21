@@ -1,26 +1,24 @@
 # KMP Algorithm
 
-
 In KMP algo we make pi_array which we will stores the suffix of the string
 
 For Example:
 Text="abcaba" and patt="abc"
 
-| a | b | c | #  | a  |b | c  | a  | b | a |
-|---|---|---|---|---|---|---|---|---|---|
-|  0 | 1  | 2  | 3  |4  | 5 | 6 | 7 |8  | 9 |
+| a   | b   | c   | #   | a   | b   | c   | a   | b   | a   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
 
 Now Pi array will be
 
-|  0 | 0  | 0  | 0  | 1  | 2  | 3  | 1  | 2  | 1  |
-|---|---|---|---|---|---|---|---|---|---|
-
+| 0   | 0   | 0   | 0   | 1   | 2   | 3   | 1   | 2   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 ![[kmp_algo.png]]
 
 ### Code
 
-```C++
+```cpp
 vector<int> prefix_function(string haystack)
 {
     int j;
@@ -35,7 +33,7 @@ vector<int> prefix_function(string haystack)
         pi[i]=j;
     }
     return pi;
-}    
+}
 int strStr(string haystack,string needle)
 {
     if (needle.length() == 0)
@@ -55,11 +53,11 @@ int strStr(string haystack,string needle)
 }
 ```
 
-* **needle ->pattern**
-* **haystack ->text**
-* 
-### Resources
+- **needle ->pattern**
+- **haystack ->text**
+-
 
+### Resources
 
 https://leetcode.com/problems/implement-strstr/
 https://cp-algorithms.com/string/prefix-function.html

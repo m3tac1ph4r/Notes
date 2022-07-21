@@ -20,14 +20,13 @@ Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which 
 
 **Constraints:**
 
--   `-100.0 < x < 100.0`
--   `-231 <= n <= 231-1`
--   `-104 <= xn <= 104`
-
+- `-100.0 < x < 100.0`
+- `-231 <= n <= 231-1`
+- `-104 <= xn <= 104`
 
 ![[pow_x_n_appraoch.png]]
 
-```C++
+```cpp
 double myPow(double x,int n)
 {
     double ans = 1.0;
@@ -51,7 +50,6 @@ double myPow(double x,int n)
         return ans;
 }
 ```
-
 
 ### Question :
 

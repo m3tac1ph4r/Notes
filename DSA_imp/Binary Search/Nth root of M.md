@@ -46,10 +46,10 @@ N'th root of the M should be correct up to 6 decimal places.
 2.882121
 ```
 
-
 ### Approach (Binary Search) :
 
 **How we thought to use Binary Search ?**
+
 <pre>
 Binary search can be implemented in any search space which is monotonic(strictly increasing or decreasing) in nature.
 
@@ -65,14 +65,13 @@ As you can see it is monotonic in nature
 
 > 1. Range will be [low,high]
 > 2. we will find the mid
-> 3. If mid^n > M then means answer will not be greater than mid so we will decrease our search space and we will update the high=mid  new search space will [low,mid]
-> 4. else we will update low=mid and increase our search space  [mid,high]
+> 3. If mid^n > M then means answer will not be greater than mid so we will decrease our search space and we will update the high=mid new search space will [low,mid]
+> 4. else we will update low=mid and increase our search space [mid,high]
 > 5. We will check that (high-low > 1e-7) to find upto answer upto 7 decimal places
-
 
 ![[nth_root_m_appraoch.png]]
 
-```C++
+```cpp
 double multiply(double number, int n)
 {
     double ans = 1.0;

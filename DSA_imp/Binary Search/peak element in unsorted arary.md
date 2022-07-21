@@ -1,4 +1,4 @@
-#  Peak element in unsorted array
+# Peak element in unsorted array
 
 A peak element is an element that is strictly greater than its neighbors.
 
@@ -7,7 +7,6 @@ Given an integer array `nums`, find a peak element, and return its index. If t
 You may imagine that `nums[-1] = nums[n] = -∞`.
 
 You must write an algorithm that runs in `O(log n)` time.
-
 
 **Example 1:**
 
@@ -21,15 +20,14 @@ You must write an algorithm that runs in `O(log n)` time.
 **Output:** 5
 **Explanation:** Your function can return either index number 1 where the peak element is 2, or index number 5 where the peak element is 6.
 
-
 ### Approach :
 
 1. As we have to find the element whose both adjacent neighbours are smaller than the arr[mid]
 2. Suppose you found an arr[mid] whose arr[mid-1] and arr[mid+1] are smaller than arr[mid] return mid
-3. If you found arr[mid-1] is greater than arr[mid] means if we choose arr[mid-1] than arr[mid] will be smaller. Then there is a more chance  of peak element and we have to find one more neighbour
-4. Else if you found arr[mid+1] is greater than arr[mid] mean if we choose arr[mid+1] then arr[mid] will be smaller.  Then there is a more chance of peak element and we have to find oen more neighbour
+3. If you found arr[mid-1] is greater than arr[mid] means if we choose arr[mid-1] than arr[mid] will be smaller. Then there is a more chance of peak element and we have to find one more neighbour
+4. Else if you found arr[mid+1] is greater than arr[mid] mean if we choose arr[mid+1] then arr[mid] will be smaller. Then there is a more chance of peak element and we have to find oen more neighbour
 
-```C++
+```cpp
 int findPeakElement(vector<int> nums)
 {
     int low=0,high=nums.size()-1;

@@ -8,7 +8,6 @@ Given a binary tree and a node called target. Find the minimum time required to
 **Example 2 :**
 ![[burning_tree_ex2.png]]
 
-
 ### Approach
 
 1. Map child nodes with their parent node
@@ -17,7 +16,7 @@ Given a binary tree and a node called target. Find the minimum time required to
 
 ![[burning_tree_approach.png]]
 
-```C++
+```cpp
 class Solution
 {
 public:
@@ -106,7 +105,9 @@ public:
 ```
 
 ### Question :
+
 https://practice.geeksforgeeks.org/problems/burning-tree/1
 
 ### Reference :
+
 https://youtu.be/XLdpy0_6MR4?list=PLDzeHZWIZsTo87y1ytEAqp7wYlEP3nner

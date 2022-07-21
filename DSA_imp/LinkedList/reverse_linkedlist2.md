@@ -1,7 +1,6 @@
 # Reverse Linkedlist 2
 
-Given the `head` of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position `left` to position `right`, and return _the reversed list_.
-
+Given the `head` of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position `left` to position `right`, and return *the reversed list*.
 
 **Example 1:**
 
@@ -15,16 +14,15 @@ Given the `head` of a singly linked list and two integers `left` and `right
 **Input:** head = [5], left = 1, right = 1
 **Output:** [5]
 
-
 ### Approach :
 
 1. Firstly find the left_node i.e start node for reverse. We will use prev pointer to store the previous node of start node to store the reverse node to it's previous.
 2. Then we will find the next to right node.
-3. Then reverse the `right-left+1` node 
+3. Then reverse the `right-left+1` node
 4. Then rejoin reversed linkedlist in the orginal linkedlist
 5. Then check if `left==1` return new_head means the previous head will be reversed. Else return head
 
-```C++
+```cpp
 ListNode *reverse(ListNode *head, int len)
 {
     ListNode *prev = NULL;

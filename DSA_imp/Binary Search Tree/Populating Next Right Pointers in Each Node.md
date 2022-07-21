@@ -28,20 +28,18 @@ Initially, all next pointers are set to `NULL`.
 **Input:** root = []
 **Output:** []
 
-
-
 ### Approach :
 
 In this question we will do levelorder traversal and next pointer will point to the next node.
 
 ![[approach_populating.png]]
 
-1. Connect **root->left->next**  with root->right. For example root is 1. root->left->next will be connected to 3
-2. Connect **root->right->next** with root->next->left if root->next is not *NULL* 
-	else root->right->next will be *NULL*
-	For example root is 2. Then root->right->next will be connected to *root->next i.e 3* and *3's left is 6*. Connect 5 with 6. 
-	
-```C++
+1. Connect **root->left->next** with root->right. For example root is 1. root->left->next will be connected to 3
+2. Connect **root->right->next** with root->next->left if root->next is not _NULL_
+   else root->right->next will be _NULL_
+   For example root is 2. Then root->right->next will be connected to _root->next i.e 3_ and _3's left is 6_. Connect 5 with 6.
+
+```cpp
 class Node {
 public:
     int val;

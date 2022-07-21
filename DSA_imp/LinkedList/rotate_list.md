@@ -1,6 +1,5 @@
 # Rotate List by K places to right
 
-
 Given the `head` of a linked list, rotate the list to the right by `k` places.
 
 **Example 1:**
@@ -16,15 +15,13 @@ Given the `head` of a linked list, rotate the list to the right by `k` plac
 **Input:** head = [0,1,2], k = 4
 **Output:** [2,0,1]
 
-
 ### Approach :
 
-1. Count the length of linkedlist. 
-2. Then check if the k is having the multiple of len then remove the multiple because they will give the same linkedlist. Suppose len=5 and k=12 then 10 rotations will give the same linkedlist as given but only 2 nodes will be shifted right.```k = k % count```
+1. Count the length of linkedlist.
+2. Then check if the k is having the multiple of len then remove the multiple because they will give the same linkedlist. Suppose len=5 and k=12 then 10 rotations will give the same linkedlist as given but only 2 nodes will be shifted right.`k = k % count`
 3. Then traverse {len-k} nodes and now our new_head will be next of {len-k} node. And then update the next of {len-k} node to NULL
 
-
-```C++
+```cpp
 ListNode *rotateRight(ListNode *head, int k)
 {
     ListNode *curr = head;
@@ -48,7 +45,6 @@ ListNode *rotateRight(ListNode *head, int k)
     return head;
 }
 ```
-
 
 ### Question :
 

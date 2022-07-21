@@ -1,6 +1,6 @@
 # PREDECESSOR AND SUCCESSOR IN BST
 
-There is BST given with root node with key part as an integer only. You need to find the in-order successor and predecessor of a given key. If either predecessor or successor is not found, then set it to *NULL*.
+There is BST given with root node with key part as an integer only. You need to find the in-order successor and predecessor of a given key. If either predecessor or successor is not found, then set it to _NULL_.
 
 **EXAMPLE 1:**
 
@@ -17,7 +17,7 @@ There is BST given with root node with key part as an integer only. You need to
 
 ### Approach (Iterative) :
 
-```C++
+```cpp
 void findPreSuc(Node *root, Node *&pre, Node *&suc, int key)
 {
     pre = NULL;
@@ -49,11 +49,12 @@ void findPreSuc(Node *root, Node *&pre, Node *&suc, int key)
     }
 ```
 
-> **Time Complexity : O(height of tree)**
-> **Space Complexity: O(1)**
+> **Time Complexity : O(height of tree)** > **Space Complexity: O(1)**
 
 ### Question :
+
 https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1#
 
 ### Reference:
+
 https://www.youtube.com/watch?v=SXKAD2svfmI&ab_channel=takeUforward

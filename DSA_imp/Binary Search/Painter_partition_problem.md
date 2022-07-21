@@ -1,6 +1,5 @@
 # Painter's Partition Problem
 
-
 Given an array/list of length ‘N’, where the array/list represents the boards and each element of the given array/list represents the length of each board. Some ‘K’ numbers of painters are available to paint these boards. Consider that each unit of a board takes 1 unit of time to paint.
 
 You are supposed to return the area of the minimum time to get this job done of painting all the ‘N’ boards under a constraint that any painter will only paint the continuous sections of boards.
@@ -62,13 +61,11 @@ In the second test case, we can divide the first 3 boards for one painter and th
 6
 ```
 
-
-
 ### Approach :
 
 **Same as Book allocation Problem**
 
-```C++
+```cpp
 bool isPossible(vector<int> boards, int k, int mid)
 {
     int paintersCount = 1, sum = 0;

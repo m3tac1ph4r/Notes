@@ -1,16 +1,15 @@
-
 # Zig Zag Traversal Level Order Traversal :-
 
 Given the `root` of a binary tree, return _the zigzag level order traversal of its nodes' values_. (i.e., from left to right, then right to left for the next level and alternate between).
 
 ![[zig zag example.png]]
 
-
 ![[zigzag_explain.png]]
 
 ### Approach :-
 
 We will solve this using level order traversal.
+
 <pre>
 1. Firstly we will intialize one variable <b>leftToRight=true</b> and queue for storing nodes.
 2. Then we will start a while loop with condition that q is not empty.
@@ -22,7 +21,7 @@ We will solve this using level order traversal.
 3. Then invert the value of leftToRight. Like if it is true then make it false and vice versa.
 </pre>
 
-```C++
+```cpp
 vector<vector<int>> zigzagLevelOrder(Node* root)
 {
     vector<vector<int>> ans;
@@ -53,10 +52,10 @@ vector<vector<int>> zigzagLevelOrder(Node* root)
 }
 ```
 
+### Question
 
-### Question 
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
 ### Reference
-https://www.youtube.com/watch?v=s1d8UGDCCN8&list=PLDzeHZWIZsTo87y1ytEAqp7wYlEP3nner&index=5
 
+https://www.youtube.com/watch?v=s1d8UGDCCN8&list=PLDzeHZWIZsTo87y1ytEAqp7wYlEP3nner&index=5

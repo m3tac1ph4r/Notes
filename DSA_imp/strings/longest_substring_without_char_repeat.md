@@ -21,14 +21,13 @@ Given a string `s`, find the length of the **longest substring** without repe
 **Explanation:** The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-
 ### Approach:
 
 ![[longest_substring_without_repeat_appraoch.png]]
 
 We will have two pointers left and right. Pointer ‘left’ is used for maintaining the starting point of substring while ‘right’ will maintain the endpoint of the substring.’ right’ pointer will move forward and check for the duplicate occurrence of the current element if found then ‘left’ pointer will be shifted ahead so as to delete the duplicate elements.
 
-```C++
+```cpp
 int lengthOfLongestSubstring(string s)
 {
     unordered_set<char> st;

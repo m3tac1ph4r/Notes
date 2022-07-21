@@ -6,8 +6,8 @@ Given a binary tree of size  **N**, a **node** and a positive integer **k*
 ![[kth_ancesstor_ex1.png]]
 
 **Input:**
-     K = 2
-     Node = 4
+K = 2
+Node = 4
 **Output:** 1
 **Explanation:**
 Since, K is 2 and node is 4, so we
@@ -19,27 +19,28 @@ Here in this Case node 4 has 1 as his
 **Example 2:**
 
 **Input:**
-k=1 
+k=1
 node=3
+
 ```
       1
     /   \
     2     3
 ```
+
 **Output:**
 1
 **Explanation:**
 K=1 and node=3 ,Kth ancestor of node 3 is 1.
 
-
-```C++
+```cpp
 Node* solve(Node* root,int &k,int node)
 {
     if(root==NULL)
         return NULL;
     if(root->data==node)
         return root;
-    
+
     Node* leftAns=solve(root->left,k,node);
     Node* rightAns=solve(root->right,k,node);
 
@@ -82,5 +83,6 @@ int kthAncesstor(Node* root,int k,int node)
 
 ![[kth_ancesstor_if_condition.png]]
 
-### Question 
+### Question
+
 https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#

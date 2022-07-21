@@ -27,11 +27,11 @@ Input 1:
 Output 1:
     113
 Explanation 1:
-    There are 2 number of students. Books can be distributed in following fashion : 
+    There are 2 number of students. Books can be distributed in following fashion :
         1) [12] and [34, 67, 90]
         Max number of pages is allocated to student 2 with 34 + 67 + 90 = 191 pages
         2) [12, 34] and [67, 90]
-        Max number of pages is allocated to student 2 with 67 + 90 = 157 pages 
+        Max number of pages is allocated to student 2 with 67 + 90 = 157 pages
         3) [12, 34, 67] and [90]
         Max number of pages is allocated to student 1 with 12 + 34 + 67 = 113 pages
 
@@ -46,13 +46,11 @@ Output 2:
 
 ![[book_allocation_ex2.png]]
 
-
-
 **Conditions :**
+
 1. A book will be allocated to one student i.e you cannot split the book
 2. Each student must get a minium of 1 book
 3. Allotment should be contigous order
-
 
 ### Approach
 
@@ -66,8 +64,7 @@ Output 2:
 			start=mid+1
 </pre>
 
-
-```C++
+```cpp
 bool isPossible(vector<int> &A,int mid,int B)
 {
     int student=1;
@@ -89,7 +86,7 @@ bool isPossible(vector<int> &A,int mid,int B)
             return false;
     }
     return true;
-}    
+}
 int books(vector<int> &A,int B)
 {
     if(B>A.size())
@@ -110,12 +107,12 @@ int books(vector<int> &A,int B)
             start=mid+1;
     }
     return ans;
-}  
+}
 ```
 
 ### Reference :
-https://drive.google.com/file/d/1d2eNEMdw5iuX7PflLfGykLgKF-SloUyr/view
 
+https://drive.google.com/file/d/1d2eNEMdw5iuX7PflLfGykLgKF-SloUyr/view
 
 ### Question :
 

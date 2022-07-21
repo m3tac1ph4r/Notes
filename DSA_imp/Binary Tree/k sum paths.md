@@ -5,13 +5,15 @@ A path may start from any node and end at any node in the downward direction.
 
 **Example 1:**
 
-**Input:** 
-Tree = 
+**Input:**
+Tree =
+
 ```
-          1                               
-        /   \                          
+          1
+        /   \
        2     3
 ```
+
 K = 3
 **Output:** 2
 **Explanation:**
@@ -20,37 +22,37 @@ Path 2 : only leaf node 3
 
 **Example 2:**
 
-**Input:** 
+**Input:**
 Tree =
+
 ```
            1
         /     \
       3        -1
     /   \     /   \
-   2     1   4     5                        
-        /   / \     \                    
-       1   1   2     6    
+   2     1   4     5
+        /   / \     \
+       1   1   2     6
 ```
-K = 5                    
+
+K = 5  
 **Output:** 8
 **Explanation:**
 The following paths sum to K.  
-3 2 
-3 1 1 
-1 3 1 
-4 1 
-1 -1 4 1 
--1 4 2 
-5 
+3 2
+3 1 1
+1 3 1
+4 1
+1 -1 4 1
+-1 4 2
+5
 1 -1 5
-
 
 ### Approach(recursion and backtracking)
 
 ![[k_sum_path_approach.png]]
 
-
-```C++
+```cpp
 void findCount(Node *root, int k, int &count, vector<int> ans)
 {
     if (root == NULL)
@@ -79,6 +81,6 @@ int sumK(Node *root, int k)
 }
 ```
 
-
 ### Question
+
 https://practice.geeksforgeeks.org/problems/k-sum-paths/1/#

@@ -1,4 +1,3 @@
-
 # Merge Sorted LinkedList
 
 For a given Singly Linked List of integers, sort the list using the 'Merge Sort' algorithm.
@@ -27,23 +26,20 @@ For a given Singly Linked List of integers, sort the list using the 'Merge Sort'
 4 5 6 7 8 9 10
 ```
 
-
 ### Approach(Using Merged Sort) :
 
-
 1. Find mid of linkedlist using fast-slow approach
-2. Then break the linkedlist in two halves i.e 
-	1. First linkedlist will be head to mid
-	2. Second linkedlist will be mid->next to NULL
+2. Then break the linkedlist in two halves i.e
+   1. First linkedlist will be head to mid
+   2. Second linkedlist will be mid->next to NULL
 3. Then merge the first and second linkedlist using **merge()** function.
-	1. Create the dummy linkedlist to store the answer. Then create a pointer node which will point to the ans
-	2. Check if data_of_left_linkedlist is smaller than data_of_rightlinkedlist. Store the data_of_leftlinkedlist to ans and move the pointer to left\
-	3. Else do same thing with the right_linkedlist
+   1. Create the dummy linkedlist to store the answer. Then create a pointer node which will point to the ans
+   2. Check if data_of_left_linkedlist is smaller than data_of_rightlinkedlist. Store the data_of_leftlinkedlist to ans and move the pointer to left\
+   3. Else do same thing with the right_linkedlist
 
 ![[merged_sortedz_linkelist_app.png]]
 
-
-```C++
+```cpp
 Node *findMiddle(Node *head)
 {
     Node *slow = head;

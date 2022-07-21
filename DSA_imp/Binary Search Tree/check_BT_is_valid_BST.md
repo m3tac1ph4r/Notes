@@ -1,20 +1,18 @@
 # check BT is valid BST or not :
 
-Given the `root` of a binary tree, _determine if it is a valid binary search tree (BST)_.
+Given the `root` of a binary tree, *determine if it is a valid binary search tree (BST)*.
 
 A **valid BST** is defined as follows:
 
--   The left subtree of a node contains only nodes with keys **less than** the node's key.
--   The right subtree of a node contains only nodes with keys **greater than** the node's key.
--   Both the left and right subtrees must also be binary search trees.
-
+- The left subtree of a node contains only nodes with keys **less than** the node's key.
+- The right subtree of a node contains only nodes with keys **greater than** the node's key.
+- Both the left and right subtrees must also be binary search trees.
 
 **EXAMPLE :**
 
 ![[check_valid_BST_ex1.png]]
 
 ![[check_valid_BST_ex2.png]]
-
 
 ### Appoach (Using RANGE) :
 
@@ -27,7 +25,7 @@ So this is the valid BST. All the elements lies between the range.
 > 1. **If we move LEFT :** then high value will be updated to node value
 > 2. **If we move RIGHT :** then low value will be updated to node value
 
-```C++
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -69,6 +67,6 @@ public:
 
 https://leetcode.com/problems/validate-binary-search-tree/
 
-### Reference: 
+### Reference:
 
 https://www.youtube.com/watch?v=f-sj7I5oXEI&ab_channel=takeUforward

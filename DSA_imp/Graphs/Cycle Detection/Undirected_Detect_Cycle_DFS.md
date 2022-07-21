@@ -3,18 +3,16 @@
 1. We will start a for loop from 1 to N vertex
 2. Then check if i is not visited then call DfsIsCyclic() for i node
 3. In DfsisCyclic()
-	1. Mark node as visited and find all adjacent neighbours
-	2. Then call recursive function DfsIsCyclic() for them
-	3. Now node **it_node** is visited and equal to parent of front_node mean front_node came from **it_node** node.
-	4. Else if **it_node** is visited and not equal to parent means another node visited **it_node**, means there is **cycle**
+   1. Mark node as visited and find all adjacent neighbours
+   2. Then call recursive function DfsIsCyclic() for them
+   3. Now node **it_node** is visited and equal to parent of front_node mean front_node came from **it_node** node.
+   4. Else if **it_node** is visited and not equal to parent means another node visited **it_node**, means there is **cycle**
 
 ### Approach (Recursion) ;
 
-
 ![[undirected_detect_cycle_DFS.png]]
 
-
-```C++
+```cpp
 bool DfsIsCyclic(int node, int parent, vector<bool> &visited, unordered_map<int, list<int>> &adj)
 {
     visited[node] = true;
@@ -61,7 +59,6 @@ string cycleDetection(vector<vector<int>> &edges, int n, int m)
 ### Question :
 
 https://www.codingninjas.com/codestudio/problems/1062670
-
 
 ### Reference :
 

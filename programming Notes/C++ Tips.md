@@ -1,18 +1,20 @@
-	# C++ TIPS
+    # C++ TIPS
 
 ## To intialize the array in C++
-```C++
+
+```cpp
 int num[5] = {1, 1, 1, 1, 1};
 ```
 
---------------------------------------------------------------------
+---
 
-## Use unordered set when you need to find the exist element 
+## Use unordered set when you need to find the exist element
 
-You can take help from **CSES  TWO_SET PROBLEM**
+You can take help from **CSES TWO_SET PROBLEM**
 
-* To find element in unordered set 
-```C++
+- To find element in unordered set
+
+```cpp
 unordered_set<int> arr1;
 if (arr1.find(i) != arr1.end())
 	cout<<"FOUND"<<endl;
@@ -22,8 +24,9 @@ else
 }
 ```
 
-* To print the unordered SET 
-```C++
+- To print the unordered SET
+
+```cpp
 unordered_set<int>::iterator itr;
 for (itr = arr1.begin(); itr != arr1.end(); itr++)
 	cout << (*itr) << " ";
@@ -31,41 +34,41 @@ for (itr = arr1.begin(); itr != arr1.end(); itr++)
 
 OR YOU CAN USE AUTO IN FOR LOOP
 
-```C++
-for(auto element : v) 
-{ 
-cout << element; //prints the values in the vector 
+```cpp
+for(auto element : v)
+{
+cout << element; //prints the values in the vector
 }
 ```
 
---------------------------------------------------------------------
-
+---
 
 ## To divide the number n in two set of equal sum
+
 Find the sum of n natural number and divide it by 2
-Check two_set problem in CSES 
+Check two_set problem in CSES
+
 ```
 sum=(n*(n+1))/4
 ```
 
 ## To find sum of n natural numbers:
+
 ```
 sum=(n*(n+1))/2
 ```
 
-
 ## To convert char to string
 
-```C++
+```cpp
 string s(1, x);
 ```
 
 where 1 means number of char and x is char
 
+## To get each charachter of string
 
-## To get each charachter of string 
-
-```C++
+```cpp
 string  s="Hello";
 for(char d : s)
 {
@@ -73,20 +76,17 @@ for(char d : s)
 }
 ```
 
---------------------------------------------------------------------
-
-
+---
 
 ## To print string vector
 
 To print string vector there is one method
 
-```C++
+```cpp
 vector<string> ans;
 for(string a : ans)
 	cout<<a<<endl;
 ```
-
 
 ## To print permutation
 
@@ -94,7 +94,7 @@ for(string a : ans)
 
 We can use STL for printing permutation.
 
-```C++
+```cpp
 string s="aabac";
 sort(s.begin(),s.end());
 do
@@ -105,56 +105,57 @@ cout << s << endl;
 
 You can take help from **CSES CREATING_STRINGS_PROBLEM**
 
---------------------------------------------------------------------
-
+---
 
 ## INT_MAX and INT_MIN
+
 If we want to find minimum value then we should intialize the variable with
 **INT_MAX** and if wr have to find maximum value then intialize with **INT_MIN**
 GFG:-
-	We usually assign a high value to MIN to compute minimum value in an array. But if an array has large elements, we must assign the highest possible value to the array.
+We usually assign a high value to MIN to compute minimum value in an array. But if an array has large elements, we must assign the highest possible value to the array.
 
-```C++
+```cpp
 int a=INT_MAX;
 int b=INT_MIN;
 ```
 
---------------------------------------------------------------------
+---
 
 ## To find $2^n$ :
-We can use 1<<n to find  $2^n$ 
 
-```C++
+We can use 1<<n to find $2^n$
+
+```cpp
   int n=3;
   for(int j=0;j<(1<<n);j++)
   {
     cout<<j<<endl;
   }
- ```
- 
---------------------------------------------------------------------
+```
 
+---
 
 ## Find binary of decimal
 
 ```c++
 std::string binary = std::bitset<n>(i).to_string();
 ```
-where n is no bit like 
+
+where n is no bit like
 if n=8
 then binary of 2 will be 00000010
 if n=3
 then binary of 2 will be 010
 
---------------------------------------------------------------------
-
-
+---
 
 ## Find subsequence or subset of array or n numbers
+
 We can use # BITMASK to find subset
 
 Like we have 3 numbers a,b,c
-So their subset will  be 
+So their subset will be
+
 > a
 > b
 > c
@@ -165,22 +166,23 @@ So their subset will  be
 
 We have total_combination=($2^n$ -1)
 
-i.e n=3 
+i.e n=3
 total_combination =8-1 => 7
 
---------------------------------------------------------------------
+---
 
 ## To find sum of array
+
 For this we can use stl function accumulate(arr,arr+n,sum)
-```C++
+
+```cpp
 n=3;
 int arr[n]={2,4,6};
 ll int total_sum=0;
 total_sum=accumulate(arr,arr+n,total_sum);
 ```
 
---------------------------------------------------------------------
-
+---
 
 ## USE VECTOR INSTEAD OF STRING
 
@@ -188,36 +190,38 @@ If you are getting time exceed using string use vector instead of that.
 
 See last two palindrome_reorder submission in cses
 
---------------------------------------------------------------------
+---
 
-## To print reverse Vector 
-```C++
+## To print reverse Vector
+
+```cpp
 for(int p=v.size()-1;p>=0;p--)
 cout<<v[p];
 ```
 
---------------------------------------------------------------------
-
+---
 
 ## TO SORT ARRAY
 
-```C++
+```cpp
 sort(arr, arr + N) // where N is size of array
 ```
 
---------------------------------------------------------------------
+---
 
 ## TO SORT ARRAY IN DESCENDING ORDER
-```C++
+
+```cpp
 sort(arr, arr + N,greater<int>());
 ```
 
---------------------------------------------------------------------
+---
 
-## Use else if instead more than if 
+## Use else if instead more than if
 
-Don't use if  like this
-```C++
+Don't use if like this
+
+```cpp
 if(cond.)
 	statement1;
 if(cond.)
@@ -228,7 +232,7 @@ if(cond.)
 
 Use else if
 
-```C++
+```cpp
 if(cond.)
 	statement1;
 else if(cond.)
@@ -237,9 +241,7 @@ else if(cond.)
 	statement3;
 ```
 
-
-
---------------------------------------------------------------------
+---
 
 ## Use one for loop instead of two
 
@@ -253,8 +255,9 @@ Then we will make subarray of size of 4 like this
 Minimum and Maximum in subarray 1 =(1,7)
 Minimum and Maximum in subarray 2=(9,56)
 
-If we do this in two for loop then code will be 
-```C++
+If we do this in two for loop then code will be
+
+```cpp
 for(int i=0;i<n;i++)
 {
 	int max=A[i];
@@ -273,7 +276,7 @@ cout<<"("<<min<<","<<max<<")"<<endl;
 So we can do this in one for loop like this:
 But we have to sort the array before this for loop.
 
-```C++
+```cpp
 m=4;
 for(int i=0;i+m-1<n;i++)
 {
@@ -282,70 +285,72 @@ for(int i=0;i+m-1<n;i++)
 	cout<<"("<<min<<","<<")"<<endl;
 }
 ```
+
 So we can reduce two for loop into one.
 
---------------------------------------------------------------------
+---
 
 ## TERNARY OPERATOR
+
 **Syntax: **
+
 > variable = (condition) ? expressionTrue: expressionFalse;
 
 **Example :**
-```C++
-int time = 20;  
-if (time < 18) {  
- cout << "Good day.";  
-} else {  
- cout << "Good evening.";  
+
+```cpp
+int time = 20;
+if (time < 18) {
+ cout << "Good day.";
+} else {
+ cout << "Good evening.";
 }
 ```
 
 You can simply write this to ternary operator.
 
-```C++
-int time = 20;  
-string result = (time < 18) ? "Good day." : "Good evening.";  
+```cpp
+int time = 20;
+string result = (time < 18) ? "Good day." : "Good evening.";
 cout << result;
 ```
 
---------------------------------------------------------------------
+---
 
 ## To delete specific character from string
 
-```C++
+```cpp
 string tmp="mkd";
 tmp.erase(remove(tmp.begin(), tmp.end(), 'd'), tmp.end());
 cout<<tmp<<endl; //output --> mk
 ```
 
-
-
---------------------------------------------------------------------
+---
 
 ## To input string with spaces
 
-```C++
+```cpp
 string s;
 getline(cin,s);
 ```
 
-
 ## To remove all the spaces in string
 
-```C++
+```cpp
 string s;
 getline(cin,s);
 s.erase(remove(s.begin(), s.end(), ' '), s.end());
 ```
 
 ## To find prime numbers optimally and faster
+
 Use [Seive of Eratosthenes algorithm](https://www.youtube.com/watch?v=nDPo9hsDNvU)
 
-
-
 ## How to sort map by values
+
 We will use vector pair to sort map
-```C++
+
+```cpp
 bool comp(pair<string,int>& a,pair<string,int>& b)
 {
  return a.second>b.second;
@@ -363,5 +368,3 @@ unordered_map<string, int> m;
  sort(A.begin(), A.end(), comp);
 }
 ```
-
-

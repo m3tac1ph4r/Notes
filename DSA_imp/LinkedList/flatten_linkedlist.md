@@ -7,6 +7,7 @@ Each of the sub-linked-list is in sorted order.
 Flatten the Link List such that all the nodes appear in a single level while maintaining the sorted order.
 
 **Input:**
+
 <pre>
 5 -> 10 -> 19 -> 28
 |     |     |     | 
@@ -16,14 +17,16 @@ Flatten the Link List such that all the nodes appear in a single level while mai
 |                 | 
 30               45
 </pre>
+
 **Output:**  5-> 7-> 8- > 10 -> 19-> 20->22-> 28-> 30-> 35-> 40-> 45-> 50.
 **Explanation**:
-The resultant linked lists has every 
+The resultant linked lists has every
 node in a single level.
 (**Note:** | represents the bottom pointer.)
 
 **Example 2:**
 **Input:**
+
 <pre>
 5 -> 10 -> 19 -> 28
 |          |                
@@ -41,7 +44,7 @@ The resultant linked lists has every node in a single level.
 
 ### Approach :
 
-```C++
+```cpp
 ListNode *mergeList(ListNode *a, ListNode *b)
 {
     if (a == NULL)
@@ -86,6 +89,7 @@ ListNode *flatten(ListNode *root)
 ```
 
 ### Question :
+
 https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
 
 ### Reference :

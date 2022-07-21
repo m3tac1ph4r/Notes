@@ -1,0 +1,222 @@
+# Pillars of OOPS Concept - Inheritance, Polymorphism, Encapsulation and Abstraction
+
+## Encapsulation :
+Wrapping up of data members and functions into an single entity. Another way to think about encapsulation is, that it is a protective shield that prevents the data from being accessed by the code outside this shield. 
+
+* What is fully Encapsulated Class ?
+	1. All data members are private in this class.
+
+>**Why Encapsulation ? / Advantages** 
+>1. We can hide data using encapsulation. 
+>2. If we want we can make class read only using getter. We will not create setter in the class.
+>3. Code Reusability
+
+
+## Inheritance :
+Inheritance is the process of inheriting the properties and behavior of an existing class into a new class. When we inherit the class, we can reuse the existing class’s methods and fields into a new class. Inheritance can also be defined as the Is-A relationship, which is also known as the parent-child relationship.
+
+Important terminology of inheritance 
+- **Sub Class:** The class that inherits properties from another class is called Subclass or Derived Class.  
+- **Super Class:** The class whose properties are inherited by subclass is called Base Class or Superclass.
+
+#### Mode of Inheritance :
+When you write **class derive:mode base** instead of mode you have to use publc,protected,private
+Syntax :
+*class child_class: access_modifier parent_class*
+
+1. **Public mode :** If we derive a subclass from a public base class. Then, the base class’s public members will become public in the derived class, and protected class members will become protected in the derived class.
+    Means if the mode of inheritance is **public**
+
+| Base Class Access Specifier | Child Class Access Specifier when mode of inheritance is public |
+|-----------------------------|-----------------------------------------------------------------|
+| public                      | public                                                          |
+| protected                   | protected                                                       |
+| private                     | Not Accessible                                                  |
+    
+
+2. **Protected mode :** If we derive a subclass from a Protected base class. Then both public members and protected members of the base class will become protected in the derived class.
+
+| Base Class Access Specifier | Child Class Access Specifier when mode of inheritance is protected |
+| --------------------------- | --------------------------------------------------------------- |
+| public                      | protected                                                          |
+| protected                   | protected                                                       |
+| private                     | Not Accessible                                                  |
+
+4. **Private mode :** If we derive a subclass from a Private base class. Then both public members and protected members of the base class will become Private in the derived class.
+
+| Base Class Access Specifier | Child Class Access Specifier when mode of inheritance is private |
+|-----------------------------|-----------------------------------------------------------------|
+| public                      | Not Accessible                                                          |
+| protected                   | Not Accessible                                                       |
+| private                     | Not Accessible                                                  |
+
+![[inheritance_mode.png]]
+
+
+#### Types of inheritance :
+1. Single inheritance
+2. Multi-level inheritance
+3. Multiple inheritance
+4. Hierarchical inheritance 
+5. Hybrid inheritance
+
+1. **Single inheritance :** In single inheritance, one class can extend the functionality of another class. In single inheritance, there is only one parent class and one child class.
+2. **Multi-level inheritance :** When a class inherits from a derived class, and the derived class becomes the base class of the new class, it is called multilevel inheritance. In multilevel inheritance, there is more than one level.
+	![[multilevel_inheritance.png]]
+
+3. **Multiple inheritance :** In multiple inheritance, a class can inherit more than one class. This means that in this type of inheritance, *a single child class can have multiple parent classes*.
+
+	![[multiple_inheritance.png]]
+
+```cpp
+
+class parent_class1 {
+
+	//Body of parent class1
+};
+class parent_class2 {
+
+	//Body of parent class2
+};
+class child_class: access_modifier parent_class1, access_modifier
+parent_class2 {
+	//Body of child class
+};
+```
+
+4. **Hierarchical inheritance :** In hierarchical inheritance, one class serves as a base class for more than one derived class. Means in this type of inheritance *one parent class will have more than one child.*
+
+![[hierarchical inheritance.png]]
+
+
+```cpp
+
+class parent_class {
+	//Body of parent class
+};
+class child_class1: access_modifier parent_class {
+	//Body of child class1
+};
+class child_class2: access_modifier parent_class {
+	//Body of child class2
+};
+```
+
+5. **Hybrid inheritance :** Hybrid inheritance is a combination of more than one type of inheritance. For example, A child and parent class relationship that follows multiple and hierarchical inheritances can be called hybrid inheritance.
+
+![[hybrid_inheritance.png]]
+
+```cpp
+
+#include <iostream>
+using namespace std;
+// Parent class1
+class Vehicle {
+	public:
+	Vehicle() {
+		cout << "This is a Vehicle" << endl;
+	}
+	};
+	//Parent class2
+	class Fare {
+	public:
+	Fare() {
+		cout << "Fare of Vehicle\n";
+	}
+};
+//Child class1
+class Car: public Vehicle {
+
+};
+//Child class2
+class Bus: public Vehicle, public Fare {
+
+};
+// main function
+int main() {
+	// creating object of sub class will
+	// invoke the constructor of base class
+	Bus obj2;
+	return 0;
+}
+
+```
+
+**Output:** 
+This is a Vehicle 
+Fare of Vehicle
+
+#### Inherit Ambiguity :
+There may be a possibility that a class may inherit member functions with the same name from two or more base classes, and the derived class may not have functions with the same name as those of its base classes. If the derived class object needs to access one of the same-named member functions of the base classes, it results in ambiguity as it is not clear to the compiler which base’s class member function should be invoked.
+
+```cpp
+
+#include<iostream>
+using namespace std;
+
+class A {
+    public:
+        void abc() {
+            cout << "Class A";
+        }
+};
+
+class B {
+    public:
+        void abc() {
+            cout << "Class B";
+        }
+};
+
+class C: public A, public B {
+    public:
+};
+
+
+//Main Code
+int main() {
+    C obj;
+    obj.abc();
+}
+```
+
+**Output:**
+error: request for member ‘abc’ is ambiguous
+
+>**Avoid ambiguity using scope resolution operator**
+The ambiguity can be resolved by using the **scope resolution operator** by specifying the class in which the member function lies as given below:
+>```cpp
+>object.class_name::method_name();
+>```
+
+```cpp
+#include<iostream>
+using namespace std;
+
+class A {
+    public:
+        void abc() {
+            cout << "Class A";
+        }
+};
+
+class B {
+    public:
+        void abc() {
+            cout << "Class B";
+        }
+};
+
+class C: public A, public B {
+    public:
+};
+
+//Main Code
+int main() {
+    C obj;
+    obj.A :: abc();
+}
+```
+
+**Output:**
+Class A
