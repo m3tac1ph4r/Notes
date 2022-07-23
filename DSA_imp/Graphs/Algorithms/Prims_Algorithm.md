@@ -14,7 +14,8 @@ Minimum Spanning Tree means _spanning tree which will be having minimum number o
 > **Importance of Prim's Algorithm ?**
 > We will be using Prims algoritm to find the minimum spanning tree of a given graph.
 
-> **Why does Prims Algo doesn't works for DIRECTED GRAPH ?** > https://www.geeksforgeeks.org/why-prims-and-kruskals-mst-algorithm-fails-for-directed-graph/
+> **Why does Prims Algo doesn't works for DIRECTED GRAPH ?** >
+>  https://www.geeksforgeeks.org/why-prims-and-kruskals-mst-algorithm-fails-for-directed-graph/
 
 ### Approach (Bruteforce) :
 

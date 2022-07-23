@@ -220,3 +220,73 @@ int main() {
 
 **Output:**
 Class A
+
+
+## Polymorphism :
+Polymorphism is a concept that allows you to perform a single action in different ways. Polymorphism is the combination of two Greek words. The poly means **many**, and morphs means **forms**. So polymorphism means **many forms**. Let’s understand polymorphism with a real-life example.
+**Real-life example:**  A person at the same time can have different characteristics. Like a man at the same time is a father, a husband, and an employee. So the same person possesses different behavior in different situations. This is called polymorphism.
+
+##### **Types of polymorphism**
+
+There are two types of polymorphism in C++.
+-   Compile-time polymorphism
+-   Runtime polymorphism
+
+1. **Compile Time Polymorphism :**
+Compile time polymorphism is also known as static polymorphism. This type of polymorphism can be achieved through function overloading or operator overloading.
+
+- **Function overloading :**
+When there are multiple functions in a class with the same name but different parameters, these functions are overloaded. The main advantage of function overloading is it increases the readability of the program. 
+Functions can be overloaded by using 
+<pre>
+	1. different numbers of arguments
+	2. by using different types of arguments.
+</pre>
+
+* Different number of arguments :
+```cpp
+#include <iostream>
+using namespace std;
+// Function with two parameters
+int add(int num1, int num2) {
+return num1 + num2;
+}
+// Function with three parameters
+int add(int num1, int num2, int num3) {
+return num1 + num2 + num3;
+}
+int main() {
+cout << add(10, 20) << endl;
+cout << add(10, 20, 30);
+1
+return 0;
+}
+```
+
+**Output:** 
+30 60
+
+- Different types of arguments :
+```cpp
+
+#include <iostream>
+using namespace std;
+// Function with two integer parameters
+int add(int num1, int num2) 
+{
+	return num1 + num2;
+}
+// Function with two double parameters
+double add(double num1, double num2) 
+{
+	return num1 + num2;
+}
+int main(void) 
+{
+	cout << add(10, 20) << endl;
+	cout << add(10.4, 20.5);
+	return 0;
+}
+```
+
+

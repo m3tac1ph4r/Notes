@@ -14,7 +14,7 @@ Given a Directed Acyclic Graph (DAG) with V vertices and E edges, Find any Topol
 
 Essentially, Kahn’s algorithm works by keeping track of the number of incoming edges into each node (indegree)
 
-1. FInd the indegrees for all vertex.
+1. Find the indegrees for all vertex.
 2. Then insert all the node which are having indegree 0.
 3. Store the front node of queue in the variable name front and insert into the ans array.
 4. Then find neighbour of queue[front] and decrease the indegree of neighbours. If indegree of neighour is 0 then insert into the queue else move on
@@ -60,7 +60,7 @@ vector<int> topoSort(int V, vector<int> adj[])
 > **How we will check whether there is a cycle or not ?**
 > In the last we will get the array. _If number of elements in the array are equal to the number of vertex_ then **no cycle** present. If it is less than or greater than the vertex then it means cycle is present.
 
-> **Time Complexity :** O(N+E)
+> **Time Complexity :** O(V+E)
 > **Space Complexity :** O(v)
 
 **Question 1: What are the applications of Kahn’s Algorithm?**

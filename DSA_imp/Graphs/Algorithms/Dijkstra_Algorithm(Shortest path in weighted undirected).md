@@ -7,7 +7,7 @@
 > **What does Dijkstra Algorithm finds ?**
 > Dijkstra Algorithm finds shortest path in directed and undirected graph having weights
 
-### Approach :
+### Approach (Using Set):
 
 ![[dijkstra_approach.png]]
 

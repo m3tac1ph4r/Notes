@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "89dcf59fe5b48653",
+        "id": "818a5e1af02aa32f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OOPS/OOPS_2.md",
-            "mode": "preview",
+            "file": "DSA_imp/Graphs/DFS/course_schedule_II_topoSortDFS.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -43,7 +43,7 @@
                 "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOPS/OOPS_2.md",
+                "file": "DSA_imp/Graphs/DFS/course_schedule_II_topoSortDFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "89dcf59fe5b48653",
+  "active": "818a5e1af02aa32f",
   "lastOpenFiles": [
-    "DSA_imp/Binary Search/Aggresive Cows.md",
-    "OOPS/OOPS_2.md",
-    "OOPS/img/hybrid_inheritance.png",
-    "OOPS/img/hierarchical inheritance.png",
-    "OOPS/img/multiple_inheritance.png",
-    "OOPS/OOPS.md",
-    "OOPS/img/multilevel_inheritance.png",
-    "OOPS/img/inheritance_mode.png",
-    "programming Notes/C++ Tips.md",
-    "programming Notes/condition_help.md"
+    "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_DFS.md",
+    "DSA_imp/Graphs/Topological_sort_DFS.md",
+    "DSA_imp/Graphs/BFS/Time Needed to Inform All Employees.md",
+    "DSA_imp/Graphs/BFS/Drawing 2022-07-23 14.51.54.excalidraw.md",
+    "DSA_imp/Graphs/BFS/img/time_needed_to_inform_all_employees_app.png",
+    "DSA_imp/Graphs/BFS/Word Ladder (hard).md",
+    "DSA_imp/Graphs/BFS/img/time_needed_to_inform_all_employees_ex1.png",
+    "DSA_imp/Graphs/DFS/Number of Closed Islands.md",
+    "DSA_imp/Graphs/DFS/Shortest Bridge.md",
+    "DSA_imp/Graphs/DFS/img/number of closed island ex2.png"
   ]
 }

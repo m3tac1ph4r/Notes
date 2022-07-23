@@ -16,7 +16,7 @@ Any MST algorithm revolves around determining whether adding an edge would resul
 
 The strategy to implement the Kruskal algorithm using Union-Find is given below:
 
-- Construct a structure to keep track of the source and destination nodes, as well as their weight.
+- Construct a linear structure to keep track of the source and destination nodes, as well as their weight.
 - Sort all the edges of a graph according to their edge-weight values. (in ascending order)
 - Create two distinct vectors to maintain parent of node and corresponding ranks for every node.
 - Primarily, initialize all rank values to 0 and parent values to i (representing each node as its own parent itself).
