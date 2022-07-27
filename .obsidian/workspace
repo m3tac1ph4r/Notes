@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "6a2e8cf08aad1415",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2a3d1f33a20f339",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/Recursion/Subset II.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ba0b692e8c52793",
+    "type": "split",
+    "children": [
+      {
+        "id": "98cfe1e82d09d039",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bce0f4aaf0e99c8b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2919315416be4f56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tle",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf92bbfdd077108f",
+    "type": "split",
+    "children": [
+      {
+        "id": "105d24544836fd15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d770f54c33cfad0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DSA_imp/Recursion/Subset II.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e2a3d1f33a20f339",
+  "lastOpenFiles": [
+    "DSA_imp/Recursion/img/subset_2_app.png",
+    "DSA_imp/Recursion/Subset II.md",
+    "DSA_imp/Recursion/Drawing 2022-07-27 22.51.48.excalidraw.md",
+    "Operating System/2. Types of operating system.md",
+    "Operating System/1. Introduction to Operating System.md",
+    "DSA_imp/strings/remove k digits.md",
+    "DSA_imp/strings/Longest Valid Parentheses.md",
+    "DSA_imp/Graphs/BFS TRAVERSAL.md",
+    "DSA_imp/Greedy/min_deletion_to_make_char_frq_unique.md",
+    "DSA_imp/Greedy/img/unique_frq_why.png"
+  ]
+}
