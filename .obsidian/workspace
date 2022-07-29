@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e2a3d1f33a20f339",
+        "id": "8c43d3f3a13311e4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Recursion/Subset II.md",
-            "mode": "source",
+            "file": "DSA_imp/Recursion And Backtracking/N Queen Problem.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Recursion/Subset II.md",
+                "file": "DSA_imp/Recursion And Backtracking/N Queen Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2a3d1f33a20f339",
+  "active": "8c43d3f3a13311e4",
   "lastOpenFiles": [
-    "DSA_imp/Recursion/img/subset_2_app.png",
-    "DSA_imp/Recursion/Subset II.md",
-    "DSA_imp/Recursion/Drawing 2022-07-27 22.51.48.excalidraw.md",
-    "Operating System/2. Types of operating system.md",
-    "Operating System/1. Introduction to Operating System.md",
-    "DSA_imp/strings/remove k digits.md",
-    "DSA_imp/strings/Longest Valid Parentheses.md",
-    "DSA_imp/Graphs/BFS TRAVERSAL.md",
-    "DSA_imp/Greedy/min_deletion_to_make_char_frq_unique.md",
-    "DSA_imp/Greedy/img/unique_frq_why.png"
+    "DSA_imp/Recursion And Backtracking/img/nqueen_app2.png",
+    "DSA_imp/Recursion And Backtracking/img/nqueen_app1.png",
+    "GIT_NOTES.md",
+    "DSA_imp/Recursion And Backtracking/N Queen Problem.md",
+    "DSA_imp/Recursion And Backtracking/img/nqueen_optimization_upper.png",
+    "DSA_imp/Recursion And Backtracking/img/nqueen_optimization_lower.png",
+    "DSA_imp/Recursion And Backtracking/img/nqueen_optimization_row.png",
+    "DSA_imp/Recursion And Backtracking/Palindrome Partitioning.md",
+    "DSA_imp/Recursion And Backtracking/Permutations_String_Array.md",
+    "DSA_imp/Recursion And Backtracking/img/palindrome_partitioning_ex2.png"
   ]
 }
