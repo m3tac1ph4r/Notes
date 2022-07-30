@@ -77,6 +77,9 @@ int frogJump(int n, vector<int> &heights)
 }
 ```
 
+>**Time Complexity :** O(N)
+>**Space Complexity :** O(N) + O(N) {Recursion + DP ARRAY}
+
 ### Approach 2 (Tabulation) :
 
 ```cpp
@@ -96,6 +99,10 @@ int frogJump(int n, vector<int> &heights)
 }
 ```
 
+>**Time Complexity :** O(N)
+>**Space Complexity :** O(N) {DP ARRAY}
+
+
 ### Space Optimization :
 ```cpp
 int frogJump(int n, vector<int> &heights)
@@ -114,6 +121,9 @@ int frogJump(int n, vector<int> &heights)
     return prev2;
 }
 ```
+
+>**Time Complexity :** O(N)
+>**Space Complexity :** O(1)
 
 ### Question :
 https://www.codingninjas.com/codestudio/problems/frog-jump_3621012
