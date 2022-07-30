@@ -29,6 +29,11 @@
 ### If given a linked list then
 - Two pointers
 
+### If you are asked to try all possible ways
+* Recursion
+* DP
+
+
 ### If recursion is banned then
 - Stack
 
