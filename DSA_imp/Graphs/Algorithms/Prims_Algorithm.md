@@ -16,6 +16,8 @@ Minimum Spanning Tree means _spanning tree which will be having minimum number o
 
 > **Why does Prims Algo doesn't works for DIRECTED GRAPH ?** >
 >  https://www.geeksforgeeks.org/why-prims-and-kruskals-mst-algorithm-fails-for-directed-graph/
+>  >Prim’s algorithm assumes that all vertices are connected. But in a directed graph, every node is not reachable from every other node. So, Prim’s algorithm fails due to this reason.
+>  >![[prims_why.png]]
 
 ### Approach (Bruteforce) :
 
@@ -102,7 +104,7 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
 
 **We will create a min-heap priority queue that arranges elements in ascending order. It's syntax is**
 
-```
+```cpp
 	priority_queue<type, vector<type>, greater<type>> pq;
   	priority_queue<int, vector<int>, greater<int>> pq_integers;
 ```

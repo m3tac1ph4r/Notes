@@ -68,10 +68,11 @@ vector<int> dijkstra(vector<vector<int>> &vec, int vertices, int edges, int sour
 > **Space Complexity :** O(N+E)
 
 ### Approach 2 : (Using min-heap Priority Queue)
+**Some times you might get TLE in Approach 1**
 
 **We will create a min-heap priority queue that arranges elements in ascending order. It's syntax is**
 
-```
+```cpp
 	priority_queue<type, vector<type>, greater<type>> pq;
   	priority_queue<int, vector<int>, greater<int>> pq_integers;
 ```
@@ -122,7 +123,7 @@ vector<int> dijkstra(vector<vector<int>> &vec, int vertices, int edges, int sour
 }
 ```
 
-**Some times youu might get TLE in Approach 1**
+
 
 > **Time Complexity :** O((N+E)\* logN). Going through N nodes and E edges and log N for priority queue
 > **Space Complexity :** O(N). Distance array and priority queue

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "876621eb33c0dbd2",
+        "id": "0eb8bb0e9a5641da",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Dynamic Programming/frog jump.md",
+            "file": "DSA_imp/Dynamic Programming/Unique Paths 2.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Dynamic Programming/frog jump.md",
+                "file": "DSA_imp/Dynamic Programming/Unique Paths 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "876621eb33c0dbd2",
+  "active": "0eb8bb0e9a5641da",
   "lastOpenFiles": [
-    "DSA_imp/Dynamic Programming/TRICKS IN DP.md",
+    "DSA_imp/Dynamic Programming/Unique Paths.md",
+    "DSA_imp/Dynamic Programming/Unique Paths 2.md",
+    "DSA_imp/Dynamic Programming/img/unique_path_2_ex2.png",
+    "DSA_imp/Dynamic Programming/img/unique_path_2_ex.png",
+    "DSA_imp/Graphs/Algorithms/Bellman_Ford_Algo(Shortest_Path_directed_negative_weight).md",
+    "DSA_imp/Dynamic Programming/maximum sum of non adjacent elements.md",
+    "DSA_imp/Dynamic Programming/House Robber 2.md",
     "DSA_imp/Dynamic Programming/frog jump.md",
-    "DSA_imp/Dynamic Programming/DP Introduction.md",
-    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md",
-    "DSA_imp/Dynamic Programming/Drawing 2022-07-29 20.54.05.excalidraw.md",
-    "DSA_imp/Dynamic Programming/img/minimum_cost_climbing_recursion.png",
     "DSA_imp/Dynamic Programming/climbing stairs.md",
-    "DSA_imp/DSA_TIPS_FROM_SEANPRASHAD.md",
-    "DSA_imp/Dynamic Programming/img/fibo_space_optimize.png",
-    "DSA_imp/Dynamic Programming/img/fibo_memo3.png"
+    "DSA_imp/Dynamic Programming/img/unique paths ex1.png"
   ]
 }
