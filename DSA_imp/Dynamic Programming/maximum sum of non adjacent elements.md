@@ -1,4 +1,6 @@
 # Maximum sum of non adjacent elements
+#dp_on_grids 
+
 
 ![[DSA_imp/Dynamic Programming/img/max_sum_non_adjacent_1.png]]
 

@@ -1,4 +1,4 @@
-# Bellman Ford Algorithm (Shortest Path in graphs having negative cycle)
+# Bellman Ford Algorithm (Shortest Path in graphs having negative weights)
 
 #algorithm #graphAlgo #shortestPath_graph
 

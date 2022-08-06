@@ -5,7 +5,7 @@
 **This algorithm does not works for negative weights.**
 
 > **What does Dijkstra Algorithm finds ?**
-> Dijkstra Algorithm finds shortest path in directed and undirected graph having weights
+> Dijkstra Algorithm finds shortest path in directed and undirected graph having positive weights
 
 ### Approach (Using Set):
 
@@ -68,7 +68,7 @@ vector<int> dijkstra(vector<vector<int>> &vec, int vertices, int edges, int sour
 > **Space Complexity :** O(N+E)
 
 ### Approach 2 : (Using min-heap Priority Queue)
-**Some times you might get TLE in Approach 1**
+**Some times you might get TLE in Approach1**
 
 **We will create a min-heap priority queue that arranges elements in ascending order. It's syntax is**
 

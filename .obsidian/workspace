@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1d37e9dab4210a16",
+        "id": "ba9b0257610f071a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/Dynamic Programming/Check subset sum equal to k.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/Dynamic Programming/Check subset sum equal to k.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bce0f4aaf0e99c8b",
+  "active": "ba9b0257610f071a",
   "lastOpenFiles": [
-    "DSA_imp/Dynamic Programming/Triangle Minimum Path Sum.md",
-    "DSA_imp/Dynamic Programming/img/triangle minimum path_space_app.png",
-    "DSA_imp/Dynamic Programming/Drawing 2022-08-05 01.16.44.excalidraw.md",
+    "DSA_imp/Recursion And Backtracking/Subset II.md",
     "DSA_imp/Dynamic Programming/Unique Paths 2.md",
     "DSA_imp/Dynamic Programming/Unique Paths.md",
+    "DSA_imp/Dynamic Programming/Triangle Minimum Path Sum.md",
+    "DSA_imp/Dynamic Programming/Ninjas Training 2D DP.md",
+    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md",
     "DSA_imp/Dynamic Programming/Minimum Path Sum.md",
-    "DSA_imp/Dynamic Programming/img/minimum path sum_ex1.png",
-    "DSA_imp/Dynamic Programming/maximum sum of non adjacent elements.md",
     "DSA_imp/Dynamic Programming/Minimum number of coins.md",
-    "DSA_imp/Dynamic Programming/img/unique_path_2_ex2.png"
+    "DSA_imp/Dynamic Programming/maximum sum of non adjacent elements.md",
+    "DSA_imp/Dynamic Programming/Maximum Path Sum in Matrix.md"
   ]
 }
