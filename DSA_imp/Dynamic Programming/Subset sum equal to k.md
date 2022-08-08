@@ -1,0 +1,124 @@
+# Check Subset Sum Equal to target
+#dp_on_sequences
+
+
+### Approach 1 (Recursion) :
+```cpp
+bool solve(int index,int target,vector<int> &arr)
+{
+    if(target==0)
+        return true;
+    else if(index==0)
+        return (target==arr[0]);
+    
+    bool pick=false,non_pick;
+    if(target>=arr[index])
+        pick=solve(index-1,target-arr[index],arr);
+    non_pick=solve(index-1,target,arr);
+    return (pick || non_pick);
+}
+bool subsetSumToK(int n, int k, vector<int> &arr) {
+    // Write your code here.
+    bool ans=solve(n-1,k,arr);
+    return ans;
+}
+```
+
+>**Time Complexity :** O(2^n)
+>**Space Complexity :** O(n)
+
+### Approach 2 (Memoization) :
+```cpp
+bool solve(int index,int target,vector<int> &arr,vector<vector<int>> &dp)
+{
+    if(target==0)
+        return true;
+    else if(index==0)
+        return (target==arr[0]);
+    if(dp[index][target]!=-1)
+        return dp[index][target];
+    bool pick=false,non_pick;
+    if(target>=arr[index])
+        pick=solve(index-1,target-arr[index],arr,dp);
+    non_pick=solve(index-1,target,arr,dp);
+    dp[index][target]=int(pick || non_pick);
+    return (pick||non_pick);
+}
+bool subsetSumToK(int n, int k, vector<int> &arr) {
+    // Write your code here.
+    vector<vector<int>> dp(n+1,vector<int>(k+1,-1));
+    bool ans=solve(n-1,k,arr,dp);
+    return ans;
+}
+```
+
+>**Time Complexity :** ```O(n * target )```
+>**Space Complexity :** ```O(n* target) + O(n)```
+
+
+### Approach 3 (Tabulation) :
+```cpp
+bool subsetSumToK(int n, int k, vector<int> &arr) {
+    // Write your code here.
+    vector<vector<bool>> dp(n+1,vector<bool>(k+1,false));
+    for(int i=0;i<n;i++)
+        dp[i][0]=true;
+    dp[0][arr[0]]=true;
+    for(int index=1;index<n;index++)
+    {
+        for(int target=1;target<=k;target++)
+        {
+            bool pick=false,non_pick;
+            if(target>=arr[index])
+                pick=dp[index-1][target-arr[index]];
+            non_pick=dp[index-1][target];
+            dp[index][target]=(pick || non_pick);
+        }
+    }
+    return dp[n-1][k];
+}
+```
+
+>**Time Complexity :** ```O(n * target )```
+>**Space Complexity :** ```O(n* target) ```
+
+### Approach 4 (Space Optimization) :
+
+```cpp
+bool subsetSumToK(int n, int k, vector<int> &arr) {
+    // Write your code here.
+    vector<bool> prev(k+1,false),curr(k+1,false);
+    prev[0]=true;
+    curr[0]=true;
+    prev[arr[0]]=true;
+    for(int index=1;index<n;index++)
+    {
+        for(int target=1;target<=k;target++)
+        {
+            bool pick=false,non_pick;
+            if(target>=arr[index])
+                pick=prev[target-arr[index]];
+            non_pick=prev[target];
+            curr[target]=(pick || non_pick);
+        }
+        prev=curr;
+    }
+    return prev[k];
+}
+```
+
+We will use two vectors of size (target+1). prev vector will be having dp[ index-1] values.
+So in tabulation code we will replace dp[index-1 ]  [target ] with prev[target]
+And for base case
+1. when target is zero means we will return true. So prev[0] and curr[0] willbe true
+2. And when target== arr[0] at zero index we will return true. So prev[arr[0]] will be true.
+
+>**Time Complexity :** ```O(n * target )```
+>**Space Complexity :** ```O(target)```
+
+
+### Question :
+https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954
+
+### Reference :
+https://youtu.be/fWX9xDmIzRI?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY
