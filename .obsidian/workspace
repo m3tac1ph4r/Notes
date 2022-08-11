@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "43f7f5ab9d9a805c",
+        "id": "545d08029332d239",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/Dynamic Programming/20. Minimum number of coins.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/Dynamic Programming/20. Minimum number of coins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43f7f5ab9d9a805c",
+  "active": "545d08029332d239",
   "lastOpenFiles": [
+    "DSA_imp/Dynamic Programming/one_zeroes_leetcode.excalidraw.md",
+    "DSA_imp/Dynamic Programming/20. Minimum number of coins.md",
     "DSA_imp/Dynamic Programming/Ones and Zeros leetcode.md",
     "DSA_imp/Dynamic Programming/img/ones_zeros_leetcode_app.png",
-    "DSA_imp/Dynamic Programming/Drawing 2022-08-11 09.22.48.excalidraw.md",
     "DSA_imp/Dynamic Programming/19. 0 1 Knapsack.md",
     "DSA_imp/Dynamic Programming/17. Count Subset with sum k.md",
     "DSA_imp/Greedy/Drawing 2022-07-25 16.28.22.excalidraw.md",
     "DSA_imp/Dynamic Programming/16. Partition subset difference is minimum.md",
     "DSA_imp/Dynamic Programming/15. Partition Equal Subset Sum.md",
-    "DSA_imp/Dynamic Programming/img/count_subset_with_sum_k_zero.png",
-    "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_BFS.md"
+    "DSA_imp/Dynamic Programming/img/count_subset_with_sum_k_zero.png"
   ]
 }
