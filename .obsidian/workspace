@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba9b0257610f071a",
+        "id": "43f7f5ab9d9a805c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "DSA_imp/Binary Search/Longest Increasing Subsequence.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subset",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 311.5
   },
   "right": {
     "id": "cf92bbfdd077108f",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Binary Search/Longest Increasing Subsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ba9b0257610f071a",
+  "active": "43f7f5ab9d9a805c",
   "lastOpenFiles": [
-    "DSA_imp/Dynamic Programming/Subset sum equal to k.md",
-    "DSA_imp/Dynamic Programming/Maximum Path Sum in Matrix.md",
-    "DSA_imp/Greedy/Jump Game II.md",
-    "DSA_imp/Dynamic Programming/frog jump.md",
-    "DSA_imp/Recursion And Backtracking/Subset II.md",
-    "DSA_imp/Dynamic Programming/Unique Paths 2.md",
-    "DSA_imp/Dynamic Programming/Unique Paths.md",
-    "DSA_imp/Dynamic Programming/Triangle Minimum Path Sum.md",
-    "DSA_imp/Dynamic Programming/Ninjas Training 2D DP.md",
-    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md"
+    "DSA_imp/Dynamic Programming/Ones and Zeros leetcode.md",
+    "DSA_imp/Dynamic Programming/img/ones_zeros_leetcode_app.png",
+    "DSA_imp/Dynamic Programming/Drawing 2022-08-11 09.22.48.excalidraw.md",
+    "DSA_imp/Dynamic Programming/19. 0 1 Knapsack.md",
+    "DSA_imp/Dynamic Programming/17. Count Subset with sum k.md",
+    "DSA_imp/Greedy/Drawing 2022-07-25 16.28.22.excalidraw.md",
+    "DSA_imp/Dynamic Programming/16. Partition subset difference is minimum.md",
+    "DSA_imp/Dynamic Programming/15. Partition Equal Subset Sum.md",
+    "DSA_imp/Dynamic Programming/img/count_subset_with_sum_k_zero.png",
+    "DSA_imp/Graphs/Cycle Detection/Directed_Detect_Cycle_BFS.md"
   ]
 }
