@@ -45,7 +45,7 @@ bool validPalindrome(string s) {
             }
             if(count>1)
                 break;
-}
+		}
         i=0,j=s.length()-1;
         int count1=0;
         while(i<=j)
@@ -59,10 +59,10 @@ bool validPalindrome(string s) {
             {
                 count1++;
                 j--;
-}
+			}
             if(count1>1)
                 break;
-}
+		}
         if(count==0||count1==0)		// string is already palindrome
             return true;
         else if(count==1||count1==1)

@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "355321c8409b846b",
+        "id": "98ce5b4f665f59a9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/strings/valid_palindrome_II.cpp.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/strings/valid_palindrome_II.cpp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "355321c8409b846b",
+  "active": "98ce5b4f665f59a9",
   "lastOpenFiles": [
-    "DSA_imp/Dynamic Programming/23. Unbound Knapsack.md",
+    "DSA_imp/strings/longest_substring_without_char_repeat.md",
+    "DSA_imp/Binary Search/Painter_partition_problem.md",
+    "DSA_imp/arrays/Max Subarray Sum.md",
+    "DSA_imp/arrays/3Sum with multiplicity.md",
+    "DSA_imp/arrays/Moores_Voting_algo.md",
+    "DSA_imp/Dynamic Programming/22. Ways to make coin change.md",
+    "DSA_imp/Dynamic Programming/20.  Minimum number of coins.md",
+    "DSA_imp/Dynamic Programming/23. Unbounded  Knapsack.md",
     "Untitled.md",
-    "DSA_imp/Dynamic Programming/19. 0 1 Knapsack.md",
-    "DSA_imp/Dynamic Programming/22. Minimum number of coins.md",
-    "DSA_imp/Dynamic Programming/15. Partition Equal Subset Sum.md",
-    "DSA_imp/Dynamic Programming/17. Count Subset with sum k.md",
-    "DSA_imp/Dynamic Programming/18. Count Partition with given difference.md",
-    "DSA_imp/Dynamic Programming/16. Partition subset difference is minimum.md",
-    "DSA_imp/Dynamic Programming/Ones and Zeros leetcode.md",
-    "DSA_imp/Dynamic Programming/one_zeroes_leetcode.excalidraw.md"
+    "DSA_imp/Dynamic Programming/19. 0 1 Knapsack.md"
   ]
 }
