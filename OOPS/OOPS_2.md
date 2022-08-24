@@ -54,11 +54,11 @@ Syntax :
 
 
 #### Types of inheritance :
-1. Single inheritance
-2. Multi-level inheritance
-3. Multiple inheritance
-4. Hierarchical inheritance 
-5. Hybrid inheritance
+**1. Single inheritance**
+**2. Multi-level inheritance**
+**3. Multiple inheritance**
+**4. Hierarchical inheritance** 
+**5. Hybrid inheritance**
 
 1. **Single inheritance :** In single inheritance, one class can extend the functionality of another class. In single inheritance, there is only one parent class and one child class.
 2. **Multi-level inheritance :** When a class inherits from a derived class, and the derived class becomes the base class of the new class, it is called multilevel inheritance. In multilevel inheritance, there is more than one level.
@@ -289,4 +289,23 @@ int main(void)
 }
 ```
 
+* **Operator Overloading :**
 
+![[operator_overloading_img.png]]
+
+2. **Run Time Polymorphism :**
+
+Runtime polymorphism is also known as dynamic polymorphism. Method overriding is a way to implement runtime polymorphism.
+
+* **Method Overriding :**
+Method overriding is a feature that allows you to redifine the parent class method in the child class based on its requirement. In other words, whatever methods the parent class has by default are available in the child class. But sometimes a child class may not be satisfied with parent class method implementation. The child class is allowed to redifine that method based on its requirement. This process is called method overriding.
+
+**Rules for method overriding :**
+
+* The method of the parent class and the method of the child class must have the same name.
+* The method of the parent class and the method of the child class must have the same parameters.
+
+![[method_overriding_code.png]]
+
+
+## Abstaraction :

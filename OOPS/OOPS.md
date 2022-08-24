@@ -19,7 +19,7 @@ If we set access modifier as private in the class then _we can access the functi
 
 ### Protected :
 
-Protected modifier is similar as **private** modifier like you can them only inside the class. But you have one advantage in protected that **you can access protected modifier in child class, means you can access protected variable or function in inheritance.**
+Protected modifier is similar as **private** modifier like you can use them only inside the class. But you have one advantage in protected that **you can access protected modifier in child class, means you can access protected variable or function in inheritance.**
 
 ```cpp
 
@@ -174,7 +174,7 @@ class XYZ{
 
 ## static :
 
-The **static keyword** in [Java](https://www.javatpoint.com/java-tutorial) is used for memory management mainly. We can apply static keyword with [variables](https://www.javatpoint.com/java-variables), methods, blocks and [nested classes](https://www.javatpoint.com/java-inner-class). The static keyword belongs to the class than an instance of the class.
+The **static keyword** in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an instance of the class.
 
 1. **static variable:**
 
