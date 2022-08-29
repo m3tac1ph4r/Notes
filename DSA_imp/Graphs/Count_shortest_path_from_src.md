@@ -4,7 +4,7 @@
 
 > **Using Dijkastra Algorithm**
 
-Given a [weighted undirected graph](https://www.geeksforgeeks.org/graph-and-its-representations/) [](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)**G** and an integer **S**, the task is to print the distances of the shortest paths and the count of the [number of the shortest paths](https://www.geeksforgeeks.org/number-shortest-paths-unweighted-directed-graph/) for each node from a given vertex, **S.**
+Given a weighted undirected graph**G** and an integer **S**, the task is to print the distances of the shortest paths and the count of the number of the shortest paths for each node from a given vertex, **S.**
 
 ![[count_shortest_path_example.png]]
 

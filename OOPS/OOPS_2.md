@@ -11,6 +11,8 @@ Wrapping up of data members and functions into an single entity. Another way to 
 >2. If we want we can make class read only using getter. We will not create setter in the class.
 >3. Code Reusability
 
+> **Difference between Encalpsulation and Abstraction ?**
+https://stackoverflow.com/questions/742341/difference-between-abstraction-and-encapsulation
 
 ## Inheritance :
 Inheritance is the process of inheriting the properties and behavior of an existing class into a new class. When we inherit the class, we can reuse the existing class’s methods and fields into a new class. Inheritance can also be defined as the Is-A relationship, which is also known as the parent-child relationship.

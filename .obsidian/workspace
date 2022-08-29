@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1bde02ac2c882186",
+        "id": "26d6546e7123d248",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Dynamic Programming/28. Longest Palindromic Subsequence.md",
+            "file": "OOPS/OOPS_2.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dp_on_sequences",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Dynamic Programming/28. Longest Palindromic Subsequence.md",
+                "file": "OOPS/OOPS_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1bde02ac2c882186",
+  "active": "26d6546e7123d248",
   "lastOpenFiles": [
-    "DSA_imp/Dynamic Programming/27. Longest Common Substring.md",
-    "DSA_imp/Dynamic Programming/img/longest_common_substring_app.png",
-    "DSA_imp/Dynamic Programming/25. Longest Common Subsequence.md",
-    "DSA_imp/Dynamic Programming/Drawing 2022-08-24 16.01.31.excalidraw.md",
-    "DSA_imp/Dynamic Programming/img/longest_common_subseq_crecursion_tree.png",
-    "DSA_imp/Dynamic Programming/24. Rod Cutting Problem.md",
-    "DSA_imp/Dynamic Programming/Ones and Zeros leetcode.md",
-    "DSA_imp/Dynamic Programming/one_zeroes_leetcode.excalidraw.md",
-    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md",
-    "DSA_imp/Design/LRU Cache.md"
+    "OOPS/OOPS.md",
+    "Interview Important/INTRO.md",
+    "Interview Important/MongoDB.md",
+    "Interview Important/Python.md",
+    "Interview Important/ReactJS.md",
+    "Interview Important/Projects.md",
+    "DSA_imp/LinkedList/rotate_list.md",
+    "DSA_imp/LinkedList/flatten_linkedlist.md",
+    "DSA_imp/LinkedList/delete_node_linkedlist.md",
+    "DSA_imp/SORTING/Bubble Sort.md"
   ]
 }

@@ -17,7 +17,7 @@ A Document in MongoDB is an ordered set of keys with associated values. It is re
 
 ### 3. What is a Collection in MongoDB?
 
-A collection in MongoDB is a group of documents. If a document is the MongoDB analog of a row in a relational database, then a collection can be thought of as the analog to a table.  
+A collection in MongoDB is a group of documents. If a document in the MongoDB analog of a row in a relational database, then a collection can be thought of as the analog to a table.  
 Documents within a single collection can have any number of different “shapes.”, i.e. collections have dynamic schemas.   
 For example, both of the following documents could be stored in a single collection:
 

@@ -16,6 +16,7 @@ Given the integer array `cardPoints` and the integer `k`, return the *maximu
 
 ![[maximum_points_ex.png]]
 
+![[max_points_from_card_app2.png]]
 ### Approach :
 
 1. We will find sum of first k elements of array.

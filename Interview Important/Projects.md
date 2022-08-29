@@ -29,3 +29,9 @@ In this project I used hooks such as **useState**
 
 ##### Backend :
 Created two paths i.e  auth.js
+
+
+
+
+### 2. Fitness Club
+Fitness club is a web application for fitness freak people. It includes various body part exercises also it provides youtube sample videos for that exercise. I used 
