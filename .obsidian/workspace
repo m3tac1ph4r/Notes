@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "26d6546e7123d248",
+        "id": "3dc81b23049d9fb6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OOPS/OOPS_2.md",
+            "file": "Operating System/12. Convey Effect FCFS Scheduling.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "unordered_map<int,list<int>>",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOPS/OOPS_2.md",
+                "file": "Operating System/12. Convey Effect FCFS Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "26d6546e7123d248",
+  "active": "3dc81b23049d9fb6",
   "lastOpenFiles": [
-    "OOPS/OOPS.md",
-    "Interview Important/INTRO.md",
-    "Interview Important/MongoDB.md",
-    "Interview Important/Python.md",
-    "Interview Important/ReactJS.md",
-    "Interview Important/Projects.md",
-    "DSA_imp/LinkedList/rotate_list.md",
-    "DSA_imp/LinkedList/flatten_linkedlist.md",
-    "DSA_imp/LinkedList/delete_node_linkedlist.md",
-    "DSA_imp/SORTING/Bubble Sort.md"
+    "DSA_imp/Graphs/Shortest_path_in_undirected_unweight.md",
+    "DSA_imp/Dynamic Programming/15. Partition Equal Subset Sum.md",
+    "Operating System/12. Convey Effect FCFS Scheduling.md",
+    "Operating System/21. Deadlock.md",
+    "DSA_imp/Binary Tree/Maximum Width of tree.md",
+    "DSA_imp/Binary Tree/k sum paths.md",
+    "DSA_imp/Binary Tree/construct_tree_from_inorder_postorder.md",
+    "DSA_imp/Binary Tree/construct_tree_from_inorder_preorder.md",
+    "DSA_imp/Binary Tree/BT_Maximum_path_sum.md",
+    "DSA_imp/Binary Tree/boundary_traversal.md"
   ]
 }

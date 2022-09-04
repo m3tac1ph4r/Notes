@@ -22,7 +22,7 @@ Important terminology of inheritance
 - **Super Class:** The class whose properties are inherited by subclass is called Base Class or Superclass.
 
 #### Mode of Inheritance :
-When you write **class derive:mode base** instead of mode you have to use publc,protected,private
+When you write **class derive:mode base** instead of mode you have to use public,protected,private
 Syntax :
 *class child_class: access_modifier parent_class*
 
