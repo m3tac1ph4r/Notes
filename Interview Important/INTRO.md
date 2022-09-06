@@ -1,16 +1,19 @@
 # INTRO
-Good morning/evening sir/mam myself  Ashutosh Gupta. I am final year student pursuing a B.tech in computer science with specialization  in Cyber Security and Forensics from UPES Dehradun. 
-Apart from college, I regularly participates in coding events on leetcode and GFG.
-I have expertise in programming languages such as  C++ and Python  and I am also skilled in technologies such as  ReactJS,  botootstrap, ExpressJS. 
-I have a keen interest in problem solving   and in web development as well. To enhance my problem solving skill I solved overall  350+ questions on various websites. And to get hands on knowledge on web development I made projects such as iNoteBook and CowinNotifier.
-Recently I completed my internship at TalentServe as a Full Stack Intern. As an intern I created Feedback component. And I am also a technical admin in OPEN Community which is a chapter of UPES. 
+Good morning/evening sir/mam myself  Ashutosh Gupta. I am final year student  at University of Petroleumn and Energy Studies Dehradun pursuing  B.tech with majors in  computer science with an integrated specialization  of Cyber Security and Forensics. Sir/mam as you know computer science is omni present so I decided to invest my last three, three and half years to develop my software development skills.
+
+My technical skills include programming in  C++ and Python with C++ being the preferred programming language. And I am also familiar with concepts and subjects such OOPS, Data Structures and Algorithms, Computer Networks
+I have a keen interest in web development and problem solving skill as well. And to get hands on knowledge on web development I made projects such as iNoteBook and CowinNotifier.
+Recently I completed my summer internship at TalentServe which is a EDTech Startup. 
 
 -----------------------------------------------------------------------
- iNoteBook was a part of MERN stack. I created an API to integrate with server. iNotebook has a functionality of USER LOGIN and SIGNUP. 
-Fitness Club uses youtube and ExerciseDB API  to fetch data for the website. 
-
+* Greetings
+* Regularly participates in coding events
+* Skilled in programming languages and technologies
+* Keen interest in problem solving and web development as well
+* Internship
 -----------------------------------------------------------------------
 
+and I am also skilled in technologies such as  ReactJS,  MongoDB, ExpressJS. 
 
 Good morning sir,my name is
 I am a final year student at upes

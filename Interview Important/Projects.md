@@ -28,10 +28,10 @@ And this send message to the user after every three hours. But I have seen that 
 iNoteBook is a daily note taking application. It also has a functionality of USER LOGIN and SIGNUP. I created a REST API to interact client with server. I used hooks such as **useState**
 
 ##### Backend :
-Created two paths i.e  auth.js
+Created two paths i.e  auth.js and notes.js
 
 
 
 
 ### 2. Fitness Club
-Fitness club is a web application for fitness freak people. It includes various body part exercises also it provides youtube sample videos for that exercise. I used exerciseDB API for fetching the information about exercises. And Youtube API for fetching the sample videos of the exercises. 
+Fitness club is a web application for fitness inclined people . It includes various body part exercises also it provides youtube sample videos for that exercise. I used exerciseDB API for fetching the information about exercises. And Youtube API for fetching the sample videos of the exercises. 
