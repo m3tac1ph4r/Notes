@@ -48,16 +48,16 @@ If, while popping the element, the stack becomes empty, we will push the current
                     nums.push(i);
                 else
                     max_len=max(max_len,i-nums.top());
-}
-}
+			}
+		}
         return max_len;
 	}
 ```
 
 **Complexity Analysis**
 
-- Time complexity: O(n)O(n). nn is the length of the given string.
-- Space complexity: O(n)O(n). The size of stack can go up to nn.
+- Time complexity: O(n). n is the length of the given string.
+- Space complexity: O(n). The size of stack can go up to nn.
 
 ### Appproach 2(Without extra Space) :
 
@@ -81,10 +81,10 @@ Next, we start traversing the string from right to left and similar procedure is
             {
                 left=0;
                 right=0;
-}
+			}
         }
         left=right=0;
-            for(int i=s.length()-1;i>=0;i--)
+        for(int i=s.length()-1;i>=0;i--)
         {
             if(s[i]=='(')
                 left++;
@@ -96,8 +96,8 @@ Next, we start traversing the string from right to left and similar procedure is
             {
                 left=0;
                 right=0;
-}
-}
+			}
+		}
         return max_len;
     }
 ```

@@ -1,9 +1,42 @@
+### What is REST API ?
+REST API stands for representational State Transfer. Means transfering of state from web server to client using http protocol. It's simply a client-server architecture.
 
+
+https://www.redhat.com/en/topics/api/what-is-a-rest-api
+https://towardsdatascience.com/what-is-an-api-and-how-does-it-work-1dccd7a8219e
+https://www.geeksforgeeks.org/rest-api-architectural-constraints/
+
+
+### REST Constraints :
+
+1. **Client-Server**
+![[client_server.png]]
+
+2. 
+### Stateless Means 
+As per the REST architecture, the server does not store any data about the client session on the server side. Stateless means that every HTTP request happens to complete isolation. When the client makes a HTTP request, it includes all necessary information for the sever to fulfill that request.
+
+In stateless http doesn't save the client activity. Like it doesn't save the activity of user.  For example : Amazon doesn't uses REST because it saves the activity of user i.e what user clicked, searched and all.
+
+
+### How do you address throttling  to ensure a RESTful API performs well under spikes in calls ?
+Different type of throttling  :
+1. Rate Limiting
+2. IP Level - means we have a list of whitelist apis. Only those ip can access the REST API.
+3. Concurrent connection limit : We can concurrent the number of user. In this way we can access the performance.
+4. Resource Level 
+
+
+### How to secure a REST API ?
+1. HTTPS
+2. Hashing
+3. Never expose important data in URL.
 
 
 ### 1. What do you understand by RESTful Web Services?
 
 RESTful web services are services that follow REST architecture. REST stands for Representational State Transfer and uses HTTP protocol (web protocol) for implementation. These services are lightweight, provide maintainability, scalability, support communication among multiple applications that are developed using different programming languages. They provide means of accessing resources present at server required for the client via the web browser by means of request headers, request body, response body, status codes, etc.
+
 
 ### 2. What are HTTP Status codes?
 

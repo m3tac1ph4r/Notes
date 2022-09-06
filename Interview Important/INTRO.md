@@ -1,16 +1,19 @@
 # INTRO
-Good morning/evening sir/mam myself  Ashutosh Gupta. I am final year student pursuing a B.tech in computer science with specialization  in Cyber Security and Forensics from UPES Dehradun. 
-Apart from college, I regularly participates in coding events on leetcode and GFG.
-I have expertise in programming languages such as  C++ and Python  and I am also skilled in technologies such as  ReactJS,  botootstrap, ExpressJS. 
-I have a keen interest in problem solving   and in web development as well. To enhance my problem solving skill I solved overall  350+ questions on various websites. And to get hands on knowledge on web development I made projects such as iNoteBook and CowinNotifier.
-Recently I completed my internship at TalentServe as a Full Stack Intern. As an intern I created Feedback component. And I am also a technical admin in OPEN Community which is a chapter of UPES. 
+
+Thank you for allowing me to introduce myself.  My name is   Ashutosh Gupta. I am final year student  at University of Petroleumn and Energy Studies Dehradun pursuing  B.tech with majors in  computer science with specialization  of Cyber Security and Forensics. I invested my last three, 3.5years in developing my technical skills which includes programming in  C++ and Python with C++ being the preferred programming language. And I am also familiar with concepts and subjects such OOPS, Data Structures and Algorithms, Computer Networks. So these all are my technical skills. 
+I also have a keen interest in web development and problem solving skill as well. And to enhance my web development skill I have made projects such as iNoteBook and CowinNotifier.
+Recently I have completed my summer internship at TalentServe which is a EDTech Startup. 
+Apart  from this I also  participate in coding events on leetcode and geekforgeeks.
 
 -----------------------------------------------------------------------
- iNoteBook was a part of MERN stack. I created an API to integrate with server. iNotebook has a functionality of USER LOGIN and SIGNUP. 
-Fitness Club uses youtube and ExerciseDB API  to fetch data for the website. 
-
+* Greetings
+* Regularly participates in coding events
+* Skilled in programming languages and technologies
+* Keen interest in problem solving and web development as well
+* Internship
 -----------------------------------------------------------------------
 
+and I am also skilled in technologies such as  ReactJS,  MongoDB, ExpressJS. 
 
 Good morning sir,my name is
 I am a final year student at upes
