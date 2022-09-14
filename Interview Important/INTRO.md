@@ -1,9 +1,17 @@
 # INTRO
+<<<<<<< HEAD
 
 Thank you for allowing me to introduce myself.  My name is   Ashutosh Gupta. I am final year student  at University of Petroleumn and Energy Studies Dehradun pursuing  B.tech with majors in  computer science with specialization  of Cyber Security and Forensics. I invested my last three, 3.5years in developing my technical skills which includes programming in  C++ and Python with C++ being the preferred programming language. And I am also familiar with concepts and subjects such OOPS, Data Structures and Algorithms, Computer Networks. So these all are my technical skills. 
 I also have a keen interest in web development and problem solving skill as well. And to enhance my web development skill I have made projects such as iNoteBook and CowinNotifier.
 Recently I have completed my summer internship at TalentServe which is a EDTech Startup. 
 Apart  from this I also  participate in coding events on leetcode and geekforgeeks.
+=======
+Good morning/evening sir/mam myself  Ashutosh Gupta. I am final year student  at University of Petroleumn and Energy Studies Dehradun pursuing  B.tech with majors in  computer science with an integrated specialization  of Cyber Security and Forensics. Sir/mam as you know computer science is omni present so I decided to invest my last three, three and half years to develop my software development skills.
+
+My technical skills include programming in  C++ and Python with C++ being the preferred programming language. And I am also familiar with concepts and subjects such OOPS, Data Structures and Algorithms, Computer Networks
+I have a keen interest in web development and problem solving skill as well. And to get hands on knowledge on web development I made projects such as iNoteBook and CowinNotifier.
+Recently I completed my summer internship at TalentServe which is a EDTech Startup. 
+>>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
 
 -----------------------------------------------------------------------
 * Greetings

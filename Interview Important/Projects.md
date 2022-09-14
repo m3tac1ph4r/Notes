@@ -32,7 +32,11 @@ Created two paths i.e  auth.js and notes.js
 
 
 
+<<<<<<< HEAD
 
 
 ### 3.. Fitness Club
+=======
+### 2. Fitness Club
+>>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
 Fitness club is a web application for fitness inclined people . It includes various body part exercises also it provides youtube sample videos for that exercise. I used exerciseDB API for fetching the information about exercises. And Youtube API for fetching the sample videos of the exercises. 
