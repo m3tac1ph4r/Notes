@@ -7,8 +7,12 @@
         "id": "5070793fafd84b53",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "5070793fafd84b53",
   "lastOpenFiles": [
+    "OOPS/OOPS_2.md",
+    "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+    "DSA_imp/Binary Search Tree/increasing order bst.md",
+    "DSA_imp/Binary Search Tree/IMPORTANT POINTS FOR BST.md",
     "DBMS/Formulate ER Diagram (Banking System).md",
     "DBMS/Difference between NOSQL and SQL.md",
     "Computer Networks/Repeater HUB Bridges Switch Router.md",
     "Computer Networks/OSI Model.md",
     "Computer Networks/TCP_IP Model.md",
-    "Interview Important/API.md",
-    "Interview Important/INTRO.md",
-    "Interview Important/ReactJS.md",
-    "Interview Important/Projects.md",
-    "Computer Networks/DNS.md"
+    "Interview Important/API.md"
   ]
 }
