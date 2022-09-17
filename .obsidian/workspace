@@ -4,21 +4,13 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "cb84835367076482",
-=======
-        "id": "a0f2b8aaa6a69915",
->>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
+        "id": "8976f8b8fabf5968",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "DBMS/Relation Model/Convert ER To Relation Model.md",
-=======
-            "file": "Computer Networks/HTTP vs HTTPS.md",
->>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
-            "mode": "preview",
+            "file": "Interview Important/INTRO.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -48,13 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "",
                 "matchingCase": true,
-=======
-                "query": "left view",
-                "matchingCase": false,
->>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -82,11 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "DBMS/Relation Model/Convert ER To Relation Model.md",
-=======
-                "file": "Computer Networks/HTTP vs HTTPS.md",
->>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
+                "file": "Interview Important/INTRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,32 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "cb84835367076482",
+  "active": "bce0f4aaf0e99c8b",
   "lastOpenFiles": [
-    "DBMS/Relation Model/Relation Model Slides.pdf",
-    "DBMS/Relation Model/Relation Model Notes.pdf",
-    "DBMS/Relation Model/Relation Model.md",
-    "Interview Important/Projects.md",
-    "DBMS/Formulate ER Diagram (Banking System).md",
-    "DBMS/Babbar_Notes/complete_sql_notes.pdf",
-    "DBMS/Difference between NOSQL and SQL.md",
-    "Computer Networks/img/smtp_pop_desc.png",
     "Computer Networks/OSI Model.md",
-    "Computer Networks/img/ftp_desc.png"
-=======
-  "active": "a0f2b8aaa6a69915",
-  "lastOpenFiles": [
-    "Computer Networks/TCP_IP Model.md",
-    "Computer Networks/OSI Model.md",
-    "Computer Networks/Different types of networks.md",
-    "Computer Networks/Computer Networks.md",
-    "Computer Networks/img/tree_topology.png",
-    "Computer Networks/img/mesh_topology.png",
-    "Computer Networks/img/bus_topology.png",
-    "Computer Networks/img/ring_topology.png",
-    "DSA_imp/Binary Tree/views question/left_view.md",
-    "Computer Networks/Computer Networking Notes for Tech Placements.pdf"
->>>>>>> 34b0563c884505f3f08ed7ad2598fd0e338f81f5
+    "Computer Networks/DNS.md",
+    "Computer Networks/HTTP vs HTTPS.md",
+    "DSA_imp/Dynamic Programming/22. Ways to make coin change.md",
+    "DSA_imp/Dynamic Programming/20.  Minimum number of coins.md",
+    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md",
+    "DSA_imp/Graphs/Topological_sort_DFS.md",
+    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
+    "DSA_imp/SORTING/Merge Sort for Linkedlist.md",
+    "DSA_imp/Design/LRU Cache.md"
   ]
 }

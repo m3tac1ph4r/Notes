@@ -56,6 +56,9 @@ string cycleDetection(vector<vector<int>> &edges, int n, int m)
 }
 ```
 
+> **Time Complexity :** O(N+E)
+> **Space Complexity :** O(N)
+
 ### Question :
 
 https://www.codingninjas.com/codestudio/problems/1062670
