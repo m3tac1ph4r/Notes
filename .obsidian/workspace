@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8976f8b8fabf5968",
+        "id": "5070793fafd84b53",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Interview Important/INTRO.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "=======",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Important/INTRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bce0f4aaf0e99c8b",
+  "active": "5070793fafd84b53",
   "lastOpenFiles": [
+    "DBMS/Formulate ER Diagram (Banking System).md",
+    "DBMS/Difference between NOSQL and SQL.md",
+    "Computer Networks/Repeater HUB Bridges Switch Router.md",
     "Computer Networks/OSI Model.md",
-    "Computer Networks/DNS.md",
-    "Computer Networks/HTTP vs HTTPS.md",
-    "DSA_imp/Dynamic Programming/22. Ways to make coin change.md",
-    "DSA_imp/Dynamic Programming/20.  Minimum number of coins.md",
-    "DSA_imp/Dynamic Programming/minimum_cost_climbing_stairs.md",
-    "DSA_imp/Graphs/Topological_sort_DFS.md",
-    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
-    "DSA_imp/SORTING/Merge Sort for Linkedlist.md",
-    "DSA_imp/Design/LRU Cache.md"
+    "Computer Networks/TCP_IP Model.md",
+    "Interview Important/API.md",
+    "Interview Important/INTRO.md",
+    "Interview Important/ReactJS.md",
+    "Interview Important/Projects.md",
+    "Computer Networks/DNS.md"
   ]
 }

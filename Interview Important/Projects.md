@@ -31,10 +31,6 @@ iNoteBook is a daily note taking application. It also has a functionality of USE
 
 Created two paths i.e auth.js and notes.js
 
-### 3.. Fitness Club
-
-=======
-
-### 2. Fitness Club
+### 3. Fitness Club
 
 Fitness club is a web application for fitness inclined people . It includes various body part exercises also it provides youtube sample videos for that exercise. I used exerciseDB API for fetching the information about exercises. And Youtube API for fetching the sample videos of the exercises.
