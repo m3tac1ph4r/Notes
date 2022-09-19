@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5070793fafd84b53",
+        "id": "1b899cff6323e43d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+            "file": "DSA_imp/strings/Group Anagrams.md",
             "mode": "preview",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "=======",
+                "query": "tag:#dp_on_sequences",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+                "file": "DSA_imp/strings/Group Anagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5070793fafd84b53",
+  "active": "1b899cff6323e43d",
   "lastOpenFiles": [
-    "OOPS/OOPS_2.md",
+    "DSA_imp/LinkedList/merge_sorted_linkedlist.md",
+    "DSA_imp/Binary Search/Longest Increasing Subsequence.md",
+    "DSA_imp/Binary Search/img/longest_increasing_subsequence.png",
+    "DSA_imp/Graphs/BFS_Graph_Bipartile.md",
+    "DSA_imp/Binary Tree/lowest common ancestor.md",
     "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
+    "OOPS/OOPS_2.md",
     "DSA_imp/Binary Search Tree/increasing order bst.md",
     "DSA_imp/Binary Search Tree/IMPORTANT POINTS FOR BST.md",
-    "DBMS/Formulate ER Diagram (Banking System).md",
-    "DBMS/Difference between NOSQL and SQL.md",
-    "Computer Networks/Repeater HUB Bridges Switch Router.md",
-    "Computer Networks/OSI Model.md",
-    "Computer Networks/TCP_IP Model.md",
-    "Interview Important/API.md"
+    "DBMS/Formulate ER Diagram (Banking System).md"
   ]
 }

@@ -22,6 +22,11 @@ A **subsequence** is a sequence that can be derived from an array by deleting 
 
 ### Approach 1 (Binary Search and lower bound) :
 
+**Lower Bound means just bigger than that element.**
+https://www.geeksforgeeks.org/lower_bound-in-cpp/
+
+![[longest_increasing_subsequence.png]]
+
 ```cpp
 class Solution {
 public:

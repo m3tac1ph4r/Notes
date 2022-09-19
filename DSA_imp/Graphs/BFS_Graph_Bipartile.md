@@ -6,13 +6,13 @@ Return `true` *if and only if it is* **bipartite**\_.
 **Example 1:**
 ![[bipartile_ex1.png]]
 
-**Input:** graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
+**Input:** graph = [ [1,2,3],[0,2],[0,1,3],[0,2]]
 **Output:** false
 
 **Example 2:**
 ![[bfs_bipartile_ex2.png]]
 
-**Input:** graph = [[1,3],[0,2],[1,3],[0,2]]
+**Input:** graph = [ [1,3],[0,2],[1,3],[0,2]]
 **Output:** true
 
 ### Approach :
