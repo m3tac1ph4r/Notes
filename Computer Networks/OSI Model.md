@@ -56,15 +56,6 @@ But in case of _Persisitent_ if connection is lost then also it will be saved. F
   - **Fragementation :** It is a process of dividing the data into fragments.
 
 **6. Data Link Layer :**
-**1. Physical Layer :**
-
-- It is the lowest layer of the OSI model
-- It is used for the trasmission of an unstructured raw bit stream over a physical medium.
-- Physical layer transmits the data either in the form of electrical/optical or mechanical form
-- The Physical layer is mainly used for the physical connection between the device and such physical connection can be made by using twisted-pair cable, fibre-optic or wireless transmission media.
-
-**2. Data Link Layer :**
-
 - It is used for transferring the data from one node to another node.
 - It receives the data from the network layer and converts the data into data frames and then attaches the physical address to these frames which are sent to the physical layer.
 - It enables error free transfer of data from one node to another node.

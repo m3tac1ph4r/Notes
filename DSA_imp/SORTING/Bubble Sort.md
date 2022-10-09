@@ -12,7 +12,7 @@
 ![[bubble_sort_r4.png]]
 
 
-### Use Case of Insertion Sort ?
+### Use Case of Bubble  Sort ?
 In each ith round we find the ith largest element. And place that in its sorted place.
 Suppose for i=1 then it will find the 1st largest element element. And place that in it's original position.
 

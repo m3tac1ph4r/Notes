@@ -8,15 +8,38 @@ https://www.geeksforgeeks.org/rest-api-architectural-constraints/
 
 
 ### REST Constraints :
+https://youtu.be/IvHMM0huDZk
 
-1. **Client-Server**
+**1. Client-Server :**
+REST application should have a client-server architecture. A Client is someone who is requesting resources and are not concerned with data storage, which remains internal to each server, and server is someone who holds the resources and are not concerned with the user interface or user state. They can evolve independently. Client doesn’t need to know anything about business logic and server doesn’t need to know anything about frontend UI. 
+
 ![[client_server.png]]
 
-2. 
-### Stateless Means 
+**2. Stateless :**
 As per the REST architecture, the server does not store any data about the client session on the server side. Stateless means that every HTTP request happens to complete isolation. When the client makes a HTTP request, it includes all necessary information for the sever to fulfill that request.
 
 In stateless http doesn't save the client activity. Like it doesn't save the activity of user.  For example : Amazon doesn't uses REST because it saves the activity of user i.e what user clicked, searched and all.
+	*Stateful*
+![[api_stateful.png]]
+
+   *Stateless*
+	![[api_stateless.png]]
+
+means stateless architecture doesn't save any data in between.
+
+**3. Cacheable :**
+Every response should include whether the response is cacheable or not and for how much duration responses can be cached at the client side. Client will return the data from its cache for any subsequent request and there would be no need to send the request again to the server. A well-managed caching partially or completely eliminates some client–server interactions, further improving availability and performance. But sometime there are chances that user may receive stale data.
+
+![[cacheable_API.png]]
+
+**4. Uniform Interface :**
+It is a key constraint that differentiate between a REST API and Non-REST API. It suggests that there should be an uniform way of interacting with a given server irrespective of device or type of application (website, mobile app).
+	![[API_Uniform Interface.png]]
+
+**5. Layered System :**
+An application architecture needs to be composed of multiple layers. Each layer doesn’t know any thing about any layer other than that of immediate layer and there can be lot of intermediate servers between client and the end server. Intermediary servers may improve system availability by enabling load-balancing and by providing shared caches.
+![[API_layererd_system.png]]
+
 
 
 ### How do you address throttling  to ensure a RESTful API performs well under spikes in calls ?

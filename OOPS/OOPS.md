@@ -216,6 +216,109 @@ The **static keyword** in Java is used for memory management mainly. We can 
    - static function does not have **this** keyword. Because **this keyword is pointer to current object** and we don't have object so this keyword will not work.
    - static functions can access only static members.
 
+
+## Friend Function :
+Friend functions are those functions that have the right to access the private data members of class even though they are not defined inside the class. It is necessary to write the prototype of the friend function. One main thing to note here is that if we have written the prototype for the friend function in the class it will not make that function a member of the class. An example program to demonstrate the concept of friend function is shown below.
+
+### Properties of Friend Function :
+1. Not in the scope of class
+2. Since it is not in the scope of the class, so cannot be called using object of that class.
+3. Can be invoked without the help of any object.
+4. Usually cantains the object as arguments.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+// 1 + 4i
+// 5 + 8i
+// -------
+// 6 + 12i 
+class Complex{
+    int a, b;
+    friend Complex sumComplex(Complex o1, Complex o2);
+    public:
+        void setNumber(int n1, int n2){
+            a = n1;
+            b = n2;
+        }
+
+        // Below line means that non member - sumComplex funtion is allowed to do anything with my private parts (members)
+        void printNumber(){
+            cout<<"Your number is "<<a<<" + "<<b<<"i"<<endl;
+        }
+};
+
+Complex sumComplex(Complex o1, Complex o2){
+    Complex o3;
+    o3.setNumber((o1.a + o2.a), (o1.b+o2.b))
+    ;
+    return o3;
+}
+
+int main(){
+    Complex c1, c2, sum;
+    c1.setNumber(1, 4);
+    c1.printNumber();
+
+    c2.setNumber(5, 8);
+    c2.printNumber();
+
+    sum = sumComplex(c1, c2);
+    sum.printNumber();
+
+    return 0;
+}
+```
+
+
+## Friend Class :
+Friend classes are those classes that have permission to access private members of the class in which they are declared. The main thing to note here is that if the class is made friend of another class then it can access all the private members of that class. An example program to demonstrate friend classes in C++ is shown below.
+
+```cpp
+// C++ program to demonstrate the working of friend class
+
+#include <iostream>
+using namespace std;
+
+// forward declaration
+class ClassB;
+
+class ClassA {
+    private:
+        int numA;
+
+        // friend class declaration
+        friend class ClassB;
+
+    public:
+        // constructor to initialize numA to 12
+        ClassA() : numA(12) {}
+};
+
+class ClassB {
+    private:
+        int numB;
+
+    public:
+        // constructor to initialize numB to 1
+        ClassB() : numB(1) {}
+    
+    // member function to add numA
+    // from ClassA and numB from ClassB
+    int add() {
+        ClassA objectA;
+        return objectA.numA + numB;
+    }
+};
+
+int main() {
+    ClassB objectB;
+    cout << "Sum: " << objectB.add();
+    return 0;
+}
+```
+
 # Questions :
 
 1. **How much byte does an empty class object will have ?**

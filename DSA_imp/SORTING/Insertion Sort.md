@@ -1,6 +1,6 @@
 # Insertion Sort
 
->**In merge Sort we shift the element to right. And insert element to right place**
+>**In insertion Sort we shift the element to right. And insert element to right place**
 
 Insertion Sort explanation by taking card example
 

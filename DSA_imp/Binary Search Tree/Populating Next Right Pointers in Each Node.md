@@ -55,24 +55,30 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 
-class Solution
-{
+class Solution {
 public:
-    Node *connect(Node *root)
-    {
-        Node *current = root;
-        if (root == NULL)
-            return NULL;
-        while (current->left != NULL)
+    Node* connect(Node* root) {
+        if(root==NULL)
+            return root;
+        queue<Node*> q;
+        q.push(root);
+        q.push(NULL);
+        
+        while(q.size()>1)
         {
-            Node *temp = current;
-            while (current != NULL)
+            Node* front=q.front();
+            q.pop();
+            
+            if(front==NULL)
             {
-                current->left->next = current->right;
-                current->right->next = current->next == NULL ? NULL : current->next->left;
-                current = current->next;
+                q.push(NULL);
+                continue;
             }
-            current = temp->left;
+            front->next=q.front();
+            if(front->left!=NULL)
+                q.push(front->left);
+            if(front->right!=NULL)
+                q.push(front->right);
         }
         return root;
     }

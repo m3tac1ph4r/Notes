@@ -48,7 +48,7 @@ public:
                     {
                         mp.erase(mp[nums[left]]);
                         left++;
-                        break;
+                        break; // this break is only for if condition
                     }
                     left++;
                 }

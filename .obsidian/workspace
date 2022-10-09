@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "6a2e8cf08aad1415",
+    "id": "061b5a445df33070",
     "type": "split",
     "children": [
       {
-        "id": "1b899cff6323e43d",
+        "id": "a23b7adccb766b5d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DSA_imp/strings/Group Anagrams.md",
+            "file": "SQL/Exists Clause.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1ba0b692e8c52793",
+    "id": "d5574f437815697c",
     "type": "split",
     "children": [
       {
-        "id": "98cfe1e82d09d039",
+        "id": "7a8da7d06b771461",
         "type": "tabs",
         "children": [
           {
-            "id": "bce0f4aaf0e99c8b",
+            "id": "ef9d0bd17cefc18f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,15 +35,15 @@
             }
           },
           {
-            "id": "2919315416be4f56",
+            "id": "59492451bd92f4aa",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dp_on_sequences",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -53,23 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.0121879577637
+    "width": 300
   },
   "right": {
-    "id": "cf92bbfdd077108f",
+    "id": "be94ed2aa0fd8138",
     "type": "split",
     "children": [
       {
-        "id": "105d24544836fd15",
+        "id": "9c98ec2ff7643b6a",
         "type": "tabs",
         "children": [
           {
-            "id": "7d770f54c33cfad0",
+            "id": "9688f04f682e3873",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/strings/Group Anagrams.md",
+                "file": "SQL/Exists Clause.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +79,34 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "7b664a5c9d6e87be",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "1b899cff6323e43d",
+  "active": "ef9d0bd17cefc18f",
   "lastOpenFiles": [
-    "DSA_imp/LinkedList/merge_sorted_linkedlist.md",
-    "DSA_imp/Binary Search/Longest Increasing Subsequence.md",
-    "DSA_imp/Binary Search/img/longest_increasing_subsequence.png",
-    "DSA_imp/Graphs/BFS_Graph_Bipartile.md",
-    "DSA_imp/Binary Tree/lowest common ancestor.md",
-    "DSA_imp/Binary Search Tree/largest_BST_in_BT.md",
-    "OOPS/OOPS_2.md",
-    "DSA_imp/Binary Search Tree/increasing order bst.md",
-    "DSA_imp/Binary Search Tree/IMPORTANT POINTS FOR BST.md",
-    "DBMS/Formulate ER Diagram (Banking System).md"
+    "SQL/SQLBOLT/7.  OUTER JOINs.md",
+    "SQL/JOINS.md",
+    "SQL/SQLBOLT/8. Short Note on NULLs.md",
+    "SQL/SQLBOLT/6. SELECT Queries with JOIN.md",
+    "SQL/SQLBOLT/12. Order of Execution of a query.md",
+    "SQL/img/full_join_gfg.png",
+    "Pasted image 20221009125115.png",
+    "SQL/img/inner_join_gfg.png",
+    "SQL/img/right join explain.png",
+    "SQL/img/right_join_explain.png"
   ]
 }
