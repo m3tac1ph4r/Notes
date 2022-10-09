@@ -99,3 +99,18 @@ Output:
   
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220706104032/1927.png)
 
+
+
+
+### Example:
+
+##### Database :
+![[database_used.png]]
+
+**Find the department which is having employee less than 2**
+
+```sql
+select dept,count(dept) as Count from emp group by dept having count(dept)<2;
+```
+
+![[having.png]]

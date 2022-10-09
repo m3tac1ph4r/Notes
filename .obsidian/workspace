@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a23b7adccb766b5d",
+        "id": "27c8c95438534c98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL/Exists Clause.md",
+            "file": "SQL/LeetCode/8.  Nth Highest Salary.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Exists Clause.md",
+                "file": "SQL/LeetCode/8.  Nth Highest Salary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef9d0bd17cefc18f",
+  "active": "27c8c95438534c98",
   "lastOpenFiles": [
-    "SQL/SQLBOLT/7.  OUTER JOINs.md",
-    "SQL/JOINS.md",
-    "SQL/SQLBOLT/8. Short Note on NULLs.md",
-    "SQL/SQLBOLT/6. SELECT Queries with JOIN.md",
-    "SQL/SQLBOLT/12. Order of Execution of a query.md",
-    "SQL/img/full_join_gfg.png",
-    "Pasted image 20221009125115.png",
-    "SQL/img/inner_join_gfg.png",
-    "SQL/img/right join explain.png",
-    "SQL/img/right_join_explain.png"
+    "SQL/LeetCode/8.  Nth Highest Salary.md",
+    "SQL/LeetCode/img/8.3.png",
+    "SQL/LeetCode/img/8.2.png",
+    "SQL/LeetCode/img/8.1.png",
+    "SQL/LeetCode/7. Second Highest Salary.md",
+    "SQL/LeetCode/img/7.3.png",
+    "SQL/LeetCode/img/7.2.png",
+    "SQL/LeetCode/img/7.1.png",
+    "SQL/SubQueries/Example of Subqueries.md",
+    "SQL/SQLBOLT/4. Filtering and Sorting Query.md"
   ]
 }
