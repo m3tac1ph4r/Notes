@@ -1,4 +1,4 @@
-# Graph Bipartile using BFS
+# Graph Bipartite using BFS
 
 A graph is **bipartite** if the nodes can be partitioned into two independent sets `A` and `B` such that **every** edge in the graph connects a node in set `A` and a node in set `B`.
 Return `true` *if and only if it is* **bipartite**\_.

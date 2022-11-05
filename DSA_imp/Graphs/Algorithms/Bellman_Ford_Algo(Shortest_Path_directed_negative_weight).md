@@ -24,8 +24,7 @@
 3. Do STEP 2 n-1 times. Because suppose we have n vertices and in each iteration only one edge is updated then we need total n-1 iteration to get shortest path from source.
 
 > **How to check CYCLE is PRESENT OR NOT ?**
-> After n-1 iteration we will have shortest distance. But we will do one more iteration after (n-1). In that extra iteration if any node update it's shortest distance then we can say that
-> **CYCLE IS PRESENT** else **NOT**
+> After n-1 iteration we will have shortest distance. But we will do one more iteration after (n-1). In that extra iteration if any node update it's shortest distance then we can say that **CYCLE IS PRESENT** else **NOT**
 
 ```cpp
 

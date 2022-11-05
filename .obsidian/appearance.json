@@ -1,6 +1,10 @@
 {
-  "baseFontSize": 15,
-  "cssTheme": "Obsidianite",
+  "baseFontSize": 14,
+  "cssTheme": "Things",
   "theme": "obsidian",
-  "translucency": false
+  "translucency": false,
+  "accentColor": "#b7661a",
+  "textFontFamily": "Cascadia Code",
+  "nativeMenus": false,
+  "showViewHeader": true
 }

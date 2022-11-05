@@ -174,7 +174,7 @@ class XYZ{
 
 ## static :
 
-The **static keyword** in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an instance of the class.
+The **static keyword** in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than are an instance of the class.
 
 1. **static variable:**
 
@@ -319,7 +319,112 @@ int main() {
 }
 ```
 
-# Questions :
 
-1. **How much byte does an empty class object will have ?**
-   1 byte. Compiler will give 1 byte to empty class object for track.
+## Virtual Function :
+
+- A virtual function is a member function  which *is declared within base class* and is *re-defined(Overriden) by derived class*.
+- When you refer to a derived class object using a **pointer** or a reference to the base class, you can call a *virtual function* for that object and execute the derived class's version of the function.
+- They are mainly used to acheive *Runtime Polymorphism*
+- Functions are declared with a *virtual* keyword in base class.
+
+```cpp
+// CPP program to illustrate
+// concept of Virtual Functions
+
+#include<iostream>
+using namespace std;
+
+class base {
+public:
+	virtual void print()
+	{
+		cout << "print base class\n";
+	}
+
+	void show()
+	{
+		cout << "show base class\n";
+	}
+};
+
+class derived : public base {
+public:
+	void print()
+	{
+		cout << "print derived class\n";
+	}
+
+	void show()
+	{
+		cout << "show derived class\n";
+	}
+};
+
+int main()
+{
+	base *bptr;
+	derived d;
+	bptr = &d;
+
+	// Virtual function, binded at runtime
+	bptr->print();
+
+	// Non-virtual function, binded at compile time
+	bptr->show();
+	
+	return 0;
+}
+```
+
+**real world example of virtual function :**
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class Animal
+{
+    public:
+    virtual void eat()
+    {
+        cout<<"This is Base Eat"<<endl;
+    }
+};
+class Dog:public Animal
+{
+    public:
+    void eat()
+    {
+        cout<<"This is Dog eat"<<endl;
+    }
+};
+class Cat:public Animal
+{
+    public:
+    void eat()
+    {
+        cout<<"This is cat eat"<<endl;
+    }
+};
+void function(Animal* obj)
+{
+    obj->eat();
+}
+int main()
+{
+    Animal *obj;
+    Cat objcat;
+    Dog objdog;
+    obj=&objdog;
+    function(obj);
+    return 0;
+}
+```
+
+## Pure Virtual Function and Abstract Class :
+
+* Sometimes implementation of all function cannot be provided in a base class because we don't know the implementation. Such a class is called *abstract class.*
+* A **pure virtual function (or Abstract function)** in C++ is a virtual function for which *we don't have the implementation*, we only *declare it*  in the base class. A pure virtual is declared *by assigning 0 in declaration*.
+* A class is **abstract** if it has at least one pure virtual function.
+* If we do not override the pure virtual function in derived class, then derived class also becomes abstract class.

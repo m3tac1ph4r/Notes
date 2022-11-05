@@ -4,14 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b81a92908989cde3",
-        "type": "leaf",
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "Operating System/Operating System Notes.pdf"
+        "id": "7197a6a6cba1a50f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "181b6f4ca3a1b654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DSA_imp/Graphs/BFS/Word Ladder (hard).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -29,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -38,10 +48,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#leetcode-hard",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -51,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 317.5
   },
   "right": {
     "id": "be94ed2aa0fd8138",
@@ -67,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Operating System Notes.pdf",
+                "file": "DSA_imp/Graphs/BFS/Word Ladder (hard).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,26 +95,37 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "f0ed63ba9162e1b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "b81a92908989cde3",
+  "active": "181b6f4ca3a1b654",
   "lastOpenFiles": [
-    "Operating System/21. Deadlock.md",
-    "Operating System/Operating System Notes.pdf",
-    "DSA_imp/SORTING/Selection Sort.md",
-    "DSA_imp/SORTING/Quick Sort.md",
-    "DSA_imp/SORTING/Merge Sort.md",
-    "DSA_imp/SORTING/Insertion Sort.md",
-    "DSA_imp/SORTING/Heap Implementation Heap Sort.md",
-    "DSA_imp/SORTING/Bubble Sort.md",
-    "DSA_imp/Stack And Queues/Stack Implementation array.md",
-    "DSA_imp/Stack And Queues/Stack and Queue  Application.md"
+    "DBMS/Partitioning and Sharding in DBMS.md",
+    "DSA_imp/Graphs/Shortest_path_in_DAG.md",
+    "DBMS/Clustering in DBMS.md",
+    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
+    "DSA_imp/Graphs/Topological_sort_DFS.md",
+    "DSA_imp/Graphs/Cycle Detection/Undirected_Detect_Cycle_DFS.md",
+    "DSA_imp/Graphs/Cycle Detection/Undirected_Detect_Cycle_BFS.md",
+    "DSA_imp/Graphs/BFS_Graph_Bipartite.md",
+    "DSA_imp/Graphs/Shortest_path_in_undirected_unweight.md",
+    "Computer Networks/Computer Networking Notes for Tech Placements.pdf"
   ]
 }

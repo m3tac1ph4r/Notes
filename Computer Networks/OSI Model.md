@@ -2,6 +2,8 @@
 
 It is a network architecture model based on the ISO standards. It is called the OSI model as it deals with connecting the systems that are open for communication with other systems. _The OSI model has seven layers_.
 
+
+![[osi_layers.png]]
 ### Seven Layers of OSI Model :
 
 **1. Application Layer :**
@@ -85,3 +87,6 @@ But in case of _Persisitent_ if connection is lost then also it will be saved. F
 
 
 
+### Protocol Used :
+
+![[protocol_OSI.png]]

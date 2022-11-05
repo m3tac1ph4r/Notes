@@ -1,10 +1,16 @@
 # Pillars of OOPS Concept - Inheritance, Polymorphism, Encapsulation and Abstraction
 
 ## Encapsulation :
-Wrapping up of data members and functions into an single entity. Another way to think about encapsulation is, that it is a protective shield that prevents the data from being accessed by the code outside this shield. 
+Wrapping up of data members and functions into a single entity. Another way to think about encapsulation is, that it is a protective shield that prevents the data from being accessed by the code outside this shield. 
 
 * What is fully Encapsulated Class ?
 	1. All data members are private in this class.
+
+Encapsulation can also be defined in two different ways:  
+  
+1) **Data hiding:** Encapsulation is the process of hiding unwanted information, such as restricting access to any member of an object.  
+  
+2) **Data binding:** Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
 
 >**Why Encapsulation ? / Advantages** 
 >1. We can hide data using encapsulation. 
@@ -148,7 +154,7 @@ int main() {
 This is a Vehicle 
 Fare of Vehicle
 
-#### Inherit Ambiguity :
+#### Inheritance Ambiguity :
 There may be a possibility that a class may inherit member functions with the same name from two or more base classes, and the derived class may not have functions with the same name as those of its base classes. If the derived class object needs to access one of the same-named member functions of the base classes, it results in ambiguity as it is not clear to the compiler which base’s class member function should be invoked.
 
 ```cpp
@@ -296,8 +302,7 @@ int main(void)
 * **Operator Overloading :**
 
 ![[operator_overloading_img.png]]
-
-2. **Run Time Polymorphism :**
+ 2. **Run Time Polymorphism :**
 
 Runtime polymorphism is also known as dynamic polymorphism. Method overriding is a way to implement runtime polymorphism.
 
