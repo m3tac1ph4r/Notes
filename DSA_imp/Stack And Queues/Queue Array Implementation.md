@@ -1,7 +1,5 @@
 # Array Implementation of Queue :
 
-1. *front is for POP*
-2. *rear is for PUSH*
 
 ### Simple Approach :
 
@@ -54,6 +52,8 @@ int main()
 
 
 ### Optimize Approach (Using Circular Array):
+1. *front is for POP*
+2. *rear is for PUSH*
 
 ```cpp
 #include <iostream>

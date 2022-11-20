@@ -62,6 +62,20 @@ int bellmonFord(int n, int m, int src, int dest, vector<vector<int>> &edges)
 }
 ```
 
+>Why (N-1) times ?
+>Since a graph of N nodes, in worst case, you will take N-1 edges to reach home fromt the first to the last, thereby we iterate for N-1 iterations.
+
+
+![[why_n-1_bellmanford.png]]
+
+In the above graph there 5 nodes. And if we iterate n-1 times and update the edge.
+1. In 1st iteration 0->1 distance[1] will be updated to 1
+2. In 2nd iteration 1->2 distance[2] will be updated to 2
+3. In 3rd iteration 2->3 distance[3] will be updated to 3
+4. In 4th iteration 3->4 distance[4] will be updated to 4
+
+That's why we needed N-1 iterations.
+
 ### Question :
 
 https://www.codingninjas.com/codestudio/problems/2041977

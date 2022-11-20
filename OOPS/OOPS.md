@@ -376,6 +376,10 @@ int main()
 }
 ```
 
+>print derived class
+>show base class
+
+
 **real world example of virtual function :**
 
 ```cpp

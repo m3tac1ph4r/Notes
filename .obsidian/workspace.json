@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7197a6a6cba1a50f",
+        "id": "c84c05b8d49b619e",
         "type": "tabs",
         "children": [
           {
-            "id": "181b6f4ca3a1b654",
+            "id": "fd491b6c274becb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA_imp/Graphs/BFS/Word Ladder (hard).md",
+                "file": "SQL/JOINS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 327.5
   },
   "right": {
     "id": "be94ed2aa0fd8138",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA_imp/Graphs/BFS/Word Ladder (hard).md",
+                "file": "SQL/JOINS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "181b6f4ca3a1b654",
+  "active": "fd491b6c274becb2",
   "lastOpenFiles": [
-    "DBMS/Partitioning and Sharding in DBMS.md",
-    "DSA_imp/Graphs/Shortest_path_in_DAG.md",
+    "DBMS/Transaction ACID Properties.md",
+    "DBMS/Difference between NOSQL and SQL.md",
     "DBMS/Clustering in DBMS.md",
-    "DSA_imp/Graphs/Topological_Sort_BFS(Kahn's Algo).md",
-    "DSA_imp/Graphs/Topological_sort_DFS.md",
-    "DSA_imp/Graphs/Cycle Detection/Undirected_Detect_Cycle_DFS.md",
-    "DSA_imp/Graphs/Cycle Detection/Undirected_Detect_Cycle_BFS.md",
-    "DSA_imp/Graphs/BFS_Graph_Bipartite.md",
-    "DSA_imp/Graphs/Shortest_path_in_undirected_unweight.md",
-    "Computer Networks/Computer Networking Notes for Tech Placements.pdf"
+    "Computer Networks/OSI Model.md",
+    "OOPS/OOPS_2.md",
+    "OOPS/OOPS.md",
+    "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
+    "DSA_imp/Stack And Queues/Queue Array Implementation.md",
+    "DSA_imp/Stack And Queues/Stack Implementation array.md",
+    "DSA_imp/Stack And Queues/Stack and Queue  Application.md"
   ]
 }
