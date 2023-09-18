@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/JOINS.md",
+                "file": "DSA_imp/Binary Search Tree/check_BT_is_valid_BST.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/JOINS.md",
+                "file": "DSA_imp/Binary Search Tree/check_BT_is_valid_BST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +117,7 @@
   },
   "active": "fd491b6c274becb2",
   "lastOpenFiles": [
+    "SQL/JOINS.md",
     "DBMS/Transaction ACID Properties.md",
     "DBMS/Difference between NOSQL and SQL.md",
     "DBMS/Clustering in DBMS.md",
@@ -125,7 +126,6 @@
     "OOPS/OOPS.md",
     "DSA_imp/Binary Tree/kth_ancesstor_in_tree.md",
     "DSA_imp/Stack And Queues/Queue Array Implementation.md",
-    "DSA_imp/Stack And Queues/Stack Implementation array.md",
-    "DSA_imp/Stack And Queues/Stack and Queue  Application.md"
+    "DSA_imp/Stack And Queues/Stack Implementation array.md"
   ]
 }
