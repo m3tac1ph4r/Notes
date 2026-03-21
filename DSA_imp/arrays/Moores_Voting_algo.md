@@ -63,6 +63,28 @@ int majority(vector<int> nums)
 }
 ```
 
+```Java
+class Solution {
+
+    public int majorityElement(int[] nums) {
+
+        int count=0;
+        int candidate=0;
+
+        for(int i:nums){
+            if(count==0)
+                candidate=i;
+                
+            if(i==candidate)
+                count++;
+            else
+                count--;
+        }
+        return candidate;
+    }
+}
+```
+
 **Link :** https://leetcode.com/problems/majority-element/
 
 #### Majority Element II :
@@ -128,5 +150,83 @@ vector<int> majorityElement(vector<int> nums)
     return ans;
 }
 ```
+
+```Java
+class Solution {
+    public List<Integer> majorityElement(int[] nums) {
+        int min = nums.length / 3;
+        List<Integer> ans = new ArrayList<>();
+        
+        int candidate1=Integer.MIN_VALUE;
+        int candidate2=Integer.MIN_VALUE;
+
+        int count1=0;
+        int count2=0;
+
+        for (int i : nums) {
+            if(count1==0 && candidate2!=i){
+                candidate1=i;
+            }else if(count2==0 && candidate1!=i){
+                candidate2=i;
+            }
+
+            if(candidate1==i)
+                count1++;
+            else if(candidate2==i)
+                count2++;
+            else{
+                count1--;
+                count2--;
+            }
+        }
+        count1=0;
+        count2=0;
+        for(int i:nums){
+            if(candidate1==i)
+                count1++;
+            if(candidate2==i)
+                count2++;
+        }
+
+        if(count1>min)
+            ans.add(candidate1);
+        if(count2>min)
+            ans.add(candidate2);
+        return ans;
+    }
+}
+```
+
+
+##### Using Map and count :
+Every array will have maximum element having occurrence n/3 will be 2. So we will create one map of <nums[i],count>.
+And will update count by iterating the array. And if nums[i] count greater than n/3 then will add in ans list. And as soon as answer array will have two elements we will break the loop.
+**Time Complexity :** O(N)
+**Space Complexity :** O(N)
+
+```Java
+class Solution {
+
+    public List<Integer> majorityElement(int[] nums) {
+
+        Map<Integer, Integer> countMap = new HashMap<>();
+        int min = nums.length / 3;
+        List<Integer> ans = new ArrayList<>();
+
+        for (int i : nums) {
+            // Standardize the counting logic
+            countMap.put(i, countMap.getOrDefault(i, 0) + 1);
+            // Check if it meets the criteria and isn't already in the list
+            if (countMap.get(i) > min && !ans.contains(i)) {
+                ans.add(i);
+            }
+            // There can never be more than 2 elements that appear > n/3 times
+            if (ans.size() == 2) break;
+        }
+        return ans;
+    }
+}
+```
+
 
 **Link :** https://leetcode.com/problems/majority-element-ii/
