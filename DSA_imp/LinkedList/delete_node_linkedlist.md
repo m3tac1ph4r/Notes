@@ -14,7 +14,14 @@ It is **guaranteed** that the node to be deleted is **not a tail node** in t
 **Output:** [4,5,9]
 **Explanation:**` You are given the third node with value 1, the linked list should become 4 -> 5 -> 9 after calling your function.`
 
+
+![[delete_node_example.png]]
+
+
 ### Approach :
+
+
+![[deleted_node_linkedlist_approach.png]]
 
 ```cpp
 void deleteNode(ListNode* &node)

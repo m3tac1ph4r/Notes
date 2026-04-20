@@ -19,12 +19,14 @@ Given the `head` of a linked list, remove the `nth` node from the end of the
 
 ### Approach (Using Two Pointer Approach) :
 
-![[remove_nth_node_end_approach.png]]
+![[remove_nth_node_1.png]]
 
-> ** Why we used dummmy node ?**
-> There is an edge case if n=length_of_linkedlist i.e you have to delete the head. So if you use dummy node then fast will be at the last node and while loop condidtion will be false bcz fast->next == NULL and slow will be pointing to the dummy node and if you update the slow->next=slow->next->next then dummy will be pointing to the head->next.
+**If N is equal to the size of linkedlist i.e remove the head node :**
 
-![[remove_nth_node_dummy.png]]
+![[remove_nth_node_2.png]]
+
+
+### C++ Code using dummy node method :
 
 ```cpp
 ListNode* removeNthFromEnd(ListNode* head,int n)
@@ -48,6 +50,29 @@ ListNode* removeNthFromEnd(ListNode* head,int n)
 }
 ```
 
+```java
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode slow=head;
+       ListNode fast=head;
+
+       for(int i=0;i<n;i++){
+        fast=fast.next;
+       }
+
+       if(fast==null)
+        return slow.next;
+
+        while(fast.next!= null){
+            slow=slow.next;
+            fast=fast.next;
+        }
+
+        slow.next=slow.next.next;
+        return head;
+    }
+}
+```
 ### Question :
 
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
