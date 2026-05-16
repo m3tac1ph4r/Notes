@@ -87,6 +87,82 @@ vector<vector<string>> solveNQueens(int n)
 } 
 ```
 
+```java
+class Solution {
+
+    boolean isSafe(int row, int col, List<String> board, int n) {
+        int i = row;
+        int j = col;
+
+        // LEFT UPPER DIAGONAL
+        while (i >= 0 && j >= 0) {
+            if (board.get(i).charAt(j) == 'Q')
+                return false;
+            i--;
+            j--;
+        }
+
+        i = row;
+        j = col;
+        //LEFT ROW
+        while (j >= 0) {
+            if (board.get(i).charAt(j) == 'Q')
+                return false;
+            j--;
+        }
+
+        i = row;
+        j = col;
+        //LEFT LOWER DIAGONAL
+        while (i < n && j >= 0) {
+            if (board.get(i).charAt(j) == 'Q')
+                return false;
+            i++;
+            j--;
+        }
+
+        return true;
+    }
+
+    void solve(int col, List<String> board, List<List<String>> ans, int n) {
+
+        if (col == n) {
+ans.add(new ArrayList<>(board));
+            return;
+        }
+
+        for (int row = 0; row < n; row++) {
+            if (isSafe(row, col, board, n)) {
+                char[] rowChars = board.get(row).toCharArray();
+                rowChars[col] = 'Q';
+                board.set(row, new String(rowChars));
+                solve(col + 1, board, ans, n);
+                rowChars[col] = '.';
+                board.set(row, new String(rowChars));
+            }
+        }
+    }
+
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> ans = new ArrayList<>();
+        List<String> board = new ArrayList<>();
+
+        // Create the initial empty board row
+        char[] chars = new char[n];
+        Arrays.fill(chars, '.');
+        String s = new String(chars);
+
+        // Fill the board list with n rows
+        for (int i = 0; i < n; i++) {
+            board.add(s);
+        }
+
+        solve(0, board, ans, n);
+        return ans;
+    }
+}
+```
+
 >**Time Complexity :** O(n^3)
 >**Space Complexity :**  O(n^2)
 

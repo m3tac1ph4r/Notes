@@ -46,6 +46,33 @@ ListNode *rotateRight(ListNode *head, int k)
 }
 ```
 
+
+```java
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) {
+        int count=1;
+        ListNode curr=head;
+
+        if(head==null|| head.next==null)
+            return head;
+
+        while(curr.next!=null){
+            curr=curr.next;
+            count++;
+        }
+        curr.next=head;
+        k=k%count;
+        int rotate=count-k;
+        while(rotate>0){
+            curr=curr.next;
+            rotate--;
+        }
+        head=curr.next;
+        curr.next=null;
+        return head;
+    }
+}
+```
 ### Question :
 
 https://leetcode.com/problems/rotate-list/

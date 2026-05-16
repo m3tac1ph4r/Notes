@@ -65,6 +65,37 @@ vector<vector<int>> permute(vector<int> &nums)
 > **Space Complexity :** O(1)
 
 
+```java
+class Solution {
+
+    void solve(int index, int n, int[] nums, Set<List<Integer>> ans) {
+        if (index == n) {
+            List<Integer> currentPermutation = new ArrayList<>();
+            for (int num : nums) {
+                currentPermutation.add(num);
+            }
+            ans.add(currentPermutation);
+            return;
+        }
+
+        for (int i = index; i < n; i++) {
+            int temp = nums[i];
+            nums[i] = nums[index];
+            nums[index] = temp;
+            solve(index + 1, n, nums, ans);
+            nums[index] = nums[i];
+            nums[i] = temp;
+        }
+    }
+
+    public List<List<Integer>> permute(int[] nums) {
+        Set<List<Integer>> ans = new HashSet<>();
+        solve(0, nums.length, nums, ans);
+        return new ArrayList<>(ans);
+    }
+}
+```
+
 ### Question :
 
 https://leetcode.com/problems/permutations/

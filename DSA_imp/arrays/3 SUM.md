@@ -107,7 +107,7 @@ class Solution {
 
 ### Optimized Approach using pointers and without using extra space : 
 
-#### Short & Crisp Notes
+
 **The Goal:** Find $a + b + c = 0$ using $O(1)$ extra space.
 1. **Sort:** Arrange numbers (e.g., `[-4, -1, -1, 0, 1, 2]`).
 2. **Anchor (`i`):** Fix the first number. If it’s the same as the last one, `continue` (Skip duplicates).
